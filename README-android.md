@@ -8,68 +8,53 @@ Guía completa para ejecutar ZeroClaw en tu teléfono Android usando Termux.
 - 📶 Conexión a internet (para descargar e instalar)
 - 🔋 Batería suficiente (~30-60 min de compilación)
 
-## Método 1: Descargar binario pre-compilado (Recomendado)
+## Método 1: Compilar en Termux (Recomendado)
 
-### Paso 1: Descargar desde GitHub
-
-```bash
-# Instalar wget si no lo tienes
-pkg install wget
-
-# Descargar el binario (cuando esté disponible en Releases)
-wget https://github.com/darkansem12-rgb/zeroclaw-android/releases/latest/download/zeroclaw -O zeroclaw
-
-# Descargar recursos web
-wget https://github.com/darkansem12-rgb/zeroclaw-android/releases/latest/download/web.tar.gz -O web.tar.gz
-tar -xzf web.tar.gz
-```
-
-### Paso 2: Ejecutar
+### Si ya tienes el repo clonado (actualizar scripts):
 
 ```bash
-chmod +x zeroclaw
-./zeroclaw daemon
+cd zeroclaw-android
+git pull
+chmod +x termux-*.sh
+./termux-setup.sh
+./termux-build.sh
 ```
 
-### Paso 3: Acceder
-
-Abre Chrome/Firefox en tu teléfono y visita:
-```
-http://127.0.0.1:42617
-```
-
----
-
-## Método 2: Compilar en Termux
-
-### Paso 1: Configurar Termux
+### Si es la primera vez:
 
 ```bash
 # Descargar archivos del repo
 pkg install git
+rm -rf zeroclaw-android  # Si hay carpeta antigua con errores
 git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
 cd zeroclaw-android
 
 # Dar permisos a los scripts
 chmod +x termux-setup.sh termux-build.sh termux-run.sh
 
-# Ejecutar setup
+# Ejecutar setup (instala rust, clang)
 ./termux-setup.sh
-```
 
-### Paso 2: Compilar
-
-```bash
+# Compilar (~30-60 minutos)
 ./termux-build.sh
-```
 
-⚠️ **Primera compilación**: ~30-60 minutos dependiendo de tu teléfono.
-
-### Paso 3: Ejecutar
-
-```bash
+# Ejecutar
 ./termux-run.sh
 ```
+
+### Si ya compilaste antes y quieres recompilar:
+
+```bash
+cd zeroclaw-android
+./termux-build.sh
+./termux-run.sh
+```
+
+---
+
+## Método 2: Descargar binario pre-compilado
+
+Aún no disponible - el binario se compilará con GitHub Actions.
 
 ---
 

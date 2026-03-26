@@ -20,7 +20,7 @@ echo ""
 
 # Build with memory-efficient flags
 export CARGO_BUILD_JOBS=1
-export RUSTFLAGS="-C opt-level=z -C lto=thin"
+export RUSTFLAGS="-C opt-level=z"
 
 cargo build --release
 
