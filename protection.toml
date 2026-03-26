@@ -1,0 +1,50 @@
+# Protection Configuration File
+# This file configures the Protection security sandbox for ZeroClaw
+
+# Enable/disable Protection sandbox
+enabled = true
+
+# Path to action log file
+log_path = "logs/actions.log"
+
+# Workspace directory (operations allowed here)
+workspace_dir = "."
+
+# Require confirmation for network operations
+confirm_network = true
+
+# Require confirmation for writes outside workspace
+confirm_external_writes = true
+
+# Additional sensitive paths to block (beyond defaults)
+# sensitive_paths = ["/custom/sensitive/path"]
+
+# Additional allowed commands (beyond defaults)
+# allowed_commands = ["my_custom_command"]
+
+# Additional commands requiring confirmation
+# confirm_commands = ["risky_command"]
+
+# Additional blocked commands
+# blocked_commands = ["dangerous_command"]
+
+[protection.security]
+# Strict mode: require confirmation for ALL commands except explicitly allowed
+strict_mode = false
+
+# Auto-block on suspicious patterns
+auto_block_suspicious = true
+
+[protection.audit]
+# Log all actions (even allowed ones)
+log_all_actions = true
+
+# Log level: trace, debug, info, warn, error
+log_level = "info"
+
+[protection.android]
+# Android-specific settings
+block_system_dirs = true
+block_data_dirs = true
+block_sdcard = true
+termux_only = false

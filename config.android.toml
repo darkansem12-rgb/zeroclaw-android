@@ -1,0 +1,113 @@
+# ZeroClaw Configuration for Android with Ollama/TinyLlama
+# Place this file at ~/.zeroclaw/config.toml
+
+[core]
+# Local Ollama provider for offline operation
+provider = "ollama"
+model = "tinyllama"
+temperature = 0.7
+
+# Ollama server configuration
+[core.ollama]
+base_url = "http://127.0.0.1:11434"
+# Optional: specify custom model parameters
+# num_ctx = 2048
+# num_gpu = 0  # Use CPU only on Android
+
+[workspace]
+# Default workspace in Termux home
+path = "$HOME/zeroclaw-workspace"
+# Automatically create workspace if missing
+auto_create = true
+
+[gateway]
+# Gateway configuration for Android
+port = 42617
+host = "127.0.0.1"
+# Don't bind to public interfaces on mobile
+allow_public_bind = false
+# Enable pairing for security
+require_pairing = true
+
+[security]
+# Security policy for Android
+autonomy = "supervised"  # supervised, read_only, or full
+
+# Enable Protection sandbox
+enable_protection = true
+protection_config = "protection.toml"
+
+[security.sandbox]
+# Use Protection as primary sandbox on Android
+backend = "protection"
+enabled = true
+
+[security.protection]
+# Protection-specific settings for Android
+enabled = true
+log_path = "$HOME/.zeroclaw/actions.log"
+workspace_dir = "$HOME/zeroclaw-workspace"
+confirm_network = true
+confirm_external_writes = true
+# Android-specific sensitive paths
+sensitive_paths = [
+    "/system",
+    "/data",
+    "/sdcard",
+    "/root",
+    "/etc",
+    "/proc",
+    "/sys",
+    "/dev",
+    "/var",
+]
+
+[memory]
+# SQLite backend for better Android compatibility
+backend = "sqlite"
+auto_save = true
+# Path to SQLite database
+db_path = "$HOME/.zeroclaw/memory.db"
+
+[channels]
+# Disable channels by default on Android
+# Enable only what you need after onboarding
+telegram = false
+discord = false
+slack = false
+# ... other channels
+
+[channels_config]
+# Empty by default - configure after onboarding
+
+[storage]
+# Local storage settings
+provider = "sqlite"
+path = "$HOME/.zeroclaw/storage.db"
+
+[logging]
+level = "info"
+file = "$HOME/.zeroclaw/zeroclaw.log"
+# Log to console in Termux
+console = true
+
+[android]
+# Android-specific settings
+platform = "android"
+termux_mode = true
+# Restrict system access
+restrict_system_access = true
+# Enable Android-specific optimizations
+optimize_for_mobile = true
+
+[ollama]
+# Ollama-specific configuration
+# Ensure Ollama is running: ollama serve
+# Download model: ollama pull tinyllama
+# Verify: ollama run tinyllama
+model = "tinyllama"
+base_url = "http://127.0.0.1:11434"
+# Use lower context window for mobile devices
+context_window = 2048
+# Disable GPU acceleration on Android (CPU only)
+gpu = false
