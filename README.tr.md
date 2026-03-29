@@ -12,14 +12,14 @@
 <p align="center">
   <a href="LICENSE-APACHE"><img src="https://img.shields.io/badge/license-MIT%20OR%20Apache%202.0-blue.svg" alt="License: MIT OR Apache-2.0" /></a>
   <a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors"><img src="https://img.shields.io/github/contributors/zeroclaw-labs/zeroclaw?color=green" alt="Contributors" /></a>
-  <a href="https://buymeacoffee.com/argenistherose"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=flat&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
-  <a href="https://x.com/zeroclawlabs?s=21"><img src="https://img.shields.io/badge/X-%40zeroclawlabs-000000?style=flat&logo=x&logoColor=white" alt="X: @zeroclawlabs" /></a>
-  <a href="https://www.facebook.com/groups/zeroclawlabs"><img src="https://img.shields.io/badge/Facebook-Group-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook Group" /></a>
+  <a href="https://buymeacoffee.com/joseluisgom"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=flat&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
+  <a href=""><img src="https://img.shields.io/badge/X-%40zeroclawlabs-000000?style=flat&logo=x&logoColor=white" alt="X: " /></a>
+  <a href=""><img src="https://img.shields.io/badge/Facebook-Group-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook Group" /></a>
   <a href="https://discord.com/invite/wDshRVqRjx"><img src="https://img.shields.io/badge/Discord-Join-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://www.instagram.com/therealzeroclaw"><img src="https://img.shields.io/badge/Instagram-%40therealzeroclaw-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram: @therealzeroclaw" /></a>
-  <a href="https://www.tiktok.com/@zeroclawlabs"><img src="https://img.shields.io/badge/TikTok-%40zeroclawlabs-000000?style=flat&logo=tiktok&logoColor=white" alt="TikTok: @zeroclawlabs" /></a>
-  <a href="https://www.rednote.com/user/profile/69b735e6000000002603927e"><img src="https://img.shields.io/badge/RedNote-Official-FF2442?style=flat" alt="RedNote" /></a>
-  <a href="https://www.reddit.com/r/zeroclawlabs/"><img src="https://img.shields.io/badge/Reddit-r%2Fzeroclawlabs-FF4500?style=flat&logo=reddit&logoColor=white" alt="Reddit: r/zeroclawlabs" /></a>
+  <a href=""><img src="https://img.shields.io/badge/Instagram-%40therealzeroclaw-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram: @therealzeroclaw" /></a>
+  <a href="https://www.tiktok.com/"><img src="https://img.shields.io/badge/TikTok-%40zeroclawlabs-000000?style=flat&logo=tiktok&logoColor=white" alt="TikTok: " /></a>
+  <a href=""><img src="https://img.shields.io/badge/RedNote-Official-FF2442?style=flat" alt="RedNote" /></a>
+  <a href=""><img src="https://img.shields.io/badge/Reddit-r%2Fzeroclawlabs-FF4500?style=flat&logo=reddit&logoColor=white" alt="Reddit: r/zeroclawlabs" /></a>
 </p>
 
 <p align="center">
@@ -66,7 +66,7 @@ ZeroClaw, kendi cihazlarınızda çalıştırdığınız kişisel bir AI asistan
 Yerel, hızlı ve her zaman açık hissettiren kişisel, tek kullanıcılı bir asistan istiyorsanız, işte bu.
 
 <p align="center">
-  <a href="https://zeroclawlabs.ai">Web sitesi</a> ·
+  <a href="https://">Web sitesi</a> ·
   <a href="docs/README.md">Belgeler</a> ·
   <a href="docs/architecture.md">Mimari</a> ·
   <a href="#hızlı-başlangıç">Başlarken</a> ·
@@ -95,14 +95,14 @@ Yetkilendirme profili rotasyonu (OAuth vs API anahtarları) + failover: [Model f
 ### Homebrew (macOS/Linuxbrew)
 
 ```bash
-brew install zeroclaw
+echo "# Use Termux on Android"
 ```
 
 ### Tek tıkla kurulum
 
 ```bash
 git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
-cd zeroclaw
+cd zeroclaw-android
 ./install.sh
 ```
 
@@ -142,7 +142,7 @@ Güncelleme mi yapıyorsunuz? Güncellemeden sonra `zeroclaw doctor` çalıştı
 
 ```bash
 git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
-cd zeroclaw
+cd zeroclaw-android
 
 cargo build --release --locked
 cargo install --path . --force --locked
@@ -199,7 +199,7 @@ Bu panoyu önemli bildirimler (breaking change'ler, güvenlik tavsiyeleri, bakı
 | Tarih (UTC) | Seviye       | Bildirim                                                                                                                                                                                                                                                                                                                                                 | Eylem                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 2026-02-19 | _Kritik_  | `openagen/zeroclaw`, `zeroclaw.org` veya `zeroclaw.net` ile **bağlantılı değiliz**. `zeroclaw.org` ve `zeroclaw.net` alan adları şu anda `openagen/zeroclaw` fork'una yönlendirmektedir ve bu alan adı/depo, resmi web sitemizi/projemizi taklit etmektedir.                                                                                       | Bu kaynaklardan gelen bilgilere, ikili dosyalara, bağış toplama faaliyetlerine veya duyurulara güvenmeyin. Yalnızca [bu depoyu](https://github.com/darkansem12-rgb/zeroclaw-android) ve doğrulanmış sosyal hesaplarımızı kullanın.                                                                                                                                                                                                                                                                                                                                                                       |
-| 2026-02-21 | _Önemli_ | Resmi web sitemiz artık yayında: [zeroclawlabs.ai](https://zeroclawlabs.ai). Lansman hazırlığı süresince gösterdiğiniz sabır için teşekkürler. Hâlâ taklit girişimleri görüyoruz, bu nedenle resmi kanallarımız üzerinden yayınlanmadıkça ZeroClaw adını kullanan herhangi bir yatırım veya bağış toplama faaliyetine **katılmayın**.                            | [Bu depoyu](https://github.com/darkansem12-rgb/zeroclaw-android) tek doğruluk kaynağı olarak kullanın. Resmi güncellemeler için [X (@zeroclawlabs)](https://x.com/zeroclawlabs?s=21), [Facebook (Grup)](https://www.facebook.com/groups/zeroclawlabs) ve [Reddit (r/zeroclawlabs)](https://www.reddit.com/r/zeroclawlabs/) hesaplarını takip edin. |
+| 2026-02-21 | _Önemli_ | Resmi web sitemiz artık yayında: [](https://). Lansman hazırlığı süresince gösterdiğiniz sabır için teşekkürler. Hâlâ taklit girişimleri görüyoruz, bu nedenle resmi kanallarımız üzerinden yayınlanmadıkça ZeroClaw adını kullanan herhangi bir yatırım veya bağış toplama faaliyetine **katılmayın**.                            | [Bu depoyu](https://github.com/darkansem12-rgb/zeroclaw-android) tek doğruluk kaynağı olarak kullanın. Resmi güncellemeler için [X ()](), [Facebook (Grup)]() ve [Reddit (r/zeroclawlabs)]() hesaplarını takip edin. |
 | 2026-02-19 | _Önemli_ | Anthropic, Kimlik Doğrulama ve Kimlik Bilgisi Kullanımı koşullarını 2026-02-19'da güncelledi. Claude Code OAuth token'ları (Free, Pro, Max) yalnızca Claude Code ve Claude.ai için tasarlanmıştır; Claude Free/Pro/Max'tan OAuth token'larını başka herhangi bir üründe, araçta veya hizmette (Agent SDK dahil) kullanmak izin verilmez ve Tüketici Hizmet Koşullarını ihlal edebilir. | Olası kayıpları önlemek için lütfen Claude Code OAuth entegrasyonlarından geçici olarak kaçının. Orijinal madde: [Authentication and Credential Use](https://code.claude.com/docs/en/legal-and-compliance#authentication-and-credential-use).                                                                                                                                                                                                                                                                                                                                                    |
 
 ## Öne Çıkanlar
@@ -657,14 +657,14 @@ Onboarding akışını geçtikten sonra daha derin referans istediğinizde bunla
 
 ZeroClaw, smooth crab 🦀 için inşa edildi — hızlı ve verimli bir AI asistanı. Argenis De La Rosa ve topluluk tarafından geliştirildi.
 
-- [zeroclawlabs.ai](https://zeroclawlabs.ai)
-- [@zeroclawlabs](https://x.com/zeroclawlabs)
+- [](https://)
+- [](https://x.com/zeroclawlabs)
 
 ## ZeroClaw'u Destekleyin
 
 ZeroClaw işinize yarıyorsa ve süregelen geliştirmeyi desteklemek istiyorsanız, buradan bağış yapabilirsiniz:
 
-<a href="https://buymeacoffee.com/argenistherose"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=for-the-badge&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
+<a href="https://buymeacoffee.com/joseluisgom"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=for-the-badge&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
 
 ### 🙏 Özel Teşekkürler
 
@@ -737,7 +737,7 @@ Her iki lisanstan birini seçebilirsiniz. **Katkıda bulunanlar her ikisi altın
 ## Katkıda Bulunanlar
 
 <a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=zeroclaw-labs/zeroclaw" alt="ZeroClaw contributors" />
+  <img src="https://contrib.rocks/image?repo=darkansem12-rgb/zeroclaw-android" alt="ZeroClaw contributors" />
 </a>
 
 Bu liste GitHub katkıda bulunanlar grafiğinden oluşturulur ve otomatik olarak güncellenir.
@@ -747,9 +747,9 @@ Bu liste GitHub katkıda bulunanlar grafiğinden oluşturulur ve otomatik olarak
 <p align="center">
   <a href="https://www.star-history.com/#zeroclaw-labs/zeroclaw&type=date&legend=top-left">
     <picture>
-     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=zeroclaw-labs/zeroclaw&type=date&theme=dark&legend=top-left" />
-     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=zeroclaw-labs/zeroclaw&type=date&legend=top-left" />
-     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=zeroclaw-labs/zeroclaw&type=date&legend=top-left" />
+     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=darkansem12-rgb/zeroclaw-android&type=date&theme=dark&legend=top-left" />
+     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=darkansem12-rgb/zeroclaw-android&type=date&legend=top-left" />
+     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=darkansem12-rgb/zeroclaw-android&type=date&legend=top-left" />
     </picture>
   </a>
 </p>

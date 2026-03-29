@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/darkansem12-rgb/zeroclaw-android/main/docs/assets/androidclaw-banner.svg" alt="ZeroClaw" width="600" />
+  <img src="docs/assets/androidclaw-banner.png" alt="ZeroClaw" width="600" />
 </p>
 
 <h1 align="center">🦀 ZeroClaw — Personal na AI Assistant</h1>
@@ -11,15 +11,15 @@
 
 <p align="center">
   <a href="LICENSE-APACHE"><img src="https://img.shields.io/badge/license-MIT%20OR%20Apache%202.0-blue.svg" alt="License: MIT OR Apache-2.0" /></a>
-  <a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors"><img src="https://img.shields.io/github/contributors/zeroclaw-labs/zeroclaw?color=green" alt="Contributors" /></a>
-  <a href="https://buymeacoffee.com/argenistherose"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=flat&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
-  <a href="https://x.com/zeroclawlabs?s=21"><img src="https://img.shields.io/badge/X-%40zeroclawlabs-000000?style=flat&logo=x&logoColor=white" alt="X: @zeroclawlabs" /></a>
-  <a href="https://www.facebook.com/groups/zeroclawlabs"><img src="https://img.shields.io/badge/Facebook-Group-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook Group" /></a>
+  <a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors"><img src="https://img.shields.io/github/contributors/darkansem12-rgb/zeroclaw-android?color=green" alt="Contributors" /></a>
+  <a href="https://buymeacoffee.com/joseluisgom"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=flat&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
+  <a href=""><img src="https://img.shields.io/badge/X-%40zeroclawlabs-000000?style=flat&logo=x&logoColor=white" alt="X: " /></a>
+  <a href=""><img src="https://img.shields.io/badge/Facebook-Group-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook Group" /></a>
   <a href="https://discord.com/invite/wDshRVqRjx"><img src="https://img.shields.io/badge/Discord-Join-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://www.instagram.com/therealzeroclaw"><img src="https://img.shields.io/badge/Instagram-%40therealzeroclaw-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram: @therealzeroclaw" /></a>
-  <a href="https://www.tiktok.com/@zeroclawlabs"><img src="https://img.shields.io/badge/TikTok-%40zeroclawlabs-000000?style=flat&logo=tiktok&logoColor=white" alt="TikTok: @zeroclawlabs" /></a>
-  <a href="https://www.rednote.com/user/profile/69b735e6000000002603927e"><img src="https://img.shields.io/badge/RedNote-Official-FF2442?style=flat" alt="RedNote" /></a>
-  <a href="https://www.reddit.com/r/zeroclawlabs/"><img src="https://img.shields.io/badge/Reddit-r%2Fzeroclawlabs-FF4500?style=flat&logo=reddit&logoColor=white" alt="Reddit: r/zeroclawlabs" /></a>
+  <a href=""><img src="https://img.shields.io/badge/Instagram-%40therealzeroclaw-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram: @therealzeroclaw" /></a>
+  <a href="https://www.tiktok.com/"><img src="https://img.shields.io/badge/TikTok-%40zeroclawlabs-000000?style=flat&logo=tiktok&logoColor=white" alt="TikTok: " /></a>
+  <a href=""><img src="https://img.shields.io/badge/RedNote-Official-FF2442?style=flat" alt="RedNote" /></a>
+  <a href=""><img src="https://img.shields.io/badge/Reddit-r%2Fzeroclawlabs-FF4500?style=flat&logo=reddit&logoColor=white" alt="Reddit: r/zeroclawlabs" /></a>
 </p>
 
 <p align="center">
@@ -66,7 +66,7 @@ Ang ZeroClaw ay isang personal na AI assistant na pinapatakbo mo sa iyong sarili
 Kung gusto mo ng personal, single-user na assistant na lokal, mabilis, at palaging naka-on, ito na iyon.
 
 <p align="center">
-  <a href="https://zeroclawlabs.ai">Website</a> ·
+  <a href="https://">Website</a> ·
   <a href="docs/README.md">Docs</a> ·
   <a href="docs/architecture.md">Architecture</a> ·
   <a href="#mabilis-na-simula-tldr">Magsimula</a> ·
@@ -95,14 +95,14 @@ Runtime: Rust stable toolchain. Isang binary lamang, walang runtime dependency.
 ### Homebrew (macOS/Linuxbrew)
 
 ```bash
-brew install zeroclaw
+echo "# Use Termux on Android"
 ```
 
 ### One-click bootstrap
 
 ```bash
 git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
-cd zeroclaw
+cd zeroclaw-android
 ./install.sh
 ```
 
@@ -117,32 +117,32 @@ Kumpletong gabay para sa mga baguhan (auth, pairing, channels): [Magsimula](docs
 ./install.sh --api-key "sk-..." --provider openrouter
 
 # Simulan ang gateway (webhook server + web dashboard)
-zeroclaw gateway                # default: 127.0.0.1:42617
-zeroclaw gateway --port 0       # random port (pinalakas na seguridad)
+androidclaw gateway                # default: 127.0.0.1:42617
+androidclaw gateway --port 0       # random port (pinalakas na seguridad)
 
 # Makipag-usap sa assistant
-zeroclaw agent -m "Hello, ZeroClaw!"
+androidclaw agent -m "Hello, ZeroClaw!"
 
 # Interactive mode
-zeroclaw agent
+androidclaw agent
 
 # Simulan ang buong autonomous runtime (gateway + channels + cron + hands)
-zeroclaw daemon
+androidclaw daemon
 
 # Tingnan ang status
-zeroclaw status
+androidclaw status
 
 # Patakbuhin ang diagnostics
-zeroclaw doctor
+androidclaw doctor
 ```
 
-Nag-upgrade? Patakbuhin ang `zeroclaw doctor` pagkatapos mag-update.
+Nag-upgrade? Patakbuhin ang `androidclaw doctor` pagkatapos mag-update.
 
 ### Mula sa source (development)
 
 ```bash
 git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
-cd zeroclaw
+cd zeroclaw-android
 
 cargo build --release --locked
 cargo install --path . --force --locked
@@ -158,13 +158,13 @@ Maaaring i-import ng ZeroClaw ang iyong OpenClaw workspace, memory, at configura
 
 ```bash
 # I-preview kung ano ang maili-lipat (ligtas, read-only)
-zeroclaw migrate openclaw --dry-run
+androidclaw migrate openclaw --dry-run
 
 # Patakbuhin ang migration
-zeroclaw migrate openclaw
+androidclaw migrate openclaw
 ```
 
-Inililipat nito ang iyong memory entries, workspace files, at configuration mula `~/.openclaw/` patungo sa `~/.zeroclaw/`. Awtomatikong kino-convert ang config mula JSON patungong TOML.
+Inililipat nito ang iyong memory entries, workspace files, at configuration mula `~/.openclaw/` patungo sa `~/.androidclaw/`. Awtomatikong kino-convert ang config mula JSON patungong TOML.
 
 ## Mga default sa seguridad (DM access)
 
@@ -177,7 +177,7 @@ Default na gawi sa lahat ng channel:
 - **DM pairing** (default): ang mga hindi kilalang nagpadala ay tumatanggap ng maikling pairing code at hindi pino-proseso ng bot ang kanilang mensahe.
 - I-approve gamit ang: `zeroclaw pairing approve <channel> <code>` (pagkatapos ay idadagdag ang nagpadala sa lokal na allowlist).
 - Ang mga pampublikong papasok na DM ay nangangailangan ng tahasang opt-in sa `config.toml`.
-- Patakbuhin ang `zeroclaw doctor` para makita ang mga mapanganib o maling naka-configure na DM policy.
+- Patakbuhin ang `androidclaw doctor` para makita ang mga mapanganib o maling naka-configure na DM policy.
 
 **Mga antas ng autonomy:**
 
@@ -199,7 +199,7 @@ Gamitin ang talahanayan ito para sa mahahalagang paunawa (breaking changes, secu
 | Petsa (UTC) | Antas | Paunawa | Aksyon |
 | ---------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 2026-02-19 | _Kritikal_ | **Hindi kami konektado** sa `openagen/zeroclaw`, `zeroclaw.org` o `zeroclaw.net`. Ang `zeroclaw.org` at `zeroclaw.net` na mga domain ay kasalukuyang nakaturo sa `openagen/zeroclaw` fork, at ang domain/repository na iyon ay nanggagaya sa aming opisyal na website/proyekto. | Huwag magtiwala sa impormasyon, binaries, fundraising, o mga anunsyo mula sa mga pinagmulang iyon. Gamitin lamang [ang repository na ito](https://github.com/darkansem12-rgb/zeroclaw-android) at ang aming mga verified na social account. |
-| 2026-02-21 | _Mahalaga_ | Ang aming opisyal na website ay live na: [zeroclawlabs.ai](https://zeroclawlabs.ai). Salamat sa iyong pasensya habang inihahanda namin ang paglulunsad. Nakikita pa rin namin ang mga pagtatangka ng panggagaya, kaya **huwag** sumali sa anumang investment o fundraising activity na gumagamit ng pangalan ng ZeroClaw maliban kung nai-publish ito sa pamamagitan ng aming mga opisyal na channel. | Gamitin [ang repository na ito](https://github.com/darkansem12-rgb/zeroclaw-android) bilang nag-iisang source of truth. Sundan ang [X (@zeroclawlabs)](https://x.com/zeroclawlabs?s=21), [Facebook (Group)](https://www.facebook.com/groups/zeroclawlabs), at [Reddit (r/zeroclawlabs)](https://www.reddit.com/r/zeroclawlabs/) para sa mga opisyal na update. |
+| 2026-02-21 | _Mahalaga_ | Ang aming opisyal na website ay live na: [](https://). Salamat sa iyong pasensya habang inihahanda namin ang paglulunsad. Nakikita pa rin namin ang mga pagtatangka ng panggagaya, kaya **huwag** sumali sa anumang investment o fundraising activity na gumagamit ng pangalan ng ZeroClaw maliban kung nai-publish ito sa pamamagitan ng aming mga opisyal na channel. | Gamitin [ang repository na ito](https://github.com/darkansem12-rgb/zeroclaw-android) bilang nag-iisang source of truth. Sundan ang [X ()](), [Facebook (Group)](), at [Reddit (r/zeroclawlabs)]() para sa mga opisyal na update. |
 | 2026-02-19 | _Mahalaga_ | In-update ng Anthropic ang Authentication at Credential Use terms noong 2026-02-19. Ang Claude Code OAuth tokens (Free, Pro, Max) ay eksklusibong para sa Claude Code at Claude.ai; ang paggamit ng OAuth tokens mula sa Claude Free/Pro/Max sa anumang ibang produkto, tool, o serbisyo (kasama ang Agent SDK) ay hindi pinapahintulutan at maaaring lumabag sa Consumer Terms of Service. | Pansamantalang iwasan ang Claude Code OAuth integrations para maiwasan ang potensyal na pagkawala. Orihinal na clause: [Authentication and Credential Use](https://code.claude.com/docs/en/legal-and-compliance#authentication-and-credential-use). |
 
 ## Mga Highlight
@@ -251,7 +251,7 @@ cargo build --release
 ls -lh target/release/zeroclaw
 
 /usr/bin/time -l target/release/zeroclaw --help
-/usr/bin/time -l target/release/zeroclaw status
+/usr/bin/time -l target/release/androidclaw status
 ```
 
 ## Lahat ng binuo namin
@@ -327,7 +327,7 @@ React 19 + Vite 6 + Tailwind CSS 4 web dashboard na direktang inihahatid mula sa
 
 ## Configuration
 
-Minimal na `~/.zeroclaw/config.toml`:
+Minimal na `~/.androidclaw/config.toml`:
 
 ```toml
 default_provider = "anthropic"
@@ -397,33 +397,33 @@ Itakda ang `runtime.kind = "docker"` para sa strict sandboxing o network isolati
 
 Sinusuportahan ng ZeroClaw ang subscription-native auth profiles (multi-account, encrypted at rest).
 
-- Store file: `~/.zeroclaw/auth-profiles.json`
-- Encryption key: `~/.zeroclaw/.secret_key`
+- Store file: `~/.androidclaw/auth-profiles.json`
+- Encryption key: `~/.androidclaw/.secret_key`
 - Profile id format: `<provider>:<profile_name>` (halimbawa: `openai-codex:work`)
 
 ```bash
 # OpenAI Codex OAuth (ChatGPT subscription)
-zeroclaw auth login --provider openai-codex --device-code
+androidclaw auth login --provider openai-codex --device-code
 
 # Gemini OAuth
-zeroclaw auth login --provider gemini --profile default
+androidclaw auth login --provider gemini --profile default
 
 # Anthropic setup-token
-zeroclaw auth paste-token --provider anthropic --profile default --auth-kind authorization
+androidclaw auth paste-token --provider anthropic --profile default --auth-kind authorization
 
 # Tingnan / i-refresh / palitan ang profile
-zeroclaw auth status
-zeroclaw auth refresh --provider openai-codex --profile default
-zeroclaw auth use --provider openai-codex --profile work
+androidclaw auth status
+androidclaw auth refresh --provider openai-codex --profile default
+androidclaw auth use --provider openai-codex --profile work
 
 # Patakbuhin ang agent gamit ang subscription auth
-zeroclaw agent --provider openai-codex -m "hello"
-zeroclaw agent --provider anthropic -m "hello"
+androidclaw agent --provider openai-codex -m "hello"
+androidclaw agent --provider anthropic -m "hello"
 ```
 
 ## Agent workspace + skills
 
-Workspace root: `~/.zeroclaw/workspace/` (configurable sa pamamagitan ng config).
+Workspace root: `~/.androidclaw/workspace/` (configurable sa pamamagitan ng config).
 
 Mga injected prompt file:
 - `IDENTITY.md` — personalidad at papel ng agent
@@ -432,20 +432,20 @@ Mga injected prompt file:
 - `AGENTS.md` — mga session convention at initialization rules
 - `SOUL.md` — pangunahing pagkakakilanlan at mga operating principle
 
-Skills: `~/.zeroclaw/workspace/skills/<skill>/SKILL.md` o `SKILL.toml`.
+Skills: `~/.androidclaw/workspace/skills/<skill>/SKILL.md` o `SKILL.toml`.
 
 ```bash
 # Ilista ang mga naka-install na skill
-zeroclaw skills list
+androidclaw skills list
 
 # Mag-install mula sa git
-zeroclaw skills install https://github.com/user/my-skill.git
+androidclaw skills install https://github.com/user/my-skill.git
 
 # Security audit bago mag-install
-zeroclaw skills audit https://github.com/user/my-skill.git
+androidclaw skills audit https://github.com/user/my-skill.git
 
 # Tanggalin ang isang skill
-zeroclaw skills remove my-skill
+androidclaw skills remove my-skill
 ```
 
 ## Mga CLI command
@@ -453,30 +453,30 @@ zeroclaw skills remove my-skill
 ```bash
 # Workspace management
 androidclaw onboard              # Guided setup wizard
-zeroclaw status               # Ipakita ang daemon/agent status
-zeroclaw doctor               # Patakbuhin ang system diagnostics
+androidclaw status               # Ipakita ang daemon/agent status
+androidclaw doctor               # Patakbuhin ang system diagnostics
 
 # Gateway + daemon
-zeroclaw gateway              # Simulan ang gateway server (127.0.0.1:42617)
-zeroclaw daemon               # Simulan ang buong autonomous runtime
+androidclaw gateway              # Simulan ang gateway server (127.0.0.1:42617)
+androidclaw daemon               # Simulan ang buong autonomous runtime
 
 # Agent
-zeroclaw agent                # Interactive chat mode
-zeroclaw agent -m "message"   # Single message mode
+androidclaw agent                # Interactive chat mode
+androidclaw agent -m "message"   # Single message mode
 
 # Service management
 zeroclaw service install      # I-install bilang OS service (launchd/systemd)
 zeroclaw service start|stop|restart|status
 
 # Mga channel
-zeroclaw channel list         # Ilista ang mga configured na channel
-zeroclaw channel doctor       # Suriin ang kalusugan ng channel
-zeroclaw channel bind-telegram 123456789
+androidclaw channel list         # Ilista ang mga configured na channel
+androidclaw channel doctor       # Suriin ang kalusugan ng channel
+androidclaw channel bind-telegram 123456789
 
 # Cron + scheduling
-zeroclaw cron list            # Ilista ang mga naka-schedule na gawain
-zeroclaw cron add "*/5 * * * *" --prompt "Check system health"
-zeroclaw cron remove <id>
+androidclaw cron list            # Ilista ang mga naka-schedule na gawain
+androidclaw cron add "*/5 * * * *" --prompt "Check system health"
+androidclaw cron remove <id>
 
 # Memory
 zeroclaw memory list          # Ilista ang mga memory entry
@@ -484,18 +484,18 @@ zeroclaw memory get <key>     # Kunin ang isang memory
 zeroclaw memory stats         # Estadistika ng memory
 
 # Auth profiles
-zeroclaw auth login --provider <name>
-zeroclaw auth status
-zeroclaw auth use --provider <name> --profile <profile>
+androidclaw auth login --provider <name>
+androidclaw auth status
+androidclaw auth use --provider <name> --profile <profile>
 
 # Hardware peripherals
-zeroclaw hardware discover    # I-scan ang mga konektadong device
-zeroclaw peripheral list      # Ilista ang mga konektadong peripheral
-zeroclaw peripheral flash     # I-flash ang firmware sa device
+androidclaw hardware discover    # I-scan ang mga konektadong device
+androidclaw peripheral list      # Ilista ang mga konektadong peripheral
+androidclaw peripheral flash     # I-flash ang firmware sa device
 
 # Migration
-zeroclaw migrate openclaw --dry-run
-zeroclaw migrate openclaw
+androidclaw migrate openclaw --dry-run
+androidclaw migrate openclaw
 
 # Shell completions
 source <(zeroclaw completions bash)
@@ -657,14 +657,14 @@ Gamitin ang mga ito kapag tapos ka na sa onboarding flow at gusto mo ng mas mala
 
 Ang ZeroClaw ay binuo para sa smooth crab 🦀, isang mabilis at mahusay na AI assistant. Binuo ni Argenis De La Rosa at ng komunidad.
 
-- [zeroclawlabs.ai](https://zeroclawlabs.ai)
-- [@zeroclawlabs](https://x.com/zeroclawlabs)
+- [](https://)
+- [](https://x.com/zeroclawlabs)
 
 ## Suportahan ang ZeroClaw
 
 Kung nakakatulong ang ZeroClaw sa iyong trabaho at gusto mong suportahan ang patuloy na development, maaari kang mag-donate dito:
 
-<a href="https://buymeacoffee.com/argenistherose"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=for-the-badge&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
+<a href="https://buymeacoffee.com/joseluisgom"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=for-the-badge&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
 
 ### 🙏 Espesyal na Pasasalamat
 
@@ -691,7 +691,7 @@ Tingnan ang [CONTRIBUTING.md](CONTRIBUTING.md) at [CLA.md](docs/contributing/cla
 - Bagong `Memory` → `src/memory/`
 - Bagong `Tunnel` → `src/tunnel/`
 - Bagong `Peripheral` → `src/peripherals/`
-- Bagong `Skill` → `~/.zeroclaw/workspace/skills/<name>/`
+- Bagong `Skill` → `~/.androidclaw/workspace/skills/<name>/`
 
 <!-- BEGIN:RECENT_CONTRIBUTORS -->
 <!-- END:RECENT_CONTRIBUTORS -->
@@ -737,7 +737,7 @@ Ang pangalang **ZeroClaw** at logo ay mga trademark ng ZeroClaw Labs. Ang lisens
 ## Mga Contributor
 
 <a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=zeroclaw-labs/zeroclaw" alt="ZeroClaw contributors" />
+  <img src="https://contrib.rocks/image?repo=darkansem12-rgb/zeroclaw-android" alt="ZeroClaw contributors" />
 </a>
 
 Ang listahang ito ay generated mula sa GitHub contributors graph at awtomatikong nag-a-update.
@@ -747,9 +747,9 @@ Ang listahang ito ay generated mula sa GitHub contributors graph at awtomatikong
 <p align="center">
   <a href="https://www.star-history.com/#zeroclaw-labs/zeroclaw&type=date&legend=top-left">
     <picture>
-     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=zeroclaw-labs/zeroclaw&type=date&theme=dark&legend=top-left" />
-     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=zeroclaw-labs/zeroclaw&type=date&legend=top-left" />
-     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=zeroclaw-labs/zeroclaw&type=date&legend=top-left" />
+     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=darkansem12-rgb/zeroclaw-android&type=date&theme=dark&legend=top-left" />
+     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=darkansem12-rgb/zeroclaw-android&type=date&legend=top-left" />
+     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=darkansem12-rgb/zeroclaw-android&type=date&legend=top-left" />
     </picture>
   </a>
 </p>

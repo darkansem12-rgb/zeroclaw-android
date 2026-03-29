@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/darkansem12-rgb/zeroclaw-android/main/docs/assets/androidclaw-banner.svg" alt="ZeroClaw" width="600" />
+  <img src="docs/assets/androidclaw-banner.png" alt="AndroidClaw" width="600" />
 </p>
 
-<h1 align="center">🦀 ZeroClaw — Persönlicher KI-Assistent</h1>
+<h1 align="center">🦀 AndroidClaw — Persönlicher KI-Assistent</h1>
 
 <p align="center">
   <strong>Null Overhead. Null Kompromisse. 100% Rust. 100% Agnostisch.</strong><br>
@@ -11,15 +11,15 @@
 
 <p align="center">
   <a href="LICENSE-APACHE"><img src="https://img.shields.io/badge/license-MIT%20OR%20Apache%202.0-blue.svg" alt="License: MIT OR Apache-2.0" /></a>
-  <a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors"><img src="https://img.shields.io/github/contributors/zeroclaw-labs/zeroclaw?color=green" alt="Contributors" /></a>
-  <a href="https://buymeacoffee.com/argenistherose"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=flat&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
-  <a href="https://x.com/zeroclawlabs?s=21"><img src="https://img.shields.io/badge/X-%40zeroclawlabs-000000?style=flat&logo=x&logoColor=white" alt="X: @zeroclawlabs" /></a>
-  <a href="https://www.facebook.com/groups/zeroclawlabs"><img src="https://img.shields.io/badge/Facebook-Group-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook Group" /></a>
+  <a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors"><img src="https://img.shields.io/github/contributors/darkansem12-rgb/zeroclaw-android?color=green" alt="Contributors" /></a>
+  <a href="https://buymeacoffee.com/joseluisgom"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=flat&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
+  <a href=""><img src="https://img.shields.io/badge/X-%40zeroclawlabs-000000?style=flat&logo=x&logoColor=white" alt="X: " /></a>
+  <a href=""><img src="https://img.shields.io/badge/Facebook-Group-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook Group" /></a>
   <a href="https://discord.com/invite/wDshRVqRjx"><img src="https://img.shields.io/badge/Discord-Join-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://www.instagram.com/therealzeroclaw"><img src="https://img.shields.io/badge/Instagram-%40therealzeroclaw-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram: @therealzeroclaw" /></a>
-  <a href="https://www.tiktok.com/@zeroclawlabs"><img src="https://img.shields.io/badge/TikTok-%40zeroclawlabs-000000?style=flat&logo=tiktok&logoColor=white" alt="TikTok: @zeroclawlabs" /></a>
-  <a href="https://www.rednote.com/user/profile/69b735e6000000002603927e"><img src="https://img.shields.io/badge/RedNote-Official-FF2442?style=flat" alt="RedNote" /></a>
-  <a href="https://www.reddit.com/r/zeroclawlabs/"><img src="https://img.shields.io/badge/Reddit-r%2Fzeroclawlabs-FF4500?style=flat&logo=reddit&logoColor=white" alt="Reddit: r/zeroclawlabs" /></a>
+  <a href=""><img src="https://img.shields.io/badge/Instagram-%40therealzeroclaw-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram: @therealzeroclaw" /></a>
+  <a href="https://www.tiktok.com/"><img src="https://img.shields.io/badge/TikTok-%40zeroclawlabs-000000?style=flat&logo=tiktok&logoColor=white" alt="TikTok: " /></a>
+  <a href=""><img src="https://img.shields.io/badge/RedNote-Official-FF2442?style=flat" alt="RedNote" /></a>
+  <a href=""><img src="https://img.shields.io/badge/Reddit-r%2Fzeroclawlabs-FF4500?style=flat&logo=reddit&logoColor=white" alt="Reddit: r/zeroclawlabs" /></a>
 </p>
 
 <p align="center">
@@ -61,12 +61,12 @@ Entwickelt von Studenten und Mitgliedern der Communitys von Harvard, MIT und Sun
   <a href="README.nb.md">🇳🇴 Norsk</a>
 </p>
 
-ZeroClaw ist ein persönlicher KI-Assistent, den du auf deinen eigenen Geräten ausführst. Er antwortet dir auf den Kanälen, die du bereits nutzt (WhatsApp, Telegram, Slack, Discord, Signal, iMessage, Matrix, IRC, Email, Bluesky, Nostr, Mattermost, Nextcloud Talk, DingTalk, Lark, QQ, Reddit, LinkedIn, Twitter, MQTT, WeChat Work und mehr). Er verfügt über ein Web-Dashboard für Echtzeitkontrolle und kann sich mit Hardware-Peripheriegeräten verbinden (ESP32, STM32, Arduino, Raspberry Pi). Das Gateway ist nur die Steuerungsebene — das Produkt ist der Assistent.
+AndroidClaw ist ein persönlicher KI-Assistent, den du auf deinen eigenen Geräten ausführst. Er antwortet dir auf den Kanälen, die du bereits nutzt (WhatsApp, Telegram, Slack, Discord, Signal, iMessage, Matrix, IRC, Email, Bluesky, Nostr, Mattermost, Nextcloud Talk, DingTalk, Lark, QQ, Reddit, LinkedIn, Twitter, MQTT, WeChat Work und mehr). Er verfügt über ein Web-Dashboard für Echtzeitkontrolle und kann sich mit Hardware-Peripheriegeräten verbinden (ESP32, STM32, Arduino, Raspberry Pi). Das Gateway ist nur die Steuerungsebene — das Produkt ist der Assistent.
 
 Wenn du einen persönlichen Einzelbenutzer-Assistenten willst, der sich lokal, schnell und immer verfügbar anfühlt, ist das genau das Richtige.
 
 <p align="center">
-  <a href="https://zeroclawlabs.ai">Website</a> ·
+  <a href="https://">Website</a> ·
   <a href="docs/README.md">Dokumentation</a> ·
   <a href="docs/architecture.md">Architektur</a> ·
   <a href="#schnellstart">Erste Schritte</a> ·
@@ -75,7 +75,7 @@ Wenn du einen persönlichen Einzelbenutzer-Assistenten willst, der sich lokal, s
   <a href="https://discord.com/invite/wDshRVqRjx">Discord</a>
 </p>
 
-> **Empfohlene Einrichtung:** Führe `androidclaw onboard` in deinem Terminal aus. ZeroClaw Onboard führt dich Schritt für Schritt durch die Einrichtung von Gateway, Workspace, Kanälen und Provider. Es ist der empfohlene Einrichtungspfad und funktioniert auf macOS, Linux und Windows (über WSL2). Neue Installation? Starte hier: [Erste Schritte](#schnellstart)
+> **Empfohlene Einrichtung:** Führe `androidclaw onboard` in deinem Terminal aus. AndroidClaw Onboard führt dich Schritt für Schritt durch die Einrichtung von Gateway, Workspace, Kanälen und Provider. Es ist der empfohlene Einrichtungspfad und funktioniert auf macOS, Linux und Windows (über WSL2). Neue Installation? Starte hier: [Erste Schritte](#schnellstart)
 
 ### Abonnement-Authentifizierung (OAuth)
 
@@ -95,14 +95,14 @@ Voraussetzung: Stabile Rust-Toolchain. Einzelnes Binary, keine Laufzeitabhängig
 ### Homebrew (macOS/Linuxbrew)
 
 ```bash
-brew install zeroclaw
+echo "# Use Termux on Android"
 ```
 
 ### Ein-Klick-Bootstrap
 
 ```bash
 git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
-cd zeroclaw
+cd zeroclaw-android
 ./install.sh
 ```
 
@@ -117,32 +117,32 @@ Vollständige Einsteiger-Anleitung (Authentifizierung, Pairing, Kanäle): [Erste
 ./install.sh --api-key "sk-..." --provider openrouter
 
 # Gateway starten (Webhook-Server + Web-Dashboard)
-zeroclaw gateway                # Standard: 127.0.0.1:42617
-zeroclaw gateway --port 0       # Zufälliger Port (gehärtete Sicherheit)
+androidclaw gateway                # Standard: 127.0.0.1:42617
+androidclaw gateway --port 0       # Zufälliger Port (gehärtete Sicherheit)
 
 # Mit dem Assistenten sprechen
-zeroclaw agent -m "Hello, ZeroClaw!"
+androidclaw agent -m "Hello, AndroidClaw!"
 
 # Interaktiver Modus
-zeroclaw agent
+androidclaw agent
 
 # Vollständige autonome Laufzeit starten (Gateway + Kanäle + Cron + Hands)
-zeroclaw daemon
+androidclaw daemon
 
 # Status prüfen
-zeroclaw status
+androidclaw status
 
 # Diagnose ausführen
-zeroclaw doctor
+androidclaw doctor
 ```
 
-Aktualisierung? Führe `zeroclaw doctor` nach dem Update aus.
+Aktualisierung? Führe `androidclaw doctor` nach dem Update aus.
 
 ### Aus dem Quellcode (Entwicklung)
 
 ```bash
 git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
-cd zeroclaw
+cd zeroclaw-android
 
 cargo build --release --locked
 cargo install --path . --force --locked
@@ -154,21 +154,21 @@ androidclaw onboard
 
 ## Migration von OpenClaw
 
-ZeroClaw kann deinen OpenClaw-Workspace, Speicher und Konfiguration importieren:
+AndroidClaw kann deinen OpenClaw-Workspace, Speicher und Konfiguration importieren:
 
 ```bash
 # Vorschau, was migriert wird (sicher, nur lesen)
-zeroclaw migrate openclaw --dry-run
+androidclaw migrate openclaw --dry-run
 
 # Migration ausführen
-zeroclaw migrate openclaw
+androidclaw migrate openclaw
 ```
 
-Dies migriert deine Speichereinträge, Workspace-Dateien und Konfiguration von `~/.openclaw/` nach `~/.zeroclaw/`. Die Konfiguration wird automatisch von JSON nach TOML konvertiert.
+Dies migriert deine Speichereinträge, Workspace-Dateien und Konfiguration von `~/.openclaw/` nach `~/.androidclaw/`. Die Konfiguration wird automatisch von JSON nach TOML konvertiert.
 
 ## Sicherheitsstandards (DM-Zugriff)
 
-ZeroClaw verbindet sich mit echten Messaging-Oberflächen. Behandle eingehende DMs als nicht vertrauenswürdige Eingabe.
+AndroidClaw verbindet sich mit echten Messaging-Oberflächen. Behandle eingehende DMs als nicht vertrauenswürdige Eingabe.
 
 Vollständiger Sicherheitsleitfaden: [SECURITY.md](SECURITY.md)
 
@@ -177,7 +177,7 @@ Standardverhalten auf allen Kanälen:
 - **DM-Pairing** (Standard): Unbekannte Absender erhalten einen kurzen Pairing-Code und der Bot verarbeitet ihre Nachricht nicht.
 - Genehmige mit: `zeroclaw pairing approve <channel> <code>` (der Absender wird dann zu einer lokalen Allowlist hinzugefügt).
 - Öffentliche eingehende DMs erfordern eine explizite Aktivierung in `config.toml`.
-- Führe `zeroclaw doctor` aus, um riskante oder falsch konfigurierte DM-Richtlinien aufzudecken.
+- Führe `androidclaw doctor` aus, um riskante oder falsch konfigurierte DM-Richtlinien aufzudecken.
 
 **Autonomiestufen:**
 
@@ -199,7 +199,7 @@ Verwende dieses Board für wichtige Hinweise (Breaking Changes, Sicherheitshinwe
 | Datum (UTC) | Stufe       | Hinweis                                                                                                                                                                                                                                                                                                                                                 | Aktion                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 2026-02-19 | _Kritisch_  | Wir sind **nicht verbunden** mit `openagen/zeroclaw`, `zeroclaw.org` oder `zeroclaw.net`. Die Domains `zeroclaw.org` und `zeroclaw.net` verweisen derzeit auf den Fork `openagen/zeroclaw`, und diese Domain/dieses Repository geben sich als unsere offizielle Website/unser offizielles Projekt aus.                                                                                       | Vertraue keinen Informationen, Binaries, Spendenaktionen oder Ankündigungen aus diesen Quellen. Verwende nur [dieses Repository](https://github.com/darkansem12-rgb/zeroclaw-android) und unsere verifizierten Social-Media-Konten.                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| 2026-02-21 | _Wichtig_ | Unsere offizielle Website ist jetzt online: [zeroclawlabs.ai](https://zeroclawlabs.ai). Danke für deine Geduld während wir den Launch vorbereitet haben. Wir sehen weiterhin Identitätsdiebstahlversuche, also nimm **nicht** an Investitions- oder Spendenaktivitäten teil, die den Namen ZeroClaw verwenden, es sei denn, sie werden über unsere offiziellen Kanäle veröffentlicht.                            | Verwende [dieses Repository](https://github.com/darkansem12-rgb/zeroclaw-android) als einzige Wahrheitsquelle. Folge [X (@zeroclawlabs)](https://x.com/zeroclawlabs?s=21), [Facebook (Gruppe)](https://www.facebook.com/groups/zeroclawlabs) und [Reddit (r/zeroclawlabs)](https://www.reddit.com/r/zeroclawlabs/) für offizielle Updates. |
+| 2026-02-21 | _Wichtig_ | Unsere offizielle Website ist jetzt online: [](https://). Danke für deine Geduld während wir den Launch vorbereitet haben. Wir sehen weiterhin Identitätsdiebstahlversuche, also nimm **nicht** an Investitions- oder Spendenaktivitäten teil, die den Namen AndroidClaw verwenden, es sei denn, sie werden über unsere offiziellen Kanäle veröffentlicht.                            | Verwende [dieses Repository](https://github.com/darkansem12-rgb/zeroclaw-android) als einzige Wahrheitsquelle. Folge [X ()](), [Facebook (Gruppe)]() und [Reddit (r/zeroclawlabs)]() für offizielle Updates. |
 | 2026-02-19 | _Wichtig_ | Anthropic hat die Bedingungen zur Authentifizierung und Nutzung von Zugangsdaten am 2026-02-19 aktualisiert. Claude Code OAuth-Tokens (Free, Pro, Max) sind ausschließlich für Claude Code und Claude.ai bestimmt; die Verwendung von OAuth-Tokens von Claude Free/Pro/Max in anderen Produkten, Tools oder Diensten (einschließlich Agent SDK) ist nicht gestattet und kann gegen die Verbrauchernutzungsbedingungen verstoßen. | Bitte vermeide vorübergehend Claude Code OAuth-Integrationen, um potenzielle Verluste zu vermeiden. Originalklausel: [Authentication and Credential Use](https://code.claude.com/docs/en/legal-and-compliance#authentication-and-credential-use).                                                                                                                                                                                                                                                                                                                                                                                    |
 
 ## Highlights
@@ -219,18 +219,18 @@ Verwende dieses Board für wichtige Hinweise (Breaking Changes, Sicherheitshinwe
 - **Skills-Plattform** — mitgelieferte, Community- und Workspace-Skills mit Sicherheitsaudit.
 - **Tunnel-Unterstützung** — Cloudflare, Tailscale, ngrok, OpenVPN und benutzerdefinierte Tunnel für Remote-Zugriff.
 
-### Warum Teams ZeroClaw wählen
+### Warum Teams AndroidClaw wählen
 
 - **Standardmäßig leicht:** kleines Rust-Binary, schneller Start, geringer Speicherverbrauch.
 - **Sicher by Design:** Pairing, striktes Sandboxing, explizite Allowlists, Workspace-Scoping.
 - **Vollständig austauschbar:** Kernsysteme sind Traits (Provider, Kanäle, Tools, Speicher, Tunnel).
 - **Kein Vendor Lock-in:** OpenAI-kompatible Provider-Unterstützung + steckbare benutzerdefinierte Endpunkte.
 
-## Benchmark-Übersicht (ZeroClaw vs OpenClaw, reproduzierbar)
+## Benchmark-Übersicht (AndroidClaw vs OpenClaw, reproduzierbar)
 
 Schneller lokaler Benchmark (macOS arm64, Feb 2026), normalisiert für 0,8GHz Edge-Hardware.
 
-|                           | OpenClaw      | NanoBot        | PicoClaw        | ZeroClaw 🦀          |
+|                           | OpenClaw      | NanoBot        | PicoClaw        | AndroidClaw 🦀          |
 | ------------------------- | ------------- | -------------- | --------------- | -------------------- |
 | **Sprache**               | TypeScript    | Python         | Go              | **Rust**             |
 | **RAM**                   | > 1GB         | > 100MB        | < 10MB          | **< 5MB**            |
@@ -238,10 +238,10 @@ Schneller lokaler Benchmark (macOS arm64, Feb 2026), normalisiert für 0,8GHz Ed
 | **Binary-Größe**          | ~28MB (dist)  | N/A (Scripts)  | ~8MB            | **~8.8 MB**          |
 | **Kosten**                | Mac Mini $599 | Linux SBC ~$50 | Linux Board $10 | **Beliebige Hardware $10** |
 
-> Hinweise: ZeroClaw-Ergebnisse werden bei Release-Builds mit `/usr/bin/time -l` gemessen. OpenClaw benötigt die Node.js-Laufzeit (typischerweise ~390MB zusätzlicher Speicherverbrauch), während NanoBot die Python-Laufzeit benötigt. PicoClaw und ZeroClaw sind statische Binaries. Die RAM-Zahlen oben sind Laufzeitspeicher; die Kompilierungsanforderungen sind höher.
+> Hinweise: AndroidClaw-Ergebnisse werden bei Release-Builds mit `/usr/bin/time -l` gemessen. OpenClaw benötigt die Node.js-Laufzeit (typischerweise ~390MB zusätzlicher Speicherverbrauch), während NanoBot die Python-Laufzeit benötigt. PicoClaw und AndroidClaw sind statische Binaries. Die RAM-Zahlen oben sind Laufzeitspeicher; die Kompilierungsanforderungen sind höher.
 
 <p align="center">
-  <img src="docs/assets/zeroclaw-comparison.jpeg" alt="ZeroClaw vs OpenClaw Comparison" width="800" />
+  <img src="docs/assets/zeroclaw-comparison.jpeg" alt="AndroidClaw vs OpenClaw Comparison" width="800" />
 </p>
 
 ### Reproduzierbare lokale Messung
@@ -251,7 +251,7 @@ cargo build --release
 ls -lh target/release/zeroclaw
 
 /usr/bin/time -l target/release/zeroclaw --help
-/usr/bin/time -l target/release/zeroclaw status
+/usr/bin/time -l target/release/androidclaw status
 ```
 
 ## Alles, was wir bisher gebaut haben
@@ -327,7 +327,7 @@ React 19 + Vite 6 + Tailwind CSS 4 Web-Dashboard, direkt vom Gateway bereitgeste
 
 ## Konfiguration
 
-Minimale `~/.zeroclaw/config.toml`:
+Minimale `~/.androidclaw/config.toml`:
 
 ```toml
 default_provider = "anthropic"
@@ -395,35 +395,35 @@ Setze `runtime.kind = "docker"` für striktes Sandboxing oder Netzwerkisolation.
 
 ## Abonnement-Authentifizierung (OpenAI Codex / Claude Code / Gemini)
 
-ZeroClaw unterstützt native Abonnement-Authentifizierungsprofile (Multi-Account, verschlüsselt im Ruhezustand).
+AndroidClaw unterstützt native Abonnement-Authentifizierungsprofile (Multi-Account, verschlüsselt im Ruhezustand).
 
-- Speicherdatei: `~/.zeroclaw/auth-profiles.json`
-- Verschlüsselungsschlüssel: `~/.zeroclaw/.secret_key`
+- Speicherdatei: `~/.androidclaw/auth-profiles.json`
+- Verschlüsselungsschlüssel: `~/.androidclaw/.secret_key`
 - Profil-ID-Format: `<provider>:<profile_name>` (Beispiel: `openai-codex:work`)
 
 ```bash
 # OpenAI Codex OAuth (ChatGPT-Abonnement)
-zeroclaw auth login --provider openai-codex --device-code
+androidclaw auth login --provider openai-codex --device-code
 
 # Gemini OAuth
-zeroclaw auth login --provider gemini --profile default
+androidclaw auth login --provider gemini --profile default
 
 # Anthropic setup-token
-zeroclaw auth paste-token --provider anthropic --profile default --auth-kind authorization
+androidclaw auth paste-token --provider anthropic --profile default --auth-kind authorization
 
 # Prüfen / aktualisieren / Profil wechseln
-zeroclaw auth status
-zeroclaw auth refresh --provider openai-codex --profile default
-zeroclaw auth use --provider openai-codex --profile work
+androidclaw auth status
+androidclaw auth refresh --provider openai-codex --profile default
+androidclaw auth use --provider openai-codex --profile work
 
 # Agenten mit Abonnement-Auth ausführen
-zeroclaw agent --provider openai-codex -m "hello"
-zeroclaw agent --provider anthropic -m "hello"
+androidclaw agent --provider openai-codex -m "hello"
+androidclaw agent --provider anthropic -m "hello"
 ```
 
 ## Agenten-Workspace + Skills
 
-Workspace-Root: `~/.zeroclaw/workspace/` (konfigurierbar über Config).
+Workspace-Root: `~/.androidclaw/workspace/` (konfigurierbar über Config).
 
 Injizierte Prompt-Dateien:
 - `IDENTITY.md` — Persönlichkeit und Rolle des Agenten
@@ -432,20 +432,20 @@ Injizierte Prompt-Dateien:
 - `AGENTS.md` — Sitzungskonventionen und Initialisierungsregeln
 - `SOUL.md` — Kernidentität und Betriebsprinzipien
 
-Skills: `~/.zeroclaw/workspace/skills/<skill>/SKILL.md` oder `SKILL.toml`.
+Skills: `~/.androidclaw/workspace/skills/<skill>/SKILL.md` oder `SKILL.toml`.
 
 ```bash
 # Installierte Skills auflisten
-zeroclaw skills list
+androidclaw skills list
 
 # Von Git installieren
-zeroclaw skills install https://github.com/user/my-skill.git
+androidclaw skills install https://github.com/user/my-skill.git
 
 # Sicherheitsaudit vor der Installation
-zeroclaw skills audit https://github.com/user/my-skill.git
+androidclaw skills audit https://github.com/user/my-skill.git
 
 # Einen Skill entfernen
-zeroclaw skills remove my-skill
+androidclaw skills remove my-skill
 ```
 
 ## CLI-Befehle
@@ -453,30 +453,30 @@ zeroclaw skills remove my-skill
 ```bash
 # Workspace-Verwaltung
 androidclaw onboard              # Geführter Einrichtungsassistent
-zeroclaw status               # Daemon/Agenten-Status anzeigen
-zeroclaw doctor               # Systemdiagnose ausführen
+androidclaw status               # Daemon/Agenten-Status anzeigen
+androidclaw doctor               # Systemdiagnose ausführen
 
 # Gateway + Daemon
-zeroclaw gateway              # Gateway-Server starten (127.0.0.1:42617)
-zeroclaw daemon               # Vollständige autonome Laufzeit starten
+androidclaw gateway              # Gateway-Server starten (127.0.0.1:42617)
+androidclaw daemon               # Vollständige autonome Laufzeit starten
 
 # Agent
-zeroclaw agent                # Interaktiver Chat-Modus
-zeroclaw agent -m "message"   # Einzelnachrichten-Modus
+androidclaw agent                # Interaktiver Chat-Modus
+androidclaw agent -m "message"   # Einzelnachrichten-Modus
 
 # Service-Verwaltung
 zeroclaw service install      # Als OS-Dienst installieren (launchd/systemd)
 zeroclaw service start|stop|restart|status
 
 # Kanäle
-zeroclaw channel list         # Konfigurierte Kanäle auflisten
-zeroclaw channel doctor       # Kanalgesundheit prüfen
-zeroclaw channel bind-telegram 123456789
+androidclaw channel list         # Konfigurierte Kanäle auflisten
+androidclaw channel doctor       # Kanalgesundheit prüfen
+androidclaw channel bind-telegram 123456789
 
 # Cron + Planung
-zeroclaw cron list            # Geplante Aufgaben auflisten
-zeroclaw cron add "*/5 * * * *" --prompt "Check system health"
-zeroclaw cron remove <id>
+androidclaw cron list            # Geplante Aufgaben auflisten
+androidclaw cron add "*/5 * * * *" --prompt "Check system health"
+androidclaw cron remove <id>
 
 # Speicher
 zeroclaw memory list          # Speichereinträge auflisten
@@ -484,18 +484,18 @@ zeroclaw memory get <key>     # Speicher abrufen
 zeroclaw memory stats         # Speicherstatistiken
 
 # Auth-Profile
-zeroclaw auth login --provider <name>
-zeroclaw auth status
-zeroclaw auth use --provider <name> --profile <profile>
+androidclaw auth login --provider <name>
+androidclaw auth status
+androidclaw auth use --provider <name> --profile <profile>
 
 # Hardware-Peripherie
-zeroclaw hardware discover    # Angeschlossene Geräte scannen
-zeroclaw peripheral list      # Angeschlossene Peripherie auflisten
-zeroclaw peripheral flash     # Firmware auf Gerät flashen
+androidclaw hardware discover    # Angeschlossene Geräte scannen
+androidclaw peripheral list      # Angeschlossene Peripherie auflisten
+androidclaw peripheral flash     # Firmware auf Gerät flashen
 
 # Migration
-zeroclaw migrate openclaw --dry-run
-zeroclaw migrate openclaw
+androidclaw migrate openclaw --dry-run
+androidclaw migrate openclaw
 
 # Shell-Vervollständigung
 source <(zeroclaw completions bash)
@@ -567,7 +567,7 @@ Vollständige Befehlsreferenz: [docs/reference/cli/commands-reference.md](docs/r
 
 #### Ein-Zeilen-Installer
 
-Oder überspringe die obigen Schritte und installiere alles (Systemabhängigkeiten, Rust, ZeroClaw) mit einem einzigen Befehl:
+Oder überspringe die obigen Schritte und installiere alles (Systemabhängigkeiten, Rust, AndroidClaw) mit einem einzigen Befehl:
 
 ```bash
 curl -LsSf https://raw.githubusercontent.com/zeroclaw-labs/zeroclaw/master/install.sh | bash
@@ -623,7 +623,7 @@ Verwende diese Ressourcen, wenn du den Onboarding-Prozess abgeschlossen hast und
 - Lies die [Architekturübersicht](docs/architecture.md) für das vollständige Systemmodell.
 - Verwende die [Konfigurationsreferenz](docs/reference/api/config-reference.md), wenn du jede Einstellung und jedes Beispiel brauchst.
 - Betreibe das Gateway nach Buch mit dem [Betriebs-Runbook](docs/ops/operations-runbook.md).
-- Folge [ZeroClaw Onboard](#schnellstart) für eine geführte Einrichtung.
+- Folge [AndroidClaw Onboard](#schnellstart) für eine geführte Einrichtung.
 - Behebe häufige Fehler mit der [Fehlerbehebungsanleitung](docs/ops/troubleshooting.md).
 - Überprüfe die [Sicherheitshinweise](docs/security/README.md), bevor du etwas exponierst.
 
@@ -655,16 +655,16 @@ Verwende diese Ressourcen, wenn du den Onboarding-Prozess abgeschlossen hast und
 
 ## Smooth Crab 🦀
 
-ZeroClaw wurde für den glatten Krebs 🦀 gebaut, einen schnellen und effizienten KI-Assistenten. Entwickelt von Argenis De La Rosa und der Community.
+AndroidClaw wurde für den glatten Krebs 🦀 gebaut, einen schnellen und effizienten KI-Assistenten. Entwickelt von Argenis De La Rosa und der Community.
 
-- [zeroclawlabs.ai](https://zeroclawlabs.ai)
-- [@zeroclawlabs](https://x.com/zeroclawlabs)
+- [](https://)
+- [](https://x.com/zeroclawlabs)
 
-## ZeroClaw unterstützen
+## AndroidClaw unterstützen
 
-Wenn ZeroClaw bei deiner Arbeit hilft und du die laufende Entwicklung unterstützen möchtest, kannst du hier spenden:
+Wenn AndroidClaw bei deiner Arbeit hilft und du die laufende Entwicklung unterstützen möchtest, kannst du hier spenden:
 
-<a href="https://buymeacoffee.com/argenistherose"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=for-the-badge&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
+<a href="https://buymeacoffee.com/joseluisgom"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=for-the-badge&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
 
 ### 🙏 Besonderer Dank
 
@@ -679,7 +679,7 @@ Wir bauen offen, weil die besten Ideen von überall kommen. Wenn du das hier lie
 
 ## Beitragen
 
-Neu bei ZeroClaw? Suche nach Issues mit dem Label [`good first issue`](https://github.com/darkansem12-rgb/zeroclaw-android/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) — siehe unseren [Beitragsleitfaden](CONTRIBUTING.md#first-time-contributors) für den Einstieg. KI-/Vibe-coded PRs willkommen! 🤖
+Neu bei AndroidClaw? Suche nach Issues mit dem Label [`good first issue`](https://github.com/darkansem12-rgb/zeroclaw-android/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) — siehe unseren [Beitragsleitfaden](CONTRIBUTING.md#first-time-contributors) für den Einstieg. KI-/Vibe-coded PRs willkommen! 🤖
 
 Siehe [CONTRIBUTING.md](CONTRIBUTING.md) und [CLA.md](docs/contributing/cla.md). Implementiere einen Trait, reiche einen PR ein:
 
@@ -691,18 +691,18 @@ Siehe [CONTRIBUTING.md](CONTRIBUTING.md) und [CLA.md](docs/contributing/cla.md).
 - Neuer `Memory` → `src/memory/`
 - Neuer `Tunnel` → `src/tunnel/`
 - Neues `Peripheral` → `src/peripherals/`
-- Neuer `Skill` → `~/.zeroclaw/workspace/skills/<name>/`
+- Neuer `Skill` → `~/.androidclaw/workspace/skills/<name>/`
 
 <!-- BEGIN:RECENT_CONTRIBUTORS -->
 <!-- END:RECENT_CONTRIBUTORS -->
 
 ## ⚠️ Offizielles Repository & Warnung vor Identitätsdiebstahl
 
-**Dies ist das einzige offizielle ZeroClaw-Repository:**
+**Dies ist das einzige offizielle AndroidClaw-Repository:**
 
 > https://github.com/darkansem12-rgb/zeroclaw-android
 
-Jedes andere Repository, jede Organisation, Domain oder jedes Paket, das behauptet, "ZeroClaw" zu sein oder eine Zugehörigkeit zu ZeroClaw Labs impliziert, ist **nicht autorisiert und nicht mit diesem Projekt verbunden**. Bekannte nicht autorisierte Forks werden in [TRADEMARK.md](docs/maintainers/trademark.md) aufgelistet.
+Jedes andere Repository, jede Organisation, Domain oder jedes Paket, das behauptet, "AndroidClaw" zu sein oder eine Zugehörigkeit zu AndroidClaw Labs impliziert, ist **nicht autorisiert und nicht mit diesem Projekt verbunden**. Bekannte nicht autorisierte Forks werden in [TRADEMARK.md](docs/maintainers/trademark.md) aufgelistet.
 
 Wenn du auf Identitätsdiebstahl oder Markenrechtsmissbrauch stößt, [eröffne bitte ein Issue](https://github.com/darkansem12-rgb/zeroclaw-android/issues).
 
@@ -710,7 +710,7 @@ Wenn du auf Identitätsdiebstahl oder Markenrechtsmissbrauch stößt, [eröffne 
 
 ## Lizenz
 
-ZeroClaw ist doppelt lizenziert für maximale Offenheit und Schutz der Mitwirkenden:
+AndroidClaw ist doppelt lizenziert für maximale Offenheit und Schutz der Mitwirkenden:
 
 | Lizenz | Anwendungsfall |
 |---|---|
@@ -721,7 +721,7 @@ Du kannst eine der beiden Lizenzen wählen. **Mitwirkende gewähren automatisch 
 
 ### Markenrecht
 
-Der **ZeroClaw**-Name und das Logo sind Marken von ZeroClaw Labs. Diese Lizenz gewährt keine Erlaubnis, sie zu verwenden, um Unterstützung oder Zugehörigkeit zu implizieren. Siehe [TRADEMARK.md](docs/maintainers/trademark.md) für erlaubte und verbotene Verwendungen.
+Der **AndroidClaw**-Name und das Logo sind Marken von AndroidClaw Labs. Diese Lizenz gewährt keine Erlaubnis, sie zu verwenden, um Unterstützung oder Zugehörigkeit zu implizieren. Siehe [TRADEMARK.md](docs/maintainers/trademark.md) für erlaubte und verbotene Verwendungen.
 
 ### Schutz für Mitwirkende
 
@@ -732,12 +732,12 @@ Der **ZeroClaw**-Name und das Logo sind Marken von ZeroClaw Labs. Diese Lizenz g
 
 ---
 
-**ZeroClaw** — Null Overhead. Null Kompromisse. Überall bereitstellen. Alles austauschen. 🦀
+**AndroidClaw** — Null Overhead. Null Kompromisse. Überall bereitstellen. Alles austauschen. 🦀
 
 ## Mitwirkende
 
 <a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=zeroclaw-labs/zeroclaw" alt="ZeroClaw contributors" />
+  <img src="https://contrib.rocks/image?repo=darkansem12-rgb/zeroclaw-android" alt="AndroidClaw contributors" />
 </a>
 
 Diese Liste wird aus dem GitHub-Mitwirkendengraph generiert und aktualisiert sich automatisch.
@@ -747,9 +747,9 @@ Diese Liste wird aus dem GitHub-Mitwirkendengraph generiert und aktualisiert sic
 <p align="center">
   <a href="https://www.star-history.com/#zeroclaw-labs/zeroclaw&type=date&legend=top-left">
     <picture>
-     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=zeroclaw-labs/zeroclaw&type=date&theme=dark&legend=top-left" />
-     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=zeroclaw-labs/zeroclaw&type=date&legend=top-left" />
-     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=zeroclaw-labs/zeroclaw&type=date&legend=top-left" />
+     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=darkansem12-rgb/zeroclaw-android&type=date&theme=dark&legend=top-left" />
+     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=darkansem12-rgb/zeroclaw-android&type=date&legend=top-left" />
+     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=darkansem12-rgb/zeroclaw-android&type=date&legend=top-left" />
     </picture>
   </a>
 </p>

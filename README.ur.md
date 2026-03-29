@@ -12,14 +12,14 @@
 <p align="center">
   <a href="LICENSE-APACHE"><img src="https://img.shields.io/badge/license-MIT%20OR%20Apache%202.0-blue.svg" alt="License: MIT OR Apache-2.0" /></a>
   <a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors"><img src="https://img.shields.io/github/contributors/zeroclaw-labs/zeroclaw?color=green" alt="Contributors" /></a>
-  <a href="https://buymeacoffee.com/argenistherose"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=flat&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
-  <a href="https://x.com/zeroclawlabs?s=21"><img src="https://img.shields.io/badge/X-%40zeroclawlabs-000000?style=flat&logo=x&logoColor=white" alt="X: @zeroclawlabs" /></a>
-  <a href="https://www.facebook.com/groups/zeroclawlabs"><img src="https://img.shields.io/badge/Facebook-Group-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook Group" /></a>
+  <a href="https://buymeacoffee.com/joseluisgom"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=flat&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
+  <a href=""><img src="https://img.shields.io/badge/X-%40zeroclawlabs-000000?style=flat&logo=x&logoColor=white" alt="X: " /></a>
+  <a href=""><img src="https://img.shields.io/badge/Facebook-Group-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook Group" /></a>
   <a href="https://discord.com/invite/wDshRVqRjx"><img src="https://img.shields.io/badge/Discord-Join-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://www.instagram.com/therealzeroclaw"><img src="https://img.shields.io/badge/Instagram-%40therealzeroclaw-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram: @therealzeroclaw" /></a>
-  <a href="https://www.tiktok.com/@zeroclawlabs"><img src="https://img.shields.io/badge/TikTok-%40zeroclawlabs-000000?style=flat&logo=tiktok&logoColor=white" alt="TikTok: @zeroclawlabs" /></a>
-  <a href="https://www.rednote.com/user/profile/69b735e6000000002603927e"><img src="https://img.shields.io/badge/RedNote-Official-FF2442?style=flat" alt="RedNote" /></a>
-  <a href="https://www.reddit.com/r/zeroclawlabs/"><img src="https://img.shields.io/badge/Reddit-r%2Fzeroclawlabs-FF4500?style=flat&logo=reddit&logoColor=white" alt="Reddit: r/zeroclawlabs" /></a>
+  <a href=""><img src="https://img.shields.io/badge/Instagram-%40therealzeroclaw-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram: @therealzeroclaw" /></a>
+  <a href="https://www.tiktok.com/"><img src="https://img.shields.io/badge/TikTok-%40zeroclawlabs-000000?style=flat&logo=tiktok&logoColor=white" alt="TikTok: " /></a>
+  <a href=""><img src="https://img.shields.io/badge/RedNote-Official-FF2442?style=flat" alt="RedNote" /></a>
+  <a href=""><img src="https://img.shields.io/badge/Reddit-r%2Fzeroclawlabs-FF4500?style=flat&logo=reddit&logoColor=white" alt="Reddit: r/zeroclawlabs" /></a>
 </p>
 
 <p align="center">
@@ -66,7 +66,7 @@ ZeroClaw ایک ذاتی AI اسسٹنٹ ہے جسے آپ اپنے آلات پر
 اگر آپ ایک ذاتی، واحد صارف اسسٹنٹ چاہتے ہیں جو مقامی، تیز، اور ہمیشہ فعال محسوس ہو، تو یہ ہے۔
 
 <p align="center">
-  <a href="https://zeroclawlabs.ai">ویب سائٹ</a> ·
+  <a href="https://">ویب سائٹ</a> ·
   <a href="docs/README.md">دستاویزات</a> ·
   <a href="docs/architecture.md">آرکیٹیکچر</a> ·
   <a href="#فوری-آغاز">شروع کریں</a> ·
@@ -95,14 +95,14 @@ Auth پروفائل روٹیشن (OAuth بمقابلہ API keys) + failover: [Mo
 ### Homebrew (macOS/Linuxbrew)
 
 ```bash
-brew install zeroclaw
+echo "# Use Termux on Android"
 ```
 
 ### ایک کلک بوٹسٹریپ
 
 ```bash
 git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
-cd zeroclaw
+cd zeroclaw-android
 ./install.sh
 ```
 
@@ -142,7 +142,7 @@ zeroclaw doctor
 
 ```bash
 git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
-cd zeroclaw
+cd zeroclaw-android
 
 cargo build --release --locked
 cargo install --path . --force --locked
@@ -199,7 +199,7 @@ ZeroClaw حقیقی پیغام رسانی سطحوں سے جڑتا ہے۔ آنے
 | تاریخ (UTC) | سطح       | نوٹس                                                                                                                                                                                                                                                                                                                                                 | عمل                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 2026-02-19 | _اہم ترین_  | ہم `openagen/zeroclaw`، `zeroclaw.org` یا `zeroclaw.net` سے **وابستہ نہیں** ہیں۔ `zeroclaw.org` اور `zeroclaw.net` ڈومینز فی الحال `openagen/zeroclaw` فورک کی طرف اشارہ کرتے ہیں، اور وہ ڈومین/ریپوزٹری ہماری سرکاری ویب سائٹ/پروجیکٹ کی نقل کر رہے ہیں۔                                                                                       | ان ذرائع سے معلومات، بائنریز، فنڈ ریزنگ، یا اعلانات پر بھروسہ نہ کریں۔ صرف [یہ ریپوزٹری](https://github.com/darkansem12-rgb/zeroclaw-android) اور ہمارے تصدیق شدہ سوشل اکاؤنٹس استعمال کریں۔                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| 2026-02-21 | _اہم_ | ہماری سرکاری ویب سائٹ اب فعال ہے: [zeroclawlabs.ai](https://zeroclawlabs.ai)۔ لانچ کی تیاری کے دوران آپ کے صبر کا شکریہ۔ ہم اب بھی نقل کی کوششیں دیکھ رہے ہیں، لہذا ZeroClaw نام کا دعویٰ کرنے والی کسی بھی سرمایہ کاری یا فنڈ ریزنگ سرگرمی میں **شامل نہ ہوں** جب تک کہ یہ ہمارے سرکاری چینلز کے ذریعے شائع نہ ہو۔                            | [یہ ریپوزٹری](https://github.com/darkansem12-rgb/zeroclaw-android) کو واحد سچائی کا ذریعہ استعمال کریں۔ سرکاری اپ ڈیٹس کے لیے [X (@zeroclawlabs)](https://x.com/zeroclawlabs?s=21)، [Facebook (Group)](https://www.facebook.com/groups/zeroclawlabs)، اور [Reddit (r/zeroclawlabs)](https://www.reddit.com/r/zeroclawlabs/) فالو کریں۔ |
+| 2026-02-21 | _اہم_ | ہماری سرکاری ویب سائٹ اب فعال ہے: [](https://)۔ لانچ کی تیاری کے دوران آپ کے صبر کا شکریہ۔ ہم اب بھی نقل کی کوششیں دیکھ رہے ہیں، لہذا ZeroClaw نام کا دعویٰ کرنے والی کسی بھی سرمایہ کاری یا فنڈ ریزنگ سرگرمی میں **شامل نہ ہوں** جب تک کہ یہ ہمارے سرکاری چینلز کے ذریعے شائع نہ ہو۔                            | [یہ ریپوزٹری](https://github.com/darkansem12-rgb/zeroclaw-android) کو واحد سچائی کا ذریعہ استعمال کریں۔ سرکاری اپ ڈیٹس کے لیے [X ()]()، [Facebook (Group)]()، اور [Reddit (r/zeroclawlabs)]() فالو کریں۔ |
 | 2026-02-19 | _اہم_ | Anthropic نے 2026-02-19 کو تصدیق اور اسناد کے استعمال کی شرائط اپ ڈیٹ کیں۔ Claude Code OAuth ٹوکنز (Free، Pro، Max) خصوصی طور پر Claude Code اور Claude.ai کے لیے ہیں؛ Claude Free/Pro/Max سے OAuth ٹوکنز کسی اور پروڈکٹ، ٹول، یا سروس (بشمول Agent SDK) میں استعمال کرنا اجازت یافتہ نہیں ہے اور صارف سروس کی شرائط کی خلاف ورزی ہو سکتی ہے۔ | براہ کرم ممکنہ نقصان سے بچنے کے لیے عارضی طور پر Claude Code OAuth انٹیگریشنز سے گریز کریں۔ اصل شق: [Authentication and Credential Use](https://code.claude.com/docs/en/legal-and-compliance#authentication-and-credential-use)۔                                                                                                                                                                                                                                                                                                                                                                                    |
 
 ## خصوصیات
@@ -657,14 +657,14 @@ curl -LsSf https://raw.githubusercontent.com/zeroclaw-labs/zeroclaw/master/insta
 
 ZeroClaw smooth crab 🦀 کے لیے بنایا گیا تھا، ایک تیز اور مؤثر AI اسسٹنٹ۔ Argenis De La Rosa اور کمیونٹی نے بنایا۔
 
-- [zeroclawlabs.ai](https://zeroclawlabs.ai)
-- [@zeroclawlabs](https://x.com/zeroclawlabs)
+- [](https://)
+- [](https://x.com/zeroclawlabs)
 
 ## ZeroClaw کی حمایت کریں
 
 اگر ZeroClaw آپ کے کام میں مدد کرتا ہے اور آپ جاری ترقی کی حمایت کرنا چاہتے ہیں، تو آپ یہاں عطیہ دے سکتے ہیں:
 
-<a href="https://buymeacoffee.com/argenistherose"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=for-the-badge&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
+<a href="https://buymeacoffee.com/joseluisgom"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=for-the-badge&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
 
 ### 🙏 خصوصی شکریہ
 
@@ -737,7 +737,7 @@ ZeroClaw زیادہ سے زیادہ کشادگی اور شراکت دار تحف
 ## شراکت دار
 
 <a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=zeroclaw-labs/zeroclaw" alt="ZeroClaw contributors" />
+  <img src="https://contrib.rocks/image?repo=darkansem12-rgb/zeroclaw-android" alt="ZeroClaw contributors" />
 </a>
 
 یہ فہرست GitHub شراکت داروں کے گراف سے بنائی گئی ہے اور خود بخود اپ ڈیٹ ہوتی ہے۔
@@ -747,9 +747,9 @@ ZeroClaw زیادہ سے زیادہ کشادگی اور شراکت دار تحف
 <p align="center">
   <a href="https://www.star-history.com/#zeroclaw-labs/zeroclaw&type=date&legend=top-left">
     <picture>
-     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=zeroclaw-labs/zeroclaw&type=date&theme=dark&legend=top-left" />
-     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=zeroclaw-labs/zeroclaw&type=date&legend=top-left" />
-     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=zeroclaw-labs/zeroclaw&type=date&legend=top-left" />
+     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=darkansem12-rgb/zeroclaw-android&type=date&theme=dark&legend=top-left" />
+     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=darkansem12-rgb/zeroclaw-android&type=date&legend=top-left" />
+     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=darkansem12-rgb/zeroclaw-android&type=date&legend=top-left" />
     </picture>
   </a>
 </p>

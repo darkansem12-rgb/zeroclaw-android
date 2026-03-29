@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/darkansem12-rgb/zeroclaw-android/main/docs/assets/androidclaw-banner.svg" alt="ZeroClaw" width="600" />
+  <img src="docs/assets/androidclaw-banner.png" alt="AndroidClaw" width="600" />
 </p>
 
-<h1 align="center">🦀 ZeroClaw — Asisten AI Pribadi</h1>
+<h1 align="center">🦀 AndroidClaw — Asisten AI Pribadi</h1>
 
 <p align="center">
   <strong>Nol overhead. Nol kompromi. 100% Rust. 100% Agnostik.</strong><br>
@@ -11,15 +11,15 @@
 
 <p align="center">
   <a href="LICENSE-APACHE"><img src="https://img.shields.io/badge/license-MIT%20OR%20Apache%202.0-blue.svg" alt="License: MIT OR Apache-2.0" /></a>
-  <a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors"><img src="https://img.shields.io/github/contributors/zeroclaw-labs/zeroclaw?color=green" alt="Contributors" /></a>
-  <a href="https://buymeacoffee.com/argenistherose"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=flat&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
-  <a href="https://x.com/zeroclawlabs?s=21"><img src="https://img.shields.io/badge/X-%40zeroclawlabs-000000?style=flat&logo=x&logoColor=white" alt="X: @zeroclawlabs" /></a>
-  <a href="https://www.facebook.com/groups/zeroclawlabs"><img src="https://img.shields.io/badge/Facebook-Group-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook Group" /></a>
+  <a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors"><img src="https://img.shields.io/github/contributors/darkansem12-rgb/zeroclaw-android?color=green" alt="Contributors" /></a>
+  <a href="https://buymeacoffee.com/joseluisgom"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=flat&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
+  <a href=""><img src="https://img.shields.io/badge/X-%40zeroclawlabs-000000?style=flat&logo=x&logoColor=white" alt="X: " /></a>
+  <a href=""><img src="https://img.shields.io/badge/Facebook-Group-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook Group" /></a>
   <a href="https://discord.com/invite/wDshRVqRjx"><img src="https://img.shields.io/badge/Discord-Join-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://www.instagram.com/therealzeroclaw"><img src="https://img.shields.io/badge/Instagram-%40therealzeroclaw-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram: @therealzeroclaw" /></a>
-  <a href="https://www.tiktok.com/@zeroclawlabs"><img src="https://img.shields.io/badge/TikTok-%40zeroclawlabs-000000?style=flat&logo=tiktok&logoColor=white" alt="TikTok: @zeroclawlabs" /></a>
-  <a href="https://www.rednote.com/user/profile/69b735e6000000002603927e"><img src="https://img.shields.io/badge/RedNote-Official-FF2442?style=flat" alt="RedNote" /></a>
-  <a href="https://www.reddit.com/r/zeroclawlabs/"><img src="https://img.shields.io/badge/Reddit-r%2Fzeroclawlabs-FF4500?style=flat&logo=reddit&logoColor=white" alt="Reddit: r/zeroclawlabs" /></a>
+  <a href=""><img src="https://img.shields.io/badge/Instagram-%40therealzeroclaw-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram: @therealzeroclaw" /></a>
+  <a href="https://www.tiktok.com/"><img src="https://img.shields.io/badge/TikTok-%40zeroclawlabs-000000?style=flat&logo=tiktok&logoColor=white" alt="TikTok: " /></a>
+  <a href=""><img src="https://img.shields.io/badge/RedNote-Official-FF2442?style=flat" alt="RedNote" /></a>
+  <a href=""><img src="https://img.shields.io/badge/Reddit-r%2Fzeroclawlabs-FF4500?style=flat&logo=reddit&logoColor=white" alt="Reddit: r/zeroclawlabs" /></a>
 </p>
 
 <p align="center">
@@ -61,12 +61,12 @@ Dibangun oleh mahasiswa dan anggota komunitas Harvard, MIT, dan Sundai.Club.
   <a href="README.nb.md">🇳🇴 Norsk</a>
 </p>
 
-ZeroClaw adalah asisten AI pribadi yang Anda jalankan di perangkat sendiri. Ia menjawab Anda melalui saluran yang sudah Anda gunakan (WhatsApp, Telegram, Slack, Discord, Signal, iMessage, Matrix, IRC, Email, Bluesky, Nostr, Mattermost, Nextcloud Talk, DingTalk, Lark, QQ, Reddit, LinkedIn, Twitter, MQTT, WeChat Work, dan lainnya). Ia memiliki dasbor web untuk kontrol real-time dan dapat terhubung ke periferal perangkat keras (ESP32, STM32, Arduino, Raspberry Pi). Gateway hanyalah bidang kendali — produknya adalah asisten.
+AndroidClaw adalah asisten AI pribadi yang Anda jalankan di perangkat sendiri. Ia menjawab Anda melalui saluran yang sudah Anda gunakan (WhatsApp, Telegram, Slack, Discord, Signal, iMessage, Matrix, IRC, Email, Bluesky, Nostr, Mattermost, Nextcloud Talk, DingTalk, Lark, QQ, Reddit, LinkedIn, Twitter, MQTT, WeChat Work, dan lainnya). Ia memiliki dasbor web untuk kontrol real-time dan dapat terhubung ke periferal perangkat keras (ESP32, STM32, Arduino, Raspberry Pi). Gateway hanyalah bidang kendali — produknya adalah asisten.
 
 Jika Anda menginginkan asisten pribadi, pengguna tunggal, yang terasa lokal, cepat, dan selalu aktif, inilah solusinya.
 
 <p align="center">
-  <a href="https://zeroclawlabs.ai">Situs Web</a> ·
+  <a href="https://">Situs Web</a> ·
   <a href="docs/README.md">Dokumentasi</a> ·
   <a href="docs/architecture.md">Arsitektur</a> ·
   <a href="#mulai-cepat">Memulai</a> ·
@@ -75,7 +75,7 @@ Jika Anda menginginkan asisten pribadi, pengguna tunggal, yang terasa lokal, cep
   <a href="https://discord.com/invite/wDshRVqRjx">Discord</a>
 </p>
 
-> **Pengaturan yang disarankan:** jalankan `androidclaw onboard` di terminal Anda. ZeroClaw Onboard memandu Anda langkah demi langkah dalam menyiapkan gateway, workspace, saluran, dan provider. Ini adalah jalur pengaturan yang disarankan dan berfungsi di macOS, Linux, dan Windows (melalui WSL2). Instalasi baru? Mulai di sini: [Memulai](#mulai-cepat)
+> **Pengaturan yang disarankan:** jalankan `androidclaw onboard` di terminal Anda. AndroidClaw Onboard memandu Anda langkah demi langkah dalam menyiapkan gateway, workspace, saluran, dan provider. Ini adalah jalur pengaturan yang disarankan dan berfungsi di macOS, Linux, dan Windows (melalui WSL2). Instalasi baru? Mulai di sini: [Memulai](#mulai-cepat)
 
 ### Autentikasi Berlangganan (OAuth)
 
@@ -95,14 +95,14 @@ Runtime: Rust stable toolchain. Biner tunggal, tanpa dependensi runtime.
 ### Homebrew (macOS/Linuxbrew)
 
 ```bash
-brew install zeroclaw
+echo "# Use Termux on Android"
 ```
 
 ### Bootstrap sekali klik
 
 ```bash
 git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
-cd zeroclaw
+cd zeroclaw-android
 ./install.sh
 ```
 
@@ -117,32 +117,32 @@ Panduan lengkap pemula (autentikasi, pairing, saluran): [Memulai](docs/setup-gui
 ./install.sh --api-key "sk-..." --provider openrouter
 
 # Mulai gateway (server webhook + dasbor web)
-zeroclaw gateway                # default: 127.0.0.1:42617
-zeroclaw gateway --port 0       # port acak (keamanan ditingkatkan)
+androidclaw gateway                # default: 127.0.0.1:42617
+androidclaw gateway --port 0       # port acak (keamanan ditingkatkan)
 
 # Bicara ke asisten
-zeroclaw agent -m "Hello, ZeroClaw!"
+androidclaw agent -m "Hello, AndroidClaw!"
 
 # Mode interaktif
-zeroclaw agent
+androidclaw agent
 
 # Mulai runtime otonom penuh (gateway + saluran + cron + hands)
-zeroclaw daemon
+androidclaw daemon
 
 # Periksa status
-zeroclaw status
+androidclaw status
 
 # Jalankan diagnostik
-zeroclaw doctor
+androidclaw doctor
 ```
 
-Memperbarui? Jalankan `zeroclaw doctor` setelah pembaruan.
+Memperbarui? Jalankan `androidclaw doctor` setelah pembaruan.
 
 ### Dari sumber (pengembangan)
 
 ```bash
 git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
-cd zeroclaw
+cd zeroclaw-android
 
 cargo build --release --locked
 cargo install --path . --force --locked
@@ -154,21 +154,21 @@ androidclaw onboard
 
 ## Migrasi dari OpenClaw
 
-ZeroClaw dapat mengimpor workspace, memori, dan konfigurasi OpenClaw Anda:
+AndroidClaw dapat mengimpor workspace, memori, dan konfigurasi OpenClaw Anda:
 
 ```bash
 # Pratinjau apa yang akan dimigrasikan (aman, hanya-baca)
-zeroclaw migrate openclaw --dry-run
+androidclaw migrate openclaw --dry-run
 
 # Jalankan migrasi
-zeroclaw migrate openclaw
+androidclaw migrate openclaw
 ```
 
-Ini memigrasikan entri memori, file workspace, dan konfigurasi Anda dari `~/.openclaw/` ke `~/.zeroclaw/`. Konfigurasi dikonversi dari JSON ke TOML secara otomatis.
+Ini memigrasikan entri memori, file workspace, dan konfigurasi Anda dari `~/.openclaw/` ke `~/.androidclaw/`. Konfigurasi dikonversi dari JSON ke TOML secara otomatis.
 
 ## Default keamanan (akses DM)
 
-ZeroClaw terhubung ke permukaan pesan nyata. Perlakukan DM masuk sebagai input tidak tepercaya.
+AndroidClaw terhubung ke permukaan pesan nyata. Perlakukan DM masuk sebagai input tidak tepercaya.
 
 Panduan keamanan lengkap: [SECURITY.md](SECURITY.md)
 
@@ -177,7 +177,7 @@ Perilaku default di semua saluran:
 - **Pairing DM** (default): pengirim yang tidak dikenal menerima kode pairing singkat dan bot tidak memproses pesan mereka.
 - Setujui dengan: `zeroclaw pairing approve <channel> <code>` (kemudian pengirim ditambahkan ke daftar izin lokal).
 - DM masuk publik memerlukan opt-in eksplisit di `config.toml`.
-- Jalankan `zeroclaw doctor` untuk menemukan kebijakan DM yang berisiko atau salah konfigurasi.
+- Jalankan `androidclaw doctor` untuk menemukan kebijakan DM yang berisiko atau salah konfigurasi.
 
 **Level otonomi:**
 
@@ -199,7 +199,7 @@ Gunakan papan ini untuk pemberitahuan penting (perubahan yang merusak, saran kea
 | Tanggal (UTC) | Level       | Pemberitahuan                                                                                                                                                                                                                                                                                                                                                 | Tindakan                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 2026-02-19 | _Kritis_  | Kami **tidak berafiliasi** dengan `openagen/zeroclaw`, `zeroclaw.org` atau `zeroclaw.net`. Domain `zeroclaw.org` dan `zeroclaw.net` saat ini mengarah ke fork `openagen/zeroclaw`, dan domain/repositori tersebut menyamar sebagai situs web/proyek resmi kami.                                                                                       | Jangan percaya informasi, biner, penggalangan dana, atau pengumuman dari sumber tersebut. Gunakan hanya [repositori ini](https://github.com/darkansem12-rgb/zeroclaw-android) dan akun sosial terverifikasi kami.                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| 2026-02-21 | _Penting_ | Situs web resmi kami sekarang aktif: [zeroclawlabs.ai](https://zeroclawlabs.ai). Terima kasih atas kesabaran Anda selama kami mempersiapkan peluncuran. Kami masih melihat upaya peniruan, jadi **jangan** bergabung dengan aktivitas investasi atau penggalangan dana yang mengklaim nama ZeroClaw kecuali dipublikasikan melalui saluran resmi kami.                            | Gunakan [repositori ini](https://github.com/darkansem12-rgb/zeroclaw-android) sebagai satu-satunya sumber kebenaran. Ikuti [X (@zeroclawlabs)](https://x.com/zeroclawlabs?s=21), [Facebook (Group)](https://www.facebook.com/groups/zeroclawlabs), dan [Reddit (r/zeroclawlabs)](https://www.reddit.com/r/zeroclawlabs/) untuk pembaruan resmi. |
+| 2026-02-21 | _Penting_ | Situs web resmi kami sekarang aktif: [](https://). Terima kasih atas kesabaran Anda selama kami mempersiapkan peluncuran. Kami masih melihat upaya peniruan, jadi **jangan** bergabung dengan aktivitas investasi atau penggalangan dana yang mengklaim nama AndroidClaw kecuali dipublikasikan melalui saluran resmi kami.                            | Gunakan [repositori ini](https://github.com/darkansem12-rgb/zeroclaw-android) sebagai satu-satunya sumber kebenaran. Ikuti [X ()](), [Facebook (Group)](), dan [Reddit (r/zeroclawlabs)]() untuk pembaruan resmi. |
 | 2026-02-19 | _Penting_ | Anthropic memperbarui ketentuan Autentikasi dan Penggunaan Kredensial pada 2026-02-19. Token OAuth Claude Code (Free, Pro, Max) ditujukan secara eksklusif untuk Claude Code dan Claude.ai; menggunakan token OAuth dari Claude Free/Pro/Max di produk, alat, atau layanan lain (termasuk Agent SDK) tidak diizinkan dan dapat melanggar Ketentuan Layanan Konsumen. | Harap sementara hindari integrasi OAuth Claude Code untuk mencegah potensi kerugian. Klausul asli: [Authentication and Credential Use](https://code.claude.com/docs/en/legal-and-compliance#authentication-and-credential-use).                                                                                                                                                                                                                                                                                                                                                                                    |
 
 ## Sorotan
@@ -219,18 +219,18 @@ Gunakan papan ini untuk pemberitahuan penting (perubahan yang merusak, saran kea
 - **Platform skill** — skill bawaan, komunitas, dan workspace dengan audit keamanan.
 - **Dukungan tunnel** — Cloudflare, Tailscale, ngrok, OpenVPN, dan tunnel kustom untuk akses jarak jauh.
 
-### Mengapa tim memilih ZeroClaw
+### Mengapa tim memilih AndroidClaw
 
 - **Ringan secara default:** biner Rust kecil, startup cepat, jejak memori rendah.
 - **Aman secara desain:** pairing, sandboxing ketat, daftar izin eksplisit, pelingkupan workspace.
 - **Sepenuhnya dapat ditukar:** sistem inti adalah trait (provider, saluran, alat, memori, tunnel).
 - **Tanpa lock-in:** dukungan provider kompatibel OpenAI + endpoint kustom pluggable.
 
-## Cuplikan Benchmark (ZeroClaw vs OpenClaw, Dapat Direproduksi)
+## Cuplikan Benchmark (AndroidClaw vs OpenClaw, Dapat Direproduksi)
 
 Benchmark cepat mesin lokal (macOS arm64, Feb 2026) dinormalisasi untuk perangkat keras edge 0.8GHz.
 
-|                           | OpenClaw      | NanoBot        | PicoClaw        | ZeroClaw 🦀          |
+|                           | OpenClaw      | NanoBot        | PicoClaw        | AndroidClaw 🦀          |
 | ------------------------- | ------------- | -------------- | --------------- | -------------------- |
 | **Bahasa**                | TypeScript    | Python         | Go              | **Rust**             |
 | **RAM**                   | > 1GB         | > 100MB        | < 10MB          | **< 5MB**            |
@@ -238,10 +238,10 @@ Benchmark cepat mesin lokal (macOS arm64, Feb 2026) dinormalisasi untuk perangka
 | **Ukuran Biner**          | ~28MB (dist)  | N/A (Scripts)  | ~8MB            | **~8.8 MB**          |
 | **Biaya**                 | Mac Mini $599 | Linux SBC ~$50 | Linux Board $10 | **Perangkat keras apa pun $10** |
 
-> Catatan: Hasil ZeroClaw diukur pada build rilis menggunakan `/usr/bin/time -l`. OpenClaw memerlukan runtime Node.js (biasanya ~390MB overhead memori tambahan), sedangkan NanoBot memerlukan runtime Python. PicoClaw dan ZeroClaw adalah biner statis. Angka RAM di atas adalah memori runtime; kebutuhan kompilasi saat build lebih tinggi.
+> Catatan: Hasil AndroidClaw diukur pada build rilis menggunakan `/usr/bin/time -l`. OpenClaw memerlukan runtime Node.js (biasanya ~390MB overhead memori tambahan), sedangkan NanoBot memerlukan runtime Python. PicoClaw dan AndroidClaw adalah biner statis. Angka RAM di atas adalah memori runtime; kebutuhan kompilasi saat build lebih tinggi.
 
 <p align="center">
-  <img src="docs/assets/zeroclaw-comparison.jpeg" alt="ZeroClaw vs OpenClaw Comparison" width="800" />
+  <img src="docs/assets/zeroclaw-comparison.jpeg" alt="AndroidClaw vs OpenClaw Comparison" width="800" />
 </p>
 
 ### Pengukuran lokal yang dapat direproduksi
@@ -251,7 +251,7 @@ cargo build --release
 ls -lh target/release/zeroclaw
 
 /usr/bin/time -l target/release/zeroclaw --help
-/usr/bin/time -l target/release/zeroclaw status
+/usr/bin/time -l target/release/androidclaw status
 ```
 
 ## Semua yang telah kami bangun sejauh ini
@@ -327,7 +327,7 @@ Dasbor web React 19 + Vite 6 + Tailwind CSS 4 yang disajikan langsung dari Gatew
 
 ## Konfigurasi
 
-Minimal `~/.zeroclaw/config.toml`:
+Minimal `~/.androidclaw/config.toml`:
 
 ```toml
 default_provider = "anthropic"
@@ -395,35 +395,35 @@ Atur `runtime.kind = "docker"` untuk sandboxing ketat atau isolasi jaringan.
 
 ## Autentikasi Berlangganan (OpenAI Codex / Claude Code / Gemini)
 
-ZeroClaw mendukung profil autentikasi native berlangganan (multi-akun, terenkripsi saat istirahat).
+AndroidClaw mendukung profil autentikasi native berlangganan (multi-akun, terenkripsi saat istirahat).
 
-- File penyimpanan: `~/.zeroclaw/auth-profiles.json`
-- Kunci enkripsi: `~/.zeroclaw/.secret_key`
+- File penyimpanan: `~/.androidclaw/auth-profiles.json`
+- Kunci enkripsi: `~/.androidclaw/.secret_key`
 - Format id profil: `<provider>:<profile_name>` (contoh: `openai-codex:work`)
 
 ```bash
 # OpenAI Codex OAuth (langganan ChatGPT)
-zeroclaw auth login --provider openai-codex --device-code
+androidclaw auth login --provider openai-codex --device-code
 
 # Gemini OAuth
-zeroclaw auth login --provider gemini --profile default
+androidclaw auth login --provider gemini --profile default
 
 # Anthropic setup-token
-zeroclaw auth paste-token --provider anthropic --profile default --auth-kind authorization
+androidclaw auth paste-token --provider anthropic --profile default --auth-kind authorization
 
 # Periksa / refresh / ganti profil
-zeroclaw auth status
-zeroclaw auth refresh --provider openai-codex --profile default
-zeroclaw auth use --provider openai-codex --profile work
+androidclaw auth status
+androidclaw auth refresh --provider openai-codex --profile default
+androidclaw auth use --provider openai-codex --profile work
 
 # Jalankan agen dengan auth berlangganan
-zeroclaw agent --provider openai-codex -m "hello"
-zeroclaw agent --provider anthropic -m "hello"
+androidclaw agent --provider openai-codex -m "hello"
+androidclaw agent --provider anthropic -m "hello"
 ```
 
 ## Workspace agen + skill
 
-Root workspace: `~/.zeroclaw/workspace/` (dapat dikonfigurasi melalui config).
+Root workspace: `~/.androidclaw/workspace/` (dapat dikonfigurasi melalui config).
 
 File prompt yang diinjeksi:
 - `IDENTITY.md` — kepribadian dan peran agen
@@ -432,20 +432,20 @@ File prompt yang diinjeksi:
 - `AGENTS.md` — konvensi sesi dan aturan inisialisasi
 - `SOUL.md` — identitas inti dan prinsip operasi
 
-Skill: `~/.zeroclaw/workspace/skills/<skill>/SKILL.md` atau `SKILL.toml`.
+Skill: `~/.androidclaw/workspace/skills/<skill>/SKILL.md` atau `SKILL.toml`.
 
 ```bash
 # Daftar skill yang terinstal
-zeroclaw skills list
+androidclaw skills list
 
 # Instal dari git
-zeroclaw skills install https://github.com/user/my-skill.git
+androidclaw skills install https://github.com/user/my-skill.git
 
 # Audit keamanan sebelum instalasi
-zeroclaw skills audit https://github.com/user/my-skill.git
+androidclaw skills audit https://github.com/user/my-skill.git
 
 # Hapus skill
-zeroclaw skills remove my-skill
+androidclaw skills remove my-skill
 ```
 
 ## Perintah CLI
@@ -453,30 +453,30 @@ zeroclaw skills remove my-skill
 ```bash
 # Manajemen workspace
 androidclaw onboard              # Wizard pengaturan terpandu
-zeroclaw status               # Tampilkan status daemon/agen
-zeroclaw doctor               # Jalankan diagnostik sistem
+androidclaw status               # Tampilkan status daemon/agen
+androidclaw doctor               # Jalankan diagnostik sistem
 
 # Gateway + daemon
-zeroclaw gateway              # Mulai server gateway (127.0.0.1:42617)
-zeroclaw daemon               # Mulai runtime otonom penuh
+androidclaw gateway              # Mulai server gateway (127.0.0.1:42617)
+androidclaw daemon               # Mulai runtime otonom penuh
 
 # Agen
-zeroclaw agent                # Mode obrolan interaktif
-zeroclaw agent -m "message"   # Mode pesan tunggal
+androidclaw agent                # Mode obrolan interaktif
+androidclaw agent -m "message"   # Mode pesan tunggal
 
 # Manajemen layanan
 zeroclaw service install      # Instal sebagai layanan OS (launchd/systemd)
 zeroclaw service start|stop|restart|status
 
 # Saluran
-zeroclaw channel list         # Daftar saluran yang dikonfigurasi
-zeroclaw channel doctor       # Periksa kesehatan saluran
-zeroclaw channel bind-telegram 123456789
+androidclaw channel list         # Daftar saluran yang dikonfigurasi
+androidclaw channel doctor       # Periksa kesehatan saluran
+androidclaw channel bind-telegram 123456789
 
 # Cron + penjadwalan
-zeroclaw cron list            # Daftar tugas terjadwal
-zeroclaw cron add "*/5 * * * *" --prompt "Check system health"
-zeroclaw cron remove <id>
+androidclaw cron list            # Daftar tugas terjadwal
+androidclaw cron add "*/5 * * * *" --prompt "Check system health"
+androidclaw cron remove <id>
 
 # Memori
 zeroclaw memory list          # Daftar entri memori
@@ -484,18 +484,18 @@ zeroclaw memory get <key>     # Ambil memori
 zeroclaw memory stats         # Statistik memori
 
 # Profil autentikasi
-zeroclaw auth login --provider <name>
-zeroclaw auth status
-zeroclaw auth use --provider <name> --profile <profile>
+androidclaw auth login --provider <name>
+androidclaw auth status
+androidclaw auth use --provider <name> --profile <profile>
 
 # Periferal perangkat keras
-zeroclaw hardware discover    # Pindai perangkat yang terhubung
-zeroclaw peripheral list      # Daftar periferal yang terhubung
-zeroclaw peripheral flash     # Flash firmware ke perangkat
+androidclaw hardware discover    # Pindai perangkat yang terhubung
+androidclaw peripheral list      # Daftar periferal yang terhubung
+androidclaw peripheral flash     # Flash firmware ke perangkat
 
 # Migrasi
-zeroclaw migrate openclaw --dry-run
-zeroclaw migrate openclaw
+androidclaw migrate openclaw --dry-run
+androidclaw migrate openclaw
 
 # Pelengkapan shell
 source <(zeroclaw completions bash)
@@ -567,7 +567,7 @@ Referensi perintah lengkap: [docs/reference/cli/commands-reference.md](docs/refe
 
 #### Installer Satu Baris
 
-Atau lewati langkah di atas dan instal semuanya (dependensi sistem, Rust, ZeroClaw) dalam satu perintah:
+Atau lewati langkah di atas dan instal semuanya (dependensi sistem, Rust, AndroidClaw) dalam satu perintah:
 
 ```bash
 curl -LsSf https://raw.githubusercontent.com/zeroclaw-labs/zeroclaw/master/install.sh | bash
@@ -623,7 +623,7 @@ Gunakan ini ketika Anda sudah melewati alur onboarding dan menginginkan referens
 - Baca [ikhtisar arsitektur](docs/architecture.md) untuk model sistem lengkap.
 - Gunakan [referensi konfigurasi](docs/reference/api/config-reference.md) ketika Anda memerlukan setiap kunci dan contoh.
 - Jalankan Gateway sesuai buku dengan [runbook operasional](docs/ops/operations-runbook.md).
-- Ikuti [ZeroClaw Onboard](#mulai-cepat) untuk pengaturan terpandu.
+- Ikuti [AndroidClaw Onboard](#mulai-cepat) untuk pengaturan terpandu.
 - Debug kegagalan umum dengan [panduan pemecahan masalah](docs/ops/troubleshooting.md).
 - Tinjau [panduan keamanan](docs/security/README.md) sebelum mengekspos apa pun.
 
@@ -655,16 +655,16 @@ Gunakan ini ketika Anda sudah melewati alur onboarding dan menginginkan referens
 
 ## Smooth Crab 🦀
 
-ZeroClaw dibangun untuk smooth crab 🦀, asisten AI yang cepat dan efisien. Dibangun oleh Argenis De La Rosa dan komunitas.
+AndroidClaw dibangun untuk smooth crab 🦀, asisten AI yang cepat dan efisien. Dibangun oleh Argenis De La Rosa dan komunitas.
 
-- [zeroclawlabs.ai](https://zeroclawlabs.ai)
-- [@zeroclawlabs](https://x.com/zeroclawlabs)
+- [](https://)
+- [](https://x.com/zeroclawlabs)
 
-## Dukung ZeroClaw
+## Dukung AndroidClaw
 
-Jika ZeroClaw membantu pekerjaan Anda dan Anda ingin mendukung pengembangan berkelanjutan, Anda dapat berdonasi di sini:
+Jika AndroidClaw membantu pekerjaan Anda dan Anda ingin mendukung pengembangan berkelanjutan, Anda dapat berdonasi di sini:
 
-<a href="https://buymeacoffee.com/argenistherose"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=for-the-badge&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
+<a href="https://buymeacoffee.com/joseluisgom"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=for-the-badge&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
 
 ### 🙏 Terima Kasih Khusus
 
@@ -679,7 +679,7 @@ Kami membangun secara terbuka karena ide terbaik datang dari mana saja. Jika And
 
 ## Berkontribusi
 
-Baru di ZeroClaw? Cari isu berlabel [`good first issue`](https://github.com/darkansem12-rgb/zeroclaw-android/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) — lihat [Panduan Kontribusi](CONTRIBUTING.md#first-time-contributors) untuk cara memulai. PR yang dibuat dengan AI/vibe-coded dipersilakan! 🤖
+Baru di AndroidClaw? Cari isu berlabel [`good first issue`](https://github.com/darkansem12-rgb/zeroclaw-android/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) — lihat [Panduan Kontribusi](CONTRIBUTING.md#first-time-contributors) untuk cara memulai. PR yang dibuat dengan AI/vibe-coded dipersilakan! 🤖
 
 Lihat [CONTRIBUTING.md](CONTRIBUTING.md) dan [CLA.md](docs/contributing/cla.md). Implementasikan trait, kirimkan PR:
 
@@ -691,18 +691,18 @@ Lihat [CONTRIBUTING.md](CONTRIBUTING.md) dan [CLA.md](docs/contributing/cla.md).
 - `Memory` baru → `src/memory/`
 - `Tunnel` baru → `src/tunnel/`
 - `Peripheral` baru → `src/peripherals/`
-- `Skill` baru → `~/.zeroclaw/workspace/skills/<name>/`
+- `Skill` baru → `~/.androidclaw/workspace/skills/<name>/`
 
 <!-- BEGIN:RECENT_CONTRIBUTORS -->
 <!-- END:RECENT_CONTRIBUTORS -->
 
 ## ⚠️ Repositori Resmi & Peringatan Peniruan
 
-**Ini adalah satu-satunya repositori resmi ZeroClaw:**
+**Ini adalah satu-satunya repositori resmi AndroidClaw:**
 
 > https://github.com/darkansem12-rgb/zeroclaw-android
 
-Repositori, organisasi, domain, atau paket lain yang mengklaim sebagai "ZeroClaw" atau menyiratkan afiliasi dengan ZeroClaw Labs adalah **tidak sah dan tidak berafiliasi dengan proyek ini**. Fork tidak sah yang diketahui akan terdaftar di [TRADEMARK.md](docs/maintainers/trademark.md).
+Repositori, organisasi, domain, atau paket lain yang mengklaim sebagai "AndroidClaw" atau menyiratkan afiliasi dengan AndroidClaw Labs adalah **tidak sah dan tidak berafiliasi dengan proyek ini**. Fork tidak sah yang diketahui akan terdaftar di [TRADEMARK.md](docs/maintainers/trademark.md).
 
 Jika Anda menemukan peniruan atau penyalahgunaan merek dagang, silakan [buka isu](https://github.com/darkansem12-rgb/zeroclaw-android/issues).
 
@@ -710,7 +710,7 @@ Jika Anda menemukan peniruan atau penyalahgunaan merek dagang, silakan [buka isu
 
 ## Lisensi
 
-ZeroClaw memiliki dual-license untuk keterbukaan maksimum dan perlindungan kontributor:
+AndroidClaw memiliki dual-license untuk keterbukaan maksimum dan perlindungan kontributor:
 
 | Lisensi | Kasus penggunaan |
 |---|---|
@@ -721,7 +721,7 @@ Anda dapat memilih salah satu lisensi. **Kontributor secara otomatis memberikan 
 
 ### Merek Dagang
 
-Nama dan logo **ZeroClaw** adalah merek dagang dari ZeroClaw Labs. Lisensi ini tidak memberikan izin untuk menggunakannya untuk menyiratkan dukungan atau afiliasi. Lihat [TRADEMARK.md](docs/maintainers/trademark.md) untuk penggunaan yang diizinkan dan dilarang.
+Nama dan logo **AndroidClaw** adalah merek dagang dari AndroidClaw Labs. Lisensi ini tidak memberikan izin untuk menggunakannya untuk menyiratkan dukungan atau afiliasi. Lihat [TRADEMARK.md](docs/maintainers/trademark.md) untuk penggunaan yang diizinkan dan dilarang.
 
 ### Perlindungan Kontributor
 
@@ -732,12 +732,12 @@ Nama dan logo **ZeroClaw** adalah merek dagang dari ZeroClaw Labs. Lisensi ini t
 
 ---
 
-**ZeroClaw** — Nol overhead. Nol kompromi. Deploy di mana saja. Tukar apa saja. 🦀
+**AndroidClaw** — Nol overhead. Nol kompromi. Deploy di mana saja. Tukar apa saja. 🦀
 
 ## Kontributor
 
 <a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=zeroclaw-labs/zeroclaw" alt="ZeroClaw contributors" />
+  <img src="https://contrib.rocks/image?repo=darkansem12-rgb/zeroclaw-android" alt="AndroidClaw contributors" />
 </a>
 
 Daftar ini dihasilkan dari grafik kontributor GitHub dan diperbarui secara otomatis.
@@ -747,9 +747,9 @@ Daftar ini dihasilkan dari grafik kontributor GitHub dan diperbarui secara otoma
 <p align="center">
   <a href="https://www.star-history.com/#zeroclaw-labs/zeroclaw&type=date&legend=top-left">
     <picture>
-     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=zeroclaw-labs/zeroclaw&type=date&theme=dark&legend=top-left" />
-     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=zeroclaw-labs/zeroclaw&type=date&legend=top-left" />
-     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=zeroclaw-labs/zeroclaw&type=date&legend=top-left" />
+     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=darkansem12-rgb/zeroclaw-android&type=date&theme=dark&legend=top-left" />
+     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=darkansem12-rgb/zeroclaw-android&type=date&legend=top-left" />
+     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=darkansem12-rgb/zeroclaw-android&type=date&legend=top-left" />
     </picture>
   </a>
 </p>

@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/darkansem12-rgb/zeroclaw-android/main/docs/assets/androidclaw-banner.svg" alt="ZeroClaw" width="600" />
+  <img src="docs/assets/androidclaw-banner.png" alt="AndroidClaw" width="600" />
 </p>
 
-<h1 align="center">🦀 ZeroClaw — Asistent AI Personal</h1>
+<h1 align="center">🦀 AndroidClaw — Asistent AI Personal</h1>
 
 <p align="center">
   <strong>Zero overhead. Zero compromisuri. 100% Rust. 100% Agnostic.</strong><br>
@@ -11,15 +11,15 @@
 
 <p align="center">
   <a href="LICENSE-APACHE"><img src="https://img.shields.io/badge/license-MIT%20OR%20Apache%202.0-blue.svg" alt="License: MIT OR Apache-2.0" /></a>
-  <a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors"><img src="https://img.shields.io/github/contributors/zeroclaw-labs/zeroclaw?color=green" alt="Contributors" /></a>
-  <a href="https://buymeacoffee.com/argenistherose"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=flat&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
-  <a href="https://x.com/zeroclawlabs?s=21"><img src="https://img.shields.io/badge/X-%40zeroclawlabs-000000?style=flat&logo=x&logoColor=white" alt="X: @zeroclawlabs" /></a>
-  <a href="https://www.facebook.com/groups/zeroclawlabs"><img src="https://img.shields.io/badge/Facebook-Group-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook Group" /></a>
+  <a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors"><img src="https://img.shields.io/github/contributors/darkansem12-rgb/zeroclaw-android?color=green" alt="Contributors" /></a>
+  <a href="https://buymeacoffee.com/joseluisgom"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=flat&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
+  <a href=""><img src="https://img.shields.io/badge/X-%40zeroclawlabs-000000?style=flat&logo=x&logoColor=white" alt="X: " /></a>
+  <a href=""><img src="https://img.shields.io/badge/Facebook-Group-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook Group" /></a>
   <a href="https://discord.com/invite/wDshRVqRjx"><img src="https://img.shields.io/badge/Discord-Join-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://www.instagram.com/therealzeroclaw"><img src="https://img.shields.io/badge/Instagram-%40therealzeroclaw-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram: @therealzeroclaw" /></a>
-  <a href="https://www.tiktok.com/@zeroclawlabs"><img src="https://img.shields.io/badge/TikTok-%40zeroclawlabs-000000?style=flat&logo=tiktok&logoColor=white" alt="TikTok: @zeroclawlabs" /></a>
-  <a href="https://www.rednote.com/user/profile/69b735e6000000002603927e"><img src="https://img.shields.io/badge/RedNote-Official-FF2442?style=flat" alt="RedNote" /></a>
-  <a href="https://www.reddit.com/r/zeroclawlabs/"><img src="https://img.shields.io/badge/Reddit-r%2Fzeroclawlabs-FF4500?style=flat&logo=reddit&logoColor=white" alt="Reddit: r/zeroclawlabs" /></a>
+  <a href=""><img src="https://img.shields.io/badge/Instagram-%40therealzeroclaw-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram: @therealzeroclaw" /></a>
+  <a href="https://www.tiktok.com/"><img src="https://img.shields.io/badge/TikTok-%40zeroclawlabs-000000?style=flat&logo=tiktok&logoColor=white" alt="TikTok: " /></a>
+  <a href=""><img src="https://img.shields.io/badge/RedNote-Official-FF2442?style=flat" alt="RedNote" /></a>
+  <a href=""><img src="https://img.shields.io/badge/Reddit-r%2Fzeroclawlabs-FF4500?style=flat&logo=reddit&logoColor=white" alt="Reddit: r/zeroclawlabs" /></a>
 </p>
 
 <p align="center">
@@ -61,12 +61,12 @@ Construit de studenți și membri ai comunităților Harvard, MIT și Sundai.Clu
   <a href="README.nb.md">🇳🇴 Norsk</a>
 </p>
 
-ZeroClaw este un asistent AI personal pe care îl rulezi pe propriile dispozitive. Îți răspunde pe canalele pe care le folosești deja (WhatsApp, Telegram, Slack, Discord, Signal, iMessage, Matrix, IRC, Email, Bluesky, Nostr, Mattermost, Nextcloud Talk, DingTalk, Lark, QQ, Reddit, LinkedIn, Twitter, MQTT, WeChat Work și altele). Are un panou web pentru control în timp real și se poate conecta la periferice hardware (ESP32, STM32, Arduino, Raspberry Pi). Gateway-ul este doar planul de control — produsul este asistentul.
+AndroidClaw este un asistent AI personal pe care îl rulezi pe propriile dispozitive. Îți răspunde pe canalele pe care le folosești deja (WhatsApp, Telegram, Slack, Discord, Signal, iMessage, Matrix, IRC, Email, Bluesky, Nostr, Mattermost, Nextcloud Talk, DingTalk, Lark, QQ, Reddit, LinkedIn, Twitter, MQTT, WeChat Work și altele). Are un panou web pentru control în timp real și se poate conecta la periferice hardware (ESP32, STM32, Arduino, Raspberry Pi). Gateway-ul este doar planul de control — produsul este asistentul.
 
 Dacă vrei un asistent personal, pentru un singur utilizator, care se simte local, rapid și mereu activ, acesta este.
 
 <p align="center">
-  <a href="https://zeroclawlabs.ai">Site web</a> ·
+  <a href="https://">Site web</a> ·
   <a href="docs/README.md">Documentație</a> ·
   <a href="docs/architecture.md">Arhitectură</a> ·
   <a href="#pornire-rapidă">Începe</a> ·
@@ -75,7 +75,7 @@ Dacă vrei un asistent personal, pentru un singur utilizator, care se simte loca
   <a href="https://discord.com/invite/wDshRVqRjx">Discord</a>
 </p>
 
-> **Configurare recomandată:** rulează `androidclaw onboard` în terminalul tău. ZeroClaw Onboard te ghidează pas cu pas prin configurarea gateway-ului, workspace-ului, canalelor și provider-ului. Este calea de configurare recomandată și funcționează pe macOS, Linux și Windows (prin WSL2). Instalare nouă? Începe aici: [Începe](#pornire-rapidă)
+> **Configurare recomandată:** rulează `androidclaw onboard` în terminalul tău. AndroidClaw Onboard te ghidează pas cu pas prin configurarea gateway-ului, workspace-ului, canalelor și provider-ului. Este calea de configurare recomandată și funcționează pe macOS, Linux și Windows (prin WSL2). Instalare nouă? Începe aici: [Începe](#pornire-rapidă)
 
 ### Autentificare prin abonament (OAuth)
 
@@ -95,14 +95,14 @@ Runtime: Rust stable toolchain. Binar unic, fără dependențe de runtime.
 ### Homebrew (macOS/Linuxbrew)
 
 ```bash
-brew install zeroclaw
+echo "# Use Termux on Android"
 ```
 
 ### Bootstrap cu un clic
 
 ```bash
 git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
-cd zeroclaw
+cd zeroclaw-android
 ./install.sh
 ```
 
@@ -117,32 +117,32 @@ Ghid complet pentru începători (autentificare, asociere, canale): [Începe](do
 ./install.sh --api-key "sk-..." --provider openrouter
 
 # Pornește gateway-ul (server webhook + panou web)
-zeroclaw gateway                # implicit: 127.0.0.1:42617
-zeroclaw gateway --port 0       # port aleatoriu (securitate îmbunătățită)
+androidclaw gateway                # implicit: 127.0.0.1:42617
+androidclaw gateway --port 0       # port aleatoriu (securitate îmbunătățită)
 
 # Vorbește cu asistentul
-zeroclaw agent -m "Hello, ZeroClaw!"
+androidclaw agent -m "Hello, AndroidClaw!"
 
 # Mod interactiv
-zeroclaw agent
+androidclaw agent
 
 # Pornește runtime-ul autonom complet (gateway + canale + cron + hands)
-zeroclaw daemon
+androidclaw daemon
 
 # Verifică starea
-zeroclaw status
+androidclaw status
 
 # Rulează diagnostice
-zeroclaw doctor
+androidclaw doctor
 ```
 
-Actualizezi? Rulează `zeroclaw doctor` după actualizare.
+Actualizezi? Rulează `androidclaw doctor` după actualizare.
 
 ### Din sursă (dezvoltare)
 
 ```bash
 git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
-cd zeroclaw
+cd zeroclaw-android
 
 cargo build --release --locked
 cargo install --path . --force --locked
@@ -154,21 +154,21 @@ androidclaw onboard
 
 ## Migrarea de la OpenClaw
 
-ZeroClaw poate importa workspace-ul, memoria și configurația OpenClaw:
+AndroidClaw poate importa workspace-ul, memoria și configurația OpenClaw:
 
 ```bash
 # Previzualizează ce va fi migrat (sigur, doar citire)
-zeroclaw migrate openclaw --dry-run
+androidclaw migrate openclaw --dry-run
 
 # Rulează migrarea
-zeroclaw migrate openclaw
+androidclaw migrate openclaw
 ```
 
-Aceasta migrează intrările de memorie, fișierele workspace și configurația din `~/.openclaw/` în `~/.zeroclaw/`. Configurația este convertită automat din JSON în TOML.
+Aceasta migrează intrările de memorie, fișierele workspace și configurația din `~/.openclaw/` în `~/.androidclaw/`. Configurația este convertită automat din JSON în TOML.
 
 ## Setări implicite de securitate (acces DM)
 
-ZeroClaw se conectează la suprafețe de mesagerie reale. Tratează DM-urile primite ca intrare neîncredere.
+AndroidClaw se conectează la suprafețe de mesagerie reale. Tratează DM-urile primite ca intrare neîncredere.
 
 Ghid complet de securitate: [SECURITY.md](SECURITY.md)
 
@@ -177,7 +177,7 @@ Comportament implicit pe toate canalele:
 - **Asociere DM** (implicit): expeditorii necunoscuți primesc un cod scurt de asociere și bot-ul nu procesează mesajul lor.
 - Aprobă cu: `zeroclaw pairing approve <channel> <code>` (apoi expeditorul este adăugat pe o listă de permisiuni locală).
 - DM-urile publice primite necesită un opt-in explicit în `config.toml`.
-- Rulează `zeroclaw doctor` pentru a identifica politici DM riscante sau configurate greșit.
+- Rulează `androidclaw doctor` pentru a identifica politici DM riscante sau configurate greșit.
 
 **Niveluri de autonomie:**
 
@@ -199,7 +199,7 @@ Folosește acest panou pentru notificări importante (schimbări care rup compat
 | Data (UTC) | Nivel       | Notificare                                                                                                                                                                                                                                                                                                                                                 | Acțiune                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 2026-02-19 | _Critic_  | Nu suntem **afiliați** cu `openagen/zeroclaw`, `zeroclaw.org` sau `zeroclaw.net`. Domeniile `zeroclaw.org` și `zeroclaw.net` indică în prezent fork-ul `openagen/zeroclaw`, iar acel domeniu/depozit se dă drept site-ul/proiectul nostru oficial.                                                                                       | Nu aveți încredere în informații, binare, strângeri de fonduri sau anunțuri din acele surse. Folosiți doar [acest depozit](https://github.com/darkansem12-rgb/zeroclaw-android) și conturile noastre sociale verificate.                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| 2026-02-21 | _Important_ | Site-ul nostru oficial este acum activ: [zeroclawlabs.ai](https://zeroclawlabs.ai). Mulțumim pentru răbdare în timp ce pregăteam lansarea. Încă observăm tentative de uzurpare a identității, așa că **nu** vă alăturați activităților de investiții sau strângere de fonduri care revendică numele ZeroClaw, decât dacă sunt publicate prin canalele noastre oficiale.                            | Folosiți [acest depozit](https://github.com/darkansem12-rgb/zeroclaw-android) ca singura sursă de adevăr. Urmăriți [X (@zeroclawlabs)](https://x.com/zeroclawlabs?s=21), [Facebook (Group)](https://www.facebook.com/groups/zeroclawlabs) și [Reddit (r/zeroclawlabs)](https://www.reddit.com/r/zeroclawlabs/) pentru actualizări oficiale. |
+| 2026-02-21 | _Important_ | Site-ul nostru oficial este acum activ: [](https://). Mulțumim pentru răbdare în timp ce pregăteam lansarea. Încă observăm tentative de uzurpare a identității, așa că **nu** vă alăturați activităților de investiții sau strângere de fonduri care revendică numele AndroidClaw, decât dacă sunt publicate prin canalele noastre oficiale.                            | Folosiți [acest depozit](https://github.com/darkansem12-rgb/zeroclaw-android) ca singura sursă de adevăr. Urmăriți [X ()](), [Facebook (Group)]() și [Reddit (r/zeroclawlabs)]() pentru actualizări oficiale. |
 | 2026-02-19 | _Important_ | Anthropic a actualizat termenii de Autentificare și Utilizare a Credențialelor pe 2026-02-19. Token-urile OAuth Claude Code (Free, Pro, Max) sunt destinate exclusiv Claude Code și Claude.ai; utilizarea token-urilor OAuth din Claude Free/Pro/Max în orice alt produs, instrument sau serviciu (inclusiv Agent SDK) nu este permisă și poate încălca Termenii Serviciului pentru Consumatori. | Vă rugăm să evitați temporar integrările OAuth Claude Code pentru a preveni pierderi potențiale. Clauza originală: [Authentication and Credential Use](https://code.claude.com/docs/en/legal-and-compliance#authentication-and-credential-use).                                                                                                                                                                                                                                                                                                                                                                                    |
 
 ## Puncte forte
@@ -219,18 +219,18 @@ Folosește acest panou pentru notificări importante (schimbări care rup compat
 - **Platformă de skill-uri** — skill-uri incluse, comunitare și de workspace cu audit de securitate.
 - **Suport tunnel** — Cloudflare, Tailscale, ngrok, OpenVPN și tuneluri personalizate pentru acces la distanță.
 
-### De ce echipele aleg ZeroClaw
+### De ce echipele aleg AndroidClaw
 
 - **Ușor implicit:** binar Rust mic, pornire rapidă, amprentă de memorie redusă.
 - **Sigur prin design:** asociere, sandboxing strict, liste de permisiuni explicite, limitarea workspace-ului.
 - **Complet interschimbabil:** sistemele de bază sunt trait-uri (provider-e, canale, instrumente, memorie, tuneluri).
 - **Fără lock-in:** suport provider compatibil OpenAI + endpoint-uri personalizate conectabile.
 
-## Instantaneu Benchmark (ZeroClaw vs OpenClaw, Reproductibil)
+## Instantaneu Benchmark (AndroidClaw vs OpenClaw, Reproductibil)
 
 Benchmark rapid pe mașină locală (macOS arm64, feb 2026) normalizat pentru hardware edge 0.8GHz.
 
-|                           | OpenClaw      | NanoBot        | PicoClaw        | ZeroClaw 🦀          |
+|                           | OpenClaw      | NanoBot        | PicoClaw        | AndroidClaw 🦀          |
 | ------------------------- | ------------- | -------------- | --------------- | -------------------- |
 | **Limbaj**                | TypeScript    | Python         | Go              | **Rust**             |
 | **RAM**                   | > 1GB         | > 100MB        | < 10MB          | **< 5MB**            |
@@ -238,10 +238,10 @@ Benchmark rapid pe mașină locală (macOS arm64, feb 2026) normalizat pentru ha
 | **Dimensiune binar**     | ~28MB (dist)  | N/A (Scripts)  | ~8MB            | **~8.8 MB**          |
 | **Cost**                  | Mac Mini $599 | Linux SBC ~$50 | Linux Board $10 | **Orice hardware $10** |
 
-> Note: Rezultatele ZeroClaw sunt măsurate pe build-uri de lansare folosind `/usr/bin/time -l`. OpenClaw necesită runtime Node.js (de obicei ~390MB overhead suplimentar de memorie), în timp ce NanoBot necesită runtime Python. PicoClaw și ZeroClaw sunt binare statice. Cifrele RAM de mai sus sunt memorie runtime; cerințele de compilare în timpul build-ului sunt mai mari.
+> Note: Rezultatele AndroidClaw sunt măsurate pe build-uri de lansare folosind `/usr/bin/time -l`. OpenClaw necesită runtime Node.js (de obicei ~390MB overhead suplimentar de memorie), în timp ce NanoBot necesită runtime Python. PicoClaw și AndroidClaw sunt binare statice. Cifrele RAM de mai sus sunt memorie runtime; cerințele de compilare în timpul build-ului sunt mai mari.
 
 <p align="center">
-  <img src="docs/assets/zeroclaw-comparison.jpeg" alt="ZeroClaw vs OpenClaw Comparison" width="800" />
+  <img src="docs/assets/zeroclaw-comparison.jpeg" alt="AndroidClaw vs OpenClaw Comparison" width="800" />
 </p>
 
 ### Măsurare locală reproductibilă
@@ -251,7 +251,7 @@ cargo build --release
 ls -lh target/release/zeroclaw
 
 /usr/bin/time -l target/release/zeroclaw --help
-/usr/bin/time -l target/release/zeroclaw status
+/usr/bin/time -l target/release/androidclaw status
 ```
 
 ## Tot ce am construit până acum
@@ -327,7 +327,7 @@ Panou web React 19 + Vite 6 + Tailwind CSS 4 servit direct din Gateway:
 
 ## Configurare
 
-Minimal `~/.zeroclaw/config.toml`:
+Minimal `~/.androidclaw/config.toml`:
 
 ```toml
 default_provider = "anthropic"
@@ -395,35 +395,35 @@ Setează `runtime.kind = "docker"` pentru sandboxing strict sau izolare de rețe
 
 ## Autentificare prin abonament (OpenAI Codex / Claude Code / Gemini)
 
-ZeroClaw suportă profiluri de autentificare native abonament (multi-cont, criptate în repaus).
+AndroidClaw suportă profiluri de autentificare native abonament (multi-cont, criptate în repaus).
 
-- Fișier de stocare: `~/.zeroclaw/auth-profiles.json`
-- Cheie de criptare: `~/.zeroclaw/.secret_key`
+- Fișier de stocare: `~/.androidclaw/auth-profiles.json`
+- Cheie de criptare: `~/.androidclaw/.secret_key`
 - Format id profil: `<provider>:<profile_name>` (exemplu: `openai-codex:work`)
 
 ```bash
 # OpenAI Codex OAuth (abonament ChatGPT)
-zeroclaw auth login --provider openai-codex --device-code
+androidclaw auth login --provider openai-codex --device-code
 
 # Gemini OAuth
-zeroclaw auth login --provider gemini --profile default
+androidclaw auth login --provider gemini --profile default
 
 # Anthropic setup-token
-zeroclaw auth paste-token --provider anthropic --profile default --auth-kind authorization
+androidclaw auth paste-token --provider anthropic --profile default --auth-kind authorization
 
 # Verifică / reîmprospătează / schimbă profilul
-zeroclaw auth status
-zeroclaw auth refresh --provider openai-codex --profile default
-zeroclaw auth use --provider openai-codex --profile work
+androidclaw auth status
+androidclaw auth refresh --provider openai-codex --profile default
+androidclaw auth use --provider openai-codex --profile work
 
 # Rulează agentul cu autentificare prin abonament
-zeroclaw agent --provider openai-codex -m "hello"
-zeroclaw agent --provider anthropic -m "hello"
+androidclaw agent --provider openai-codex -m "hello"
+androidclaw agent --provider anthropic -m "hello"
 ```
 
 ## Workspace agent + skill-uri
 
-Rădăcina workspace: `~/.zeroclaw/workspace/` (configurabilă prin config).
+Rădăcina workspace: `~/.androidclaw/workspace/` (configurabilă prin config).
 
 Fișiere prompt injectate:
 - `IDENTITY.md` — personalitatea și rolul agentului
@@ -432,20 +432,20 @@ Fișiere prompt injectate:
 - `AGENTS.md` — convenții de sesiune și reguli de inițializare
 - `SOUL.md` — identitate de bază și principii operaționale
 
-Skill-uri: `~/.zeroclaw/workspace/skills/<skill>/SKILL.md` sau `SKILL.toml`.
+Skill-uri: `~/.androidclaw/workspace/skills/<skill>/SKILL.md` sau `SKILL.toml`.
 
 ```bash
 # Listează skill-urile instalate
-zeroclaw skills list
+androidclaw skills list
 
 # Instalează din git
-zeroclaw skills install https://github.com/user/my-skill.git
+androidclaw skills install https://github.com/user/my-skill.git
 
 # Audit de securitate înainte de instalare
-zeroclaw skills audit https://github.com/user/my-skill.git
+androidclaw skills audit https://github.com/user/my-skill.git
 
 # Elimină un skill
-zeroclaw skills remove my-skill
+androidclaw skills remove my-skill
 ```
 
 ## Comenzi CLI
@@ -453,30 +453,30 @@ zeroclaw skills remove my-skill
 ```bash
 # Gestionarea workspace-ului
 androidclaw onboard              # Asistent de configurare ghidată
-zeroclaw status               # Afișează starea daemon/agent
-zeroclaw doctor               # Rulează diagnostice de sistem
+androidclaw status               # Afișează starea daemon/agent
+androidclaw doctor               # Rulează diagnostice de sistem
 
 # Gateway + daemon
-zeroclaw gateway              # Pornește serverul gateway (127.0.0.1:42617)
-zeroclaw daemon               # Pornește runtime-ul autonom complet
+androidclaw gateway              # Pornește serverul gateway (127.0.0.1:42617)
+androidclaw daemon               # Pornește runtime-ul autonom complet
 
 # Agent
-zeroclaw agent                # Mod chat interactiv
-zeroclaw agent -m "message"   # Mod mesaj unic
+androidclaw agent                # Mod chat interactiv
+androidclaw agent -m "message"   # Mod mesaj unic
 
 # Gestionarea serviciilor
 zeroclaw service install      # Instalează ca serviciu OS (launchd/systemd)
 zeroclaw service start|stop|restart|status
 
 # Canale
-zeroclaw channel list         # Listează canalele configurate
-zeroclaw channel doctor       # Verifică sănătatea canalelor
-zeroclaw channel bind-telegram 123456789
+androidclaw channel list         # Listează canalele configurate
+androidclaw channel doctor       # Verifică sănătatea canalelor
+androidclaw channel bind-telegram 123456789
 
 # Cron + programare
-zeroclaw cron list            # Listează sarcinile programate
-zeroclaw cron add "*/5 * * * *" --prompt "Check system health"
-zeroclaw cron remove <id>
+androidclaw cron list            # Listează sarcinile programate
+androidclaw cron add "*/5 * * * *" --prompt "Check system health"
+androidclaw cron remove <id>
 
 # Memorie
 zeroclaw memory list          # Listează intrările de memorie
@@ -484,18 +484,18 @@ zeroclaw memory get <key>     # Recuperează o memorie
 zeroclaw memory stats         # Statistici memorie
 
 # Profiluri de autentificare
-zeroclaw auth login --provider <name>
-zeroclaw auth status
-zeroclaw auth use --provider <name> --profile <profile>
+androidclaw auth login --provider <name>
+androidclaw auth status
+androidclaw auth use --provider <name> --profile <profile>
 
 # Periferice hardware
-zeroclaw hardware discover    # Scanează dispozitivele conectate
-zeroclaw peripheral list      # Listează perifericele conectate
-zeroclaw peripheral flash     # Încarcă firmware pe dispozitiv
+androidclaw hardware discover    # Scanează dispozitivele conectate
+androidclaw peripheral list      # Listează perifericele conectate
+androidclaw peripheral flash     # Încarcă firmware pe dispozitiv
 
 # Migrare
-zeroclaw migrate openclaw --dry-run
-zeroclaw migrate openclaw
+androidclaw migrate openclaw --dry-run
+androidclaw migrate openclaw
 
 # Completări shell
 source <(zeroclaw completions bash)
@@ -567,7 +567,7 @@ Referință completă comenzi: [docs/reference/cli/commands-reference.md](docs/r
 
 #### Instalator cu o singură linie
 
-Sau sări peste pașii de mai sus și instalează totul (dependențe sistem, Rust, ZeroClaw) cu o singură comandă:
+Sau sări peste pașii de mai sus și instalează totul (dependențe sistem, Rust, AndroidClaw) cu o singură comandă:
 
 ```bash
 curl -LsSf https://raw.githubusercontent.com/zeroclaw-labs/zeroclaw/master/install.sh | bash
@@ -623,7 +623,7 @@ Folosește-le când ai trecut de fluxul de onboarding și vrei referința mai de
 - Citește [prezentarea arhitecturii](docs/architecture.md) pentru modelul complet al sistemului.
 - Folosește [referința de configurare](docs/reference/api/config-reference.md) când ai nevoie de fiecare cheie și exemplu.
 - Rulează Gateway-ul conform [runbook-ului operațional](docs/ops/operations-runbook.md).
-- Urmează [ZeroClaw Onboard](#pornire-rapidă) pentru configurare ghidată.
+- Urmează [AndroidClaw Onboard](#pornire-rapidă) pentru configurare ghidată.
 - Depanează eșecurile comune cu [ghidul de depanare](docs/ops/troubleshooting.md).
 - Revizuiește [ghidul de securitate](docs/security/README.md) înainte de a expune ceva.
 
@@ -655,16 +655,16 @@ Folosește-le când ai trecut de fluxul de onboarding și vrei referința mai de
 
 ## Smooth Crab 🦀
 
-ZeroClaw a fost construit pentru smooth crab 🦀, un asistent AI rapid și eficient. Construit de Argenis De La Rosa și comunitate.
+AndroidClaw a fost construit pentru smooth crab 🦀, un asistent AI rapid și eficient. Construit de Argenis De La Rosa și comunitate.
 
-- [zeroclawlabs.ai](https://zeroclawlabs.ai)
-- [@zeroclawlabs](https://x.com/zeroclawlabs)
+- [](https://)
+- [](https://x.com/zeroclawlabs)
 
-## Susține ZeroClaw
+## Susține AndroidClaw
 
-Dacă ZeroClaw te ajută în muncă și vrei să susții dezvoltarea continuă, poți dona aici:
+Dacă AndroidClaw te ajută în muncă și vrei să susții dezvoltarea continuă, poți dona aici:
 
-<a href="https://buymeacoffee.com/argenistherose"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=for-the-badge&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
+<a href="https://buymeacoffee.com/joseluisgom"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=for-the-badge&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
 
 ### 🙏 Mulțumiri Speciale
 
@@ -679,7 +679,7 @@ Construim deschis pentru că cele mai bune idei vin de peste tot. Dacă citești
 
 ## Contribuție
 
-Nou la ZeroClaw? Caută probleme etichetate [`good first issue`](https://github.com/darkansem12-rgb/zeroclaw-android/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) — vezi [Ghidul de Contribuție](CONTRIBUTING.md#first-time-contributors) pentru cum să începi. PR-urile create cu AI/vibe-coded sunt binevenite! 🤖
+Nou la AndroidClaw? Caută probleme etichetate [`good first issue`](https://github.com/darkansem12-rgb/zeroclaw-android/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) — vezi [Ghidul de Contribuție](CONTRIBUTING.md#first-time-contributors) pentru cum să începi. PR-urile create cu AI/vibe-coded sunt binevenite! 🤖
 
 Vezi [CONTRIBUTING.md](CONTRIBUTING.md) și [CLA.md](docs/contributing/cla.md). Implementează un trait, trimite un PR:
 
@@ -691,18 +691,18 @@ Vezi [CONTRIBUTING.md](CONTRIBUTING.md) și [CLA.md](docs/contributing/cla.md). 
 - `Memory` nou → `src/memory/`
 - `Tunnel` nou → `src/tunnel/`
 - `Peripheral` nou → `src/peripherals/`
-- `Skill` nou → `~/.zeroclaw/workspace/skills/<name>/`
+- `Skill` nou → `~/.androidclaw/workspace/skills/<name>/`
 
 <!-- BEGIN:RECENT_CONTRIBUTORS -->
 <!-- END:RECENT_CONTRIBUTORS -->
 
 ## ⚠️ Depozit Oficial & Avertisment de Uzurpare
 
-**Acesta este singurul depozit oficial ZeroClaw:**
+**Acesta este singurul depozit oficial AndroidClaw:**
 
 > https://github.com/darkansem12-rgb/zeroclaw-android
 
-Orice alt depozit, organizație, domeniu sau pachet care pretinde a fi „ZeroClaw" sau implică afiliere cu ZeroClaw Labs este **neautorizat și nu este afiliat cu acest proiect**. Fork-urile neautorizate cunoscute vor fi listate în [TRADEMARK.md](docs/maintainers/trademark.md).
+Orice alt depozit, organizație, domeniu sau pachet care pretinde a fi „AndroidClaw" sau implică afiliere cu AndroidClaw Labs este **neautorizat și nu este afiliat cu acest proiect**. Fork-urile neautorizate cunoscute vor fi listate în [TRADEMARK.md](docs/maintainers/trademark.md).
 
 Dacă întâmpini uzurpare de identitate sau utilizare abuzivă a mărcii comerciale, te rugăm [deschide o problemă](https://github.com/darkansem12-rgb/zeroclaw-android/issues).
 
@@ -710,7 +710,7 @@ Dacă întâmpini uzurpare de identitate sau utilizare abuzivă a mărcii comerc
 
 ## Licență
 
-ZeroClaw este dual-licențiat pentru deschidere maximă și protecția contributorilor:
+AndroidClaw este dual-licențiat pentru deschidere maximă și protecția contributorilor:
 
 | Licență | Caz de utilizare |
 |---|---|
@@ -721,7 +721,7 @@ Poți alege oricare licență. **Contributorii acordă automat drepturi sub ambe
 
 ### Marcă comercială
 
-Numele și logo-ul **ZeroClaw** sunt mărci comerciale ale ZeroClaw Labs. Această licență nu acordă permisiunea de a le folosi pentru a implica aprobare sau afiliere. Vezi [TRADEMARK.md](docs/maintainers/trademark.md) pentru utilizări permise și interzise.
+Numele și logo-ul **AndroidClaw** sunt mărci comerciale ale AndroidClaw Labs. Această licență nu acordă permisiunea de a le folosi pentru a implica aprobare sau afiliere. Vezi [TRADEMARK.md](docs/maintainers/trademark.md) pentru utilizări permise și interzise.
 
 ### Protecții pentru contributori
 
@@ -732,12 +732,12 @@ Numele și logo-ul **ZeroClaw** sunt mărci comerciale ale ZeroClaw Labs. Aceast
 
 ---
 
-**ZeroClaw** — Zero overhead. Zero compromisuri. Implementează oriunde. Schimbă orice. 🦀
+**AndroidClaw** — Zero overhead. Zero compromisuri. Implementează oriunde. Schimbă orice. 🦀
 
 ## Contributori
 
 <a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=zeroclaw-labs/zeroclaw" alt="ZeroClaw contributors" />
+  <img src="https://contrib.rocks/image?repo=darkansem12-rgb/zeroclaw-android" alt="AndroidClaw contributors" />
 </a>
 
 Această listă este generată din graficul contributorilor GitHub și se actualizează automat.
@@ -747,9 +747,9 @@ Această listă este generată din graficul contributorilor GitHub și se actual
 <p align="center">
   <a href="https://www.star-history.com/#zeroclaw-labs/zeroclaw&type=date&legend=top-left">
     <picture>
-     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=zeroclaw-labs/zeroclaw&type=date&theme=dark&legend=top-left" />
-     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=zeroclaw-labs/zeroclaw&type=date&legend=top-left" />
-     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=zeroclaw-labs/zeroclaw&type=date&legend=top-left" />
+     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=darkansem12-rgb/zeroclaw-android&type=date&theme=dark&legend=top-left" />
+     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=darkansem12-rgb/zeroclaw-android&type=date&legend=top-left" />
+     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=darkansem12-rgb/zeroclaw-android&type=date&legend=top-left" />
     </picture>
   </a>
 </p>

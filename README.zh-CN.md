@@ -12,14 +12,14 @@
 <p align="center">
   <a href="LICENSE-APACHE"><img src="https://img.shields.io/badge/license-MIT%20OR%20Apache%202.0-blue.svg" alt="License: MIT OR Apache-2.0" /></a>
   <a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors"><img src="https://img.shields.io/github/contributors/zeroclaw-labs/zeroclaw?color=green" alt="Contributors" /></a>
-  <a href="https://buymeacoffee.com/argenistherose"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=flat&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
-  <a href="https://x.com/zeroclawlabs?s=21"><img src="https://img.shields.io/badge/X-%40zeroclawlabs-000000?style=flat&logo=x&logoColor=white" alt="X: @zeroclawlabs" /></a>
-  <a href="https://www.facebook.com/groups/zeroclawlabs"><img src="https://img.shields.io/badge/Facebook-Group-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook Group" /></a>
+  <a href="https://buymeacoffee.com/joseluisgom"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=flat&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
+  <a href=""><img src="https://img.shields.io/badge/X-%40zeroclawlabs-000000?style=flat&logo=x&logoColor=white" alt="X: " /></a>
+  <a href=""><img src="https://img.shields.io/badge/Facebook-Group-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook Group" /></a>
   <a href="https://discord.com/invite/wDshRVqRjx"><img src="https://img.shields.io/badge/Discord-Join-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://www.instagram.com/therealzeroclaw"><img src="https://img.shields.io/badge/Instagram-%40therealzeroclaw-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram: @therealzeroclaw" /></a>
-  <a href="https://www.tiktok.com/@zeroclawlabs"><img src="https://img.shields.io/badge/TikTok-%40zeroclawlabs-000000?style=flat&logo=tiktok&logoColor=white" alt="TikTok: @zeroclawlabs" /></a>
-  <a href="https://www.rednote.com/user/profile/69b735e6000000002603927e"><img src="https://img.shields.io/badge/RedNote-Official-FF2442?style=flat" alt="RedNote" /></a>
-  <a href="https://www.reddit.com/r/zeroclawlabs/"><img src="https://img.shields.io/badge/Reddit-r%2Fzeroclawlabs-FF4500?style=flat&logo=reddit&logoColor=white" alt="Reddit: r/zeroclawlabs" /></a>
+  <a href=""><img src="https://img.shields.io/badge/Instagram-%40therealzeroclaw-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram: @therealzeroclaw" /></a>
+  <a href="https://www.tiktok.com/"><img src="https://img.shields.io/badge/TikTok-%40zeroclawlabs-000000?style=flat&logo=tiktok&logoColor=white" alt="TikTok: " /></a>
+  <a href=""><img src="https://img.shields.io/badge/RedNote-Official-FF2442?style=flat" alt="RedNote" /></a>
+  <a href=""><img src="https://img.shields.io/badge/Reddit-r%2Fzeroclawlabs-FF4500?style=flat&logo=reddit&logoColor=white" alt="Reddit: r/zeroclawlabs" /></a>
 </p>
 
 <p align="center">
@@ -66,7 +66,7 @@ ZeroClaw 是一个运行在你自己设备上的个人AI助手。它在你已经
 如果你想要一个本地化、快速、始终在线的个人单用户助手，这就是它。
 
 <p align="center">
-  <a href="https://zeroclawlabs.ai">官网</a> ·
+  <a href="https://">官网</a> ·
   <a href="docs/README.md">文档</a> ·
   <a href="docs/architecture.md">架构</a> ·
   <a href="#快速开始简版">入门指南</a> ·
@@ -95,14 +95,14 @@ ZeroClaw 是一个运行在你自己设备上的个人AI助手。它在你已经
 ### Homebrew（macOS/Linuxbrew）
 
 ```bash
-brew install zeroclaw
+echo "# Use Termux on Android"
 ```
 
 ### 一键安装
 
 ```bash
 git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
-cd zeroclaw
+cd zeroclaw-android
 ./install.sh
 ```
 
@@ -142,7 +142,7 @@ zeroclaw doctor
 
 ```bash
 git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
-cd zeroclaw
+cd zeroclaw-android
 
 cargo build --release --locked
 cargo install --path . --force --locked
@@ -199,7 +199,7 @@ ZeroClaw 连接到真实的消息平台。将入站 DM 视为不可信输入。
 | 日期 (UTC) | 级别 | 通知 | 操作 |
 | ---------- | ---- | ---- | ---- |
 | 2026-02-19 | _严重_ | 我们与 `openagen/zeroclaw`、`zeroclaw.org` 或 `zeroclaw.net` **无任何关联**。`zeroclaw.org` 和 `zeroclaw.net` 域名目前指向 `openagen/zeroclaw` 分支，该域名/仓库正在冒充我们的官方网站/项目。 | 不要信任来自这些来源的信息、二进制文件、筹款或公告。仅使用[本仓库](https://github.com/darkansem12-rgb/zeroclaw-android)和我们经过验证的社交账号。 |
-| 2026-02-21 | _重要_ | 我们的官方网站现已上线：[zeroclawlabs.ai](https://zeroclawlabs.ai)。感谢您在我们准备发布期间的耐心等待。我们仍然看到冒充行为，因此**不要**加入任何声称使用 ZeroClaw 名义的投资或筹款活动，除非它是通过我们的官方渠道发布的。 | 使用[本仓库](https://github.com/darkansem12-rgb/zeroclaw-android)作为唯一信息来源。关注 [X (@zeroclawlabs)](https://x.com/zeroclawlabs?s=21)、[Facebook (Group)](https://www.facebook.com/groups/zeroclawlabs) 和 [Reddit (r/zeroclawlabs)](https://www.reddit.com/r/zeroclawlabs/) 获取官方更新。 |
+| 2026-02-21 | _重要_ | 我们的官方网站现已上线：[](https://)。感谢您在我们准备发布期间的耐心等待。我们仍然看到冒充行为，因此**不要**加入任何声称使用 ZeroClaw 名义的投资或筹款活动，除非它是通过我们的官方渠道发布的。 | 使用[本仓库](https://github.com/darkansem12-rgb/zeroclaw-android)作为唯一信息来源。关注 [X ()]()、[Facebook (Group)]() 和 [Reddit (r/zeroclawlabs)]() 获取官方更新。 |
 | 2026-02-19 | _重要_ | Anthropic 于 2026-02-19 更新了认证和凭证使用条款。Claude Code OAuth 令牌（Free、Pro、Max）仅供 Claude Code 和 Claude.ai 专用；在任何其他产品、工具或服务（包括 Agent SDK）中使用 Claude Free/Pro/Max 的 OAuth 令牌是不允许的，可能违反消费者服务条款。 | 请暂时避免 Claude Code OAuth 集成以防止潜在损失。原始条款：[Authentication and Credential Use](https://code.claude.com/docs/en/legal-and-compliance#authentication-and-credential-use)。 |
 
 ## 亮点
@@ -657,14 +657,14 @@ curl -LsSf https://raw.githubusercontent.com/zeroclaw-labs/zeroclaw/master/insta
 
 ZeroClaw 为 smooth crab 🦀 而构建，一个快速高效的 AI 助手。由 Argenis De La Rosa 和社区共同构建。
 
-- [zeroclawlabs.ai](https://zeroclawlabs.ai)
-- [@zeroclawlabs](https://x.com/zeroclawlabs)
+- [](https://)
+- [](https://x.com/zeroclawlabs)
 
 ## 支持 ZeroClaw
 
 如果 ZeroClaw 对你的工作有帮助，你想支持持续开发，可以在这里捐款：
 
-<a href="https://buymeacoffee.com/argenistherose"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=for-the-badge&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
+<a href="https://buymeacoffee.com/joseluisgom"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=for-the-badge&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
 
 ### 🙏 特别感谢
 
@@ -737,7 +737,7 @@ ZeroClaw 采用双重许可，以实现最大开放性和贡献者保护：
 ## 贡献者
 
 <a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=zeroclaw-labs/zeroclaw" alt="ZeroClaw contributors" />
+  <img src="https://contrib.rocks/image?repo=darkansem12-rgb/zeroclaw-android" alt="ZeroClaw contributors" />
 </a>
 
 此列表从 GitHub 贡献者图表生成，自动更新。
@@ -747,9 +747,9 @@ ZeroClaw 采用双重许可，以实现最大开放性和贡献者保护：
 <p align="center">
   <a href="https://www.star-history.com/#zeroclaw-labs/zeroclaw&type=date&legend=top-left">
     <picture>
-     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=zeroclaw-labs/zeroclaw&type=date&theme=dark&legend=top-left" />
-     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=zeroclaw-labs/zeroclaw&type=date&legend=top-left" />
-     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=zeroclaw-labs/zeroclaw&type=date&legend=top-left" />
+     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=darkansem12-rgb/zeroclaw-android&type=date&theme=dark&legend=top-left" />
+     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=darkansem12-rgb/zeroclaw-android&type=date&legend=top-left" />
+     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=darkansem12-rgb/zeroclaw-android&type=date&legend=top-left" />
     </picture>
   </a>
 </p>

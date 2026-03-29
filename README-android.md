@@ -1,185 +1,89 @@
-# AndroidClaw en Android via Termux
+# AndroidClaw - Instalación en Android
 
-Guía completa para ejecutar AndroidClaw en tu teléfono Android usando Termux.
+Guía rápida para ejecutar AndroidClaw en tu teléfono Android usando Termux.
 
 ## Requisitos
 
-- 📱 Teléfono Android con Termux instalado
-- 📶 Conexión a internet (para descargar e instalar)
-- 🔋 Batería suficiente (~30-60 min de compilación)
+- Teléfono Android con Termux instalado
+- Conexión a internet
+- ~30-60 minutos para compilar
 
-## Método 1: Compilar en Termux (Recomendado)
+## Instalación Rápida
 
-### Si ya tienes el repo clonado (actualizar scripts):
+### Paso 1: Descargar Termux
+
+Descarga **Termux desde F-Droid** (importante: no desde Play Store):
+https://f-droid.org/packages/com.termux/
+
+### Paso 2: Abrir Termux y ejecutar:
 
 ```bash
-cd zeroclaw-android
-git pull
-chmod +x termux-*.sh
-./termux-setup.sh
-./termux-build.sh
+pkg update && pkg upgrade
+pkg install git rust clang cmake
 ```
 
-### Si es la primera vez:
+### Paso 3: Clonar y Compilar
 
 ```bash
-# Descargar archivos del repo
-pkg install git
-rm -rf zeroclaw-android  # Si hay carpeta antigua con errores
+cd ~
 git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
 cd zeroclaw-android
-
-# Dar permisos a los scripts
 chmod +x termux-setup.sh termux-build.sh termux-run.sh
-
-# Ejecutar setup (instala rust, clang)
-./termux-setup.sh
-
-# Compilar (~30-60 minutos)
 ./termux-build.sh
+```
 
-# Ejecutar
+### Paso 4: Ejecutar
+
+```bash
 ./termux-run.sh
 ```
 
-### Si ya compilaste antes y quieres recompilar:
+## Configuración
+
+### API Key
 
 ```bash
-cd zeroclaw-android
-./termux-build.sh
-./termux-run.sh
+mkdir -p ~/.androidclaw
+nano ~/.androidclaw/config.toml
 ```
 
----
-
-## Método 2: Descargar binario pre-compilado
-
-Aún no disponible - el binario se compilará con GitHub Actions.
-
----
-
-## Configuración de AndroidClaw
-
-### Emparejamiento (Pairing)
-
-Al iniciar AndroidClaw por primera vez, verás un código de 6 dígitos en la terminal:
-
-```
-🔐 Pairing code: 123456
-```
-
-1. Abre http://127.0.0.1:42617 en Chrome
-2. Ingresa el código de emparejamiento
-3. ¡Listo!
-
-### Configurar API Key
-
-```bash
-# Crear archivo de configuración
-mkdir -p ~/.config/androidclaw
-cat > ~/.config/androidclaw/config.toml << 'EOF'
-[providers]
-default = "openai"
-
-[providers.openai]
+```toml
+default_provider = "openai"
 api_key = "tu-api-key-aqui"
-
-[server]
-port = 42617
-host = "0.0.0.0"
-EOF
 ```
 
-### Usar Ollama (IA Local)
-
-Si tienes Ollama instalado en tu teléfono:
+## Comandos Básicos
 
 ```bash
-# En otra sesión de Termux
-pkg install ollama
-ollama serve
+# Chat interactivo
+androidclaw agent
 
-# En AndroidClaw, usar provider "ollama"
+# Mensaje único
+androidclaw agent -m "Hola"
+
+# Iniciar gateway
+androidclaw gateway
 ```
-
----
 
 ## Solución de Problemas
 
-### Error: "Permission denied"
-
+### Error de permisos
 ```bash
 chmod +x androidclaw
 ```
 
-### Error: "Web dashboard not available"
-
-Los archivos `web/dist/` deben estar junto al binario o embebidos en él. Verifica que los descargaste correctamente.
-
-### Error: "Out of memory" durante compilación
-
+### Memoria insuficiente
 ```bash
-# Usar solo 1 job de compilación
-export CARGO_BUILD_JOBS=1
-cargo build --release
+cargo build --release -j1
 ```
-
-### Teléfono se calienta mucho
-
-- Cierra otras apps durante la compilación
-- Conecta el teléfono al cargador
-- Usa `cargo build --release -j 1` para usar menos recursos
-
----
-
-## Acceso Remoto
-
-Para acceder a AndroidClaw desde otro dispositivo:
-
-### Opción 1: Túnel SSH (requiere PC)
-
-```bash
-# En Termux
-pkg install openssh
-ssh -R 42617:localhost:42617 tu-servidor.com
-```
-
-### Opción 2: ngrok
-
-```bash
-pkg install ngrok
-ngrok http 42617
-```
-
----
-
-## Estructura de Archivos
-
-```
-zeroclaw-android/
-├── androidclaw             # Binario compilado
-├── web/dist/              # Archivos del dashboard
-├── Cargo.toml              # Configuración de Rust
-├── termux-setup.sh         # Script de instalación
-├── termux-build.sh         # Script de compilación
-├── termux-run.sh           # Script de ejecución
-└── README-android.md       # Este archivo
-```
-
----
 
 ## Desinstalar
 
 ```bash
-cd ~
-rm -rf androidclaw zeroclaw-android
-rm -rf ~/.config/androidclaw
+rm -rf ~/zeroclaw-android ~/.androidclaw
 ```
-
----
 
 ## Soporte
 
-- 📖 Documentación: https://github.com/darkansem12-rgb/zeroclaw-android
-- 🐛 Issues: https://github.com/darkansem12-rgb/zeroclaw-android/issues
-- 💬 Facebook: https://www.facebook.com/Luis.gomsantana
+- Facebook: https://www.facebook.com/Luis.gomsantana
+- Issues: https://github.com/darkansem12-rgb/zeroclaw-android/issues

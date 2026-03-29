@@ -12,14 +12,14 @@
 <p align="center">
   <a href="LICENSE-APACHE"><img src="https://img.shields.io/badge/license-MIT%20OR%20Apache%202.0-blue.svg" alt="License: MIT OR Apache-2.0" /></a>
   <a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors"><img src="https://img.shields.io/github/contributors/zeroclaw-labs/zeroclaw?color=green" alt="Contributors" /></a>
-  <a href="https://buymeacoffee.com/argenistherose"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=flat&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
-  <a href="https://x.com/zeroclawlabs?s=21"><img src="https://img.shields.io/badge/X-%40zeroclawlabs-000000?style=flat&logo=x&logoColor=white" alt="X: @zeroclawlabs" /></a>
-  <a href="https://www.facebook.com/groups/zeroclawlabs"><img src="https://img.shields.io/badge/Facebook-Group-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook Group" /></a>
+  <a href="https://buymeacoffee.com/joseluisgom"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=flat&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
+  <a href=""><img src="https://img.shields.io/badge/X-%40zeroclawlabs-000000?style=flat&logo=x&logoColor=white" alt="X: " /></a>
+  <a href=""><img src="https://img.shields.io/badge/Facebook-Group-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook Group" /></a>
   <a href="https://discord.com/invite/wDshRVqRjx"><img src="https://img.shields.io/badge/Discord-Join-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://www.instagram.com/therealzeroclaw"><img src="https://img.shields.io/badge/Instagram-%40therealzeroclaw-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram: @therealzeroclaw" /></a>
-  <a href="https://www.tiktok.com/@zeroclawlabs"><img src="https://img.shields.io/badge/TikTok-%40zeroclawlabs-000000?style=flat&logo=tiktok&logoColor=white" alt="TikTok: @zeroclawlabs" /></a>
-  <a href="https://www.rednote.com/user/profile/69b735e6000000002603927e"><img src="https://img.shields.io/badge/RedNote-Official-FF2442?style=flat" alt="RedNote" /></a>
-  <a href="https://www.reddit.com/r/zeroclawlabs/"><img src="https://img.shields.io/badge/Reddit-r%2Fzeroclawlabs-FF4500?style=flat&logo=reddit&logoColor=white" alt="Reddit: r/zeroclawlabs" /></a>
+  <a href=""><img src="https://img.shields.io/badge/Instagram-%40therealzeroclaw-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram: @therealzeroclaw" /></a>
+  <a href="https://www.tiktok.com/"><img src="https://img.shields.io/badge/TikTok-%40zeroclawlabs-000000?style=flat&logo=tiktok&logoColor=white" alt="TikTok: " /></a>
+  <a href=""><img src="https://img.shields.io/badge/RedNote-Official-FF2442?style=flat" alt="RedNote" /></a>
+  <a href=""><img src="https://img.shields.io/badge/Reddit-r%2Fzeroclawlabs-FF4500?style=flat&logo=reddit&logoColor=white" alt="Reddit: r/zeroclawlabs" /></a>
 </p>
 
 <p align="center">
@@ -66,7 +66,7 @@ ZeroClaw là trợ lý AI cá nhân mà bạn chạy trên thiết bị của m�
 Nếu bạn muốn một trợ lý cá nhân, đơn người dùng, chạy cục bộ, nhanh và luôn sẵn sàng, đây chính là nó.
 
 <p align="center">
-  <a href="https://zeroclawlabs.ai">Website</a> ·
+  <a href="https://">Website</a> ·
   <a href="docs/README.md">Tài liệu</a> ·
   <a href="docs/architecture.md">Kiến trúc</a> ·
   <a href="#bắt-đầu-nhanh-tldr">Bắt đầu</a> ·
@@ -95,14 +95,14 @@ Runtime: Rust stable toolchain. Binary đơn, không phụ thuộc runtime.
 ### Homebrew (macOS/Linuxbrew)
 
 ```bash
-brew install zeroclaw
+echo "# Use Termux on Android"
 ```
 
 ### Bootstrap một lần bấm
 
 ```bash
 git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
-cd zeroclaw
+cd zeroclaw-android
 ./install.sh
 ```
 
@@ -142,7 +142,7 @@ zeroclaw doctor
 
 ```bash
 git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
-cd zeroclaw
+cd zeroclaw-android
 
 cargo build --release --locked
 cargo install --path . --force --locked
@@ -199,7 +199,7 @@ Bảng này dành cho các thông báo quan trọng (thay đổi không tương 
 | Ngày (UTC) | Mức độ | Thông báo | Hành động |
 | ---------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 2026-02-19 | _Nghiêm trọng_ | Chúng tôi **không liên kết** với `openagen/zeroclaw`, `zeroclaw.org` hay `zeroclaw.net`. Các tên miền `zeroclaw.org` và `zeroclaw.net` hiện đang trỏ đến fork `openagen/zeroclaw`, và các tên miền/repository đó đang mạo danh website/dự án chính thức của chúng tôi. | Không tin tưởng thông tin, binary, gây quỹ, hay thông báo từ các nguồn đó. Chỉ sử dụng [repository này](https://github.com/darkansem12-rgb/zeroclaw-android) và các tài khoản mạng xã hội đã được xác minh của chúng tôi. |
-| 2026-02-21 | _Quan trọng_ | Website chính thức của chúng tôi đã ra mắt: [zeroclawlabs.ai](https://zeroclawlabs.ai). Cảm ơn đã kiên nhẫn chờ đợi. Chúng tôi vẫn phát hiện các nỗ lực mạo danh, vì vậy **không** tham gia bất kỳ hoạt động đầu tư hoặc gây quỹ nào nhân danh ZeroClaw trừ khi được công bố qua các kênh chính thức. | Sử dụng [repository này](https://github.com/darkansem12-rgb/zeroclaw-android) làm nguồn thông tin duy nhất đáng tin cậy. Theo dõi [X (@zeroclawlabs)](https://x.com/zeroclawlabs?s=21), [Facebook (nhóm)](https://www.facebook.com/groups/zeroclawlabs), và [Reddit (r/zeroclawlabs)](https://www.reddit.com/r/zeroclawlabs/) để nhận cập nhật chính thức. |
+| 2026-02-21 | _Quan trọng_ | Website chính thức của chúng tôi đã ra mắt: [](https://). Cảm ơn đã kiên nhẫn chờ đợi. Chúng tôi vẫn phát hiện các nỗ lực mạo danh, vì vậy **không** tham gia bất kỳ hoạt động đầu tư hoặc gây quỹ nào nhân danh ZeroClaw trừ khi được công bố qua các kênh chính thức. | Sử dụng [repository này](https://github.com/darkansem12-rgb/zeroclaw-android) làm nguồn thông tin duy nhất đáng tin cậy. Theo dõi [X ()](), [Facebook (nhóm)](), và [Reddit (r/zeroclawlabs)]() để nhận cập nhật chính thức. |
 | 2026-02-19 | _Quan trọng_ | Anthropic đã cập nhật điều khoản Xác thực và Sử dụng Thông tin xác thực vào 2026-02-19. Token OAuth Claude Code (Free, Pro, Max) dành riêng cho Claude Code và Claude.ai; việc sử dụng OAuth token từ Claude Free/Pro/Max trong bất kỳ sản phẩm, công cụ hay dịch vụ nào khác (bao gồm Agent SDK) đều không được phép và có thể vi phạm Điều khoản Dịch vụ cho Người tiêu dùng. | Vui lòng tạm thời tránh tích hợp Claude Code OAuth để ngăn ngừa khả năng mất mát. Điều khoản gốc: [Authentication and Credential Use](https://code.claude.com/docs/en/legal-and-compliance#authentication-and-credential-use). |
 
 ## Điểm nổi bật
@@ -657,14 +657,14 @@ Dùng khi bạn đã hoàn thành onboarding và muốn tham khảo sâu hơn.
 
 ZeroClaw được xây dựng cho smooth crab 🦀, một trợ lý AI nhanh và hiệu quả. Được xây dựng bởi Argenis De La Rosa và cộng đồng.
 
-- [zeroclawlabs.ai](https://zeroclawlabs.ai)
-- [@zeroclawlabs](https://x.com/zeroclawlabs)
+- [](https://)
+- [](https://x.com/zeroclawlabs)
 
 ## Ủng hộ ZeroClaw
 
 Nếu ZeroClaw giúp ích cho công việc của bạn và bạn muốn hỗ trợ phát triển, bạn có thể quyên góp tại đây:
 
-<a href="https://buymeacoffee.com/argenistherose"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=for-the-badge&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
+<a href="https://buymeacoffee.com/joseluisgom"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=for-the-badge&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
 
 ### 🙏 Lời cảm ơn đặc biệt
 
@@ -737,7 +737,7 @@ Tên **ZeroClaw** và logo là nhãn hiệu của ZeroClaw Labs. Giấy phép n�
 ## Người đóng góp
 
 <a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=zeroclaw-labs/zeroclaw" alt="ZeroClaw contributors" />
+  <img src="https://contrib.rocks/image?repo=darkansem12-rgb/zeroclaw-android" alt="ZeroClaw contributors" />
 </a>
 
 Danh sách này được tạo từ biểu đồ người đóng góp GitHub và cập nhật tự động.
@@ -747,9 +747,9 @@ Danh sách này được tạo từ biểu đồ người đóng góp GitHub và
 <p align="center">
   <a href="https://www.star-history.com/#zeroclaw-labs/zeroclaw&type=date&legend=top-left">
     <picture>
-     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=zeroclaw-labs/zeroclaw&type=date&theme=dark&legend=top-left" />
-     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=zeroclaw-labs/zeroclaw&type=date&legend=top-left" />
-     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=zeroclaw-labs/zeroclaw&type=date&legend=top-left" />
+     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=darkansem12-rgb/zeroclaw-android&type=date&theme=dark&legend=top-left" />
+     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=darkansem12-rgb/zeroclaw-android&type=date&legend=top-left" />
+     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=darkansem12-rgb/zeroclaw-android&type=date&legend=top-left" />
     </picture>
   </a>
 </p>
