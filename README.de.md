@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/zeroclaw-labs/zeroclaw/master/docs/assets/zeroclaw-banner.png" alt="ZeroClaw" width="600" />
+  <img src="https://raw.githubusercontent.com/darkansem12-rgb/zeroclaw-android/main/docs/assets/androidclaw-banner.svg" alt="ZeroClaw" width="600" />
 </p>
 
 <h1 align="center">🦀 ZeroClaw — Persönlicher KI-Assistent</h1>
@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="LICENSE-APACHE"><img src="https://img.shields.io/badge/license-MIT%20OR%20Apache%202.0-blue.svg" alt="License: MIT OR Apache-2.0" /></a>
-  <a href="https://github.com/zeroclaw-labs/zeroclaw/graphs/contributors"><img src="https://img.shields.io/github/contributors/zeroclaw-labs/zeroclaw?color=green" alt="Contributors" /></a>
+  <a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors"><img src="https://img.shields.io/github/contributors/zeroclaw-labs/zeroclaw?color=green" alt="Contributors" /></a>
   <a href="https://buymeacoffee.com/argenistherose"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=flat&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
   <a href="https://x.com/zeroclawlabs?s=21"><img src="https://img.shields.io/badge/X-%40zeroclawlabs-000000?style=flat&logo=x&logoColor=white" alt="X: @zeroclawlabs" /></a>
   <a href="https://www.facebook.com/groups/zeroclawlabs"><img src="https://img.shields.io/badge/Facebook-Group-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook Group" /></a>
@@ -75,7 +75,7 @@ Wenn du einen persönlichen Einzelbenutzer-Assistenten willst, der sich lokal, s
   <a href="https://discord.com/invite/wDshRVqRjx">Discord</a>
 </p>
 
-> **Empfohlene Einrichtung:** Führe `zeroclaw onboard` in deinem Terminal aus. ZeroClaw Onboard führt dich Schritt für Schritt durch die Einrichtung von Gateway, Workspace, Kanälen und Provider. Es ist der empfohlene Einrichtungspfad und funktioniert auf macOS, Linux und Windows (über WSL2). Neue Installation? Starte hier: [Erste Schritte](#schnellstart)
+> **Empfohlene Einrichtung:** Führe `androidclaw onboard` in deinem Terminal aus. ZeroClaw Onboard führt dich Schritt für Schritt durch die Einrichtung von Gateway, Workspace, Kanälen und Provider. Es ist der empfohlene Einrichtungspfad und funktioniert auf macOS, Linux und Windows (über WSL2). Neue Installation? Starte hier: [Erste Schritte](#schnellstart)
 
 ### Abonnement-Authentifizierung (OAuth)
 
@@ -101,12 +101,12 @@ brew install zeroclaw
 ### Ein-Klick-Bootstrap
 
 ```bash
-git clone https://github.com/zeroclaw-labs/zeroclaw.git
+git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
 cd zeroclaw
 ./install.sh
 ```
 
-`zeroclaw onboard` wird nach der Installation automatisch ausgeführt, um deinen Workspace und Provider zu konfigurieren.
+`androidclaw onboard` wird nach der Installation automatisch ausgeführt, um deinen Workspace und Provider zu konfigurieren.
 
 ## Schnellstart (TL;DR)
 
@@ -141,13 +141,13 @@ Aktualisierung? Führe `zeroclaw doctor` nach dem Update aus.
 ### Aus dem Quellcode (Entwicklung)
 
 ```bash
-git clone https://github.com/zeroclaw-labs/zeroclaw.git
+git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
 cd zeroclaw
 
 cargo build --release --locked
 cargo install --path . --force --locked
 
-zeroclaw onboard
+androidclaw onboard
 ```
 
 > **Entwicklungs-Fallback (ohne globale Installation):** Stelle Befehlen `cargo run --release --` voran (Beispiel: `cargo run --release -- status`).
@@ -198,8 +198,8 @@ Verwende dieses Board für wichtige Hinweise (Breaking Changes, Sicherheitshinwe
 
 | Datum (UTC) | Stufe       | Hinweis                                                                                                                                                                                                                                                                                                                                                 | Aktion                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2026-02-19 | _Kritisch_  | Wir sind **nicht verbunden** mit `openagen/zeroclaw`, `zeroclaw.org` oder `zeroclaw.net`. Die Domains `zeroclaw.org` und `zeroclaw.net` verweisen derzeit auf den Fork `openagen/zeroclaw`, und diese Domain/dieses Repository geben sich als unsere offizielle Website/unser offizielles Projekt aus.                                                                                       | Vertraue keinen Informationen, Binaries, Spendenaktionen oder Ankündigungen aus diesen Quellen. Verwende nur [dieses Repository](https://github.com/zeroclaw-labs/zeroclaw) und unsere verifizierten Social-Media-Konten.                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| 2026-02-21 | _Wichtig_ | Unsere offizielle Website ist jetzt online: [zeroclawlabs.ai](https://zeroclawlabs.ai). Danke für deine Geduld während wir den Launch vorbereitet haben. Wir sehen weiterhin Identitätsdiebstahlversuche, also nimm **nicht** an Investitions- oder Spendenaktivitäten teil, die den Namen ZeroClaw verwenden, es sei denn, sie werden über unsere offiziellen Kanäle veröffentlicht.                            | Verwende [dieses Repository](https://github.com/zeroclaw-labs/zeroclaw) als einzige Wahrheitsquelle. Folge [X (@zeroclawlabs)](https://x.com/zeroclawlabs?s=21), [Facebook (Gruppe)](https://www.facebook.com/groups/zeroclawlabs) und [Reddit (r/zeroclawlabs)](https://www.reddit.com/r/zeroclawlabs/) für offizielle Updates. |
+| 2026-02-19 | _Kritisch_  | Wir sind **nicht verbunden** mit `openagen/zeroclaw`, `zeroclaw.org` oder `zeroclaw.net`. Die Domains `zeroclaw.org` und `zeroclaw.net` verweisen derzeit auf den Fork `openagen/zeroclaw`, und diese Domain/dieses Repository geben sich als unsere offizielle Website/unser offizielles Projekt aus.                                                                                       | Vertraue keinen Informationen, Binaries, Spendenaktionen oder Ankündigungen aus diesen Quellen. Verwende nur [dieses Repository](https://github.com/darkansem12-rgb/zeroclaw-android) und unsere verifizierten Social-Media-Konten.                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| 2026-02-21 | _Wichtig_ | Unsere offizielle Website ist jetzt online: [zeroclawlabs.ai](https://zeroclawlabs.ai). Danke für deine Geduld während wir den Launch vorbereitet haben. Wir sehen weiterhin Identitätsdiebstahlversuche, also nimm **nicht** an Investitions- oder Spendenaktivitäten teil, die den Namen ZeroClaw verwenden, es sei denn, sie werden über unsere offiziellen Kanäle veröffentlicht.                            | Verwende [dieses Repository](https://github.com/darkansem12-rgb/zeroclaw-android) als einzige Wahrheitsquelle. Folge [X (@zeroclawlabs)](https://x.com/zeroclawlabs?s=21), [Facebook (Gruppe)](https://www.facebook.com/groups/zeroclawlabs) und [Reddit (r/zeroclawlabs)](https://www.reddit.com/r/zeroclawlabs/) für offizielle Updates. |
 | 2026-02-19 | _Wichtig_ | Anthropic hat die Bedingungen zur Authentifizierung und Nutzung von Zugangsdaten am 2026-02-19 aktualisiert. Claude Code OAuth-Tokens (Free, Pro, Max) sind ausschließlich für Claude Code und Claude.ai bestimmt; die Verwendung von OAuth-Tokens von Claude Free/Pro/Max in anderen Produkten, Tools oder Diensten (einschließlich Agent SDK) ist nicht gestattet und kann gegen die Verbrauchernutzungsbedingungen verstoßen. | Bitte vermeide vorübergehend Claude Code OAuth-Integrationen, um potenzielle Verluste zu vermeiden. Originalklausel: [Authentication and Credential Use](https://code.claude.com/docs/en/legal-and-compliance#authentication-and-credential-use).                                                                                                                                                                                                                                                                                                                                                                                    |
 
 ## Highlights
@@ -452,7 +452,7 @@ zeroclaw skills remove my-skill
 
 ```bash
 # Workspace-Verwaltung
-zeroclaw onboard              # Geführter Einrichtungsassistent
+androidclaw onboard              # Geführter Einrichtungsassistent
 zeroclaw status               # Daemon/Agenten-Status anzeigen
 zeroclaw doctor               # Systemdiagnose ausführen
 
@@ -613,7 +613,7 @@ Release-Assets werden veröffentlicht für:
 - Windows: `x86_64`
 
 Lade die neuesten Assets herunter von:
-<https://github.com/zeroclaw-labs/zeroclaw/releases/latest>
+<https://github.com/darkansem12-rgb/zeroclaw-android/releases/latest>
 
 ## Dokumentation
 
@@ -679,7 +679,7 @@ Wir bauen offen, weil die besten Ideen von überall kommen. Wenn du das hier lie
 
 ## Beitragen
 
-Neu bei ZeroClaw? Suche nach Issues mit dem Label [`good first issue`](https://github.com/zeroclaw-labs/zeroclaw/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) — siehe unseren [Beitragsleitfaden](CONTRIBUTING.md#first-time-contributors) für den Einstieg. KI-/Vibe-coded PRs willkommen! 🤖
+Neu bei ZeroClaw? Suche nach Issues mit dem Label [`good first issue`](https://github.com/darkansem12-rgb/zeroclaw-android/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) — siehe unseren [Beitragsleitfaden](CONTRIBUTING.md#first-time-contributors) für den Einstieg. KI-/Vibe-coded PRs willkommen! 🤖
 
 Siehe [CONTRIBUTING.md](CONTRIBUTING.md) und [CLA.md](docs/contributing/cla.md). Implementiere einen Trait, reiche einen PR ein:
 
@@ -700,11 +700,11 @@ Siehe [CONTRIBUTING.md](CONTRIBUTING.md) und [CLA.md](docs/contributing/cla.md).
 
 **Dies ist das einzige offizielle ZeroClaw-Repository:**
 
-> https://github.com/zeroclaw-labs/zeroclaw
+> https://github.com/darkansem12-rgb/zeroclaw-android
 
 Jedes andere Repository, jede Organisation, Domain oder jedes Paket, das behauptet, "ZeroClaw" zu sein oder eine Zugehörigkeit zu ZeroClaw Labs impliziert, ist **nicht autorisiert und nicht mit diesem Projekt verbunden**. Bekannte nicht autorisierte Forks werden in [TRADEMARK.md](docs/maintainers/trademark.md) aufgelistet.
 
-Wenn du auf Identitätsdiebstahl oder Markenrechtsmissbrauch stößt, [eröffne bitte ein Issue](https://github.com/zeroclaw-labs/zeroclaw/issues).
+Wenn du auf Identitätsdiebstahl oder Markenrechtsmissbrauch stößt, [eröffne bitte ein Issue](https://github.com/darkansem12-rgb/zeroclaw-android/issues).
 
 ---
 
@@ -736,7 +736,7 @@ Der **ZeroClaw**-Name und das Logo sind Marken von ZeroClaw Labs. Diese Lizenz g
 
 ## Mitwirkende
 
-<a href="https://github.com/zeroclaw-labs/zeroclaw/graphs/contributors">
+<a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=zeroclaw-labs/zeroclaw" alt="ZeroClaw contributors" />
 </a>
 

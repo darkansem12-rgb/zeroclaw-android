@@ -1,6 +1,6 @@
-# ZeroClaw Android Build Instructions (ARM64)
+# AndroidClaw Android Build Instructions (ARM64)
 
-This guide explains how to build ZeroClaw for Android/Termux with Ollama/TinyLlama support.
+This guide explains how to build AndroidClaw for Android/Termux with Ollama/TinyLlama support.
 
 ## Prerequisites
 
@@ -30,8 +30,8 @@ pkg install -y binutils-is-llvm
 termux-setup-storage
 
 # Create workspace
-mkdir -p $HOME/zeroclaw-workspace
-mkdir -p $HOME/.zeroclaw
+mkdir -p $HOME/androidclaw-workspace
+mkdir -p $HOME/.androidclaw
 ```
 
 ## Step 2: Install Ollama (for local LLM)
@@ -54,29 +54,26 @@ ollama pull tinyllama
 ollama run tinyllama "Hello, are you working?"
 ```
 
-## Step 3: Build ZeroClaw
+## Step 3: Build AndroidClaw
 
 ### Option A: Build on Device (Recommended for Termux)
 
 ```bash
 # Clone repository
 cd $HOME
-git clone https://github.com/zeroclaw-labs/zeroclaw.git
-cd zeroclaw
-
-# Checkout your branch
-git checkout my_antigravity_mod
+git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
+cd zeroclaw-android
 
 # Set up environment
 export RUSTFLAGS="-C linker=clang"
 export CC=clang
 export CXX=clang++
 
-# Build ZeroClaw
+# Build AndroidClaw
 cargo build --release
 
 # The binary will be at:
-# ./target/release/zeroclaw
+# ./target/release/androidclaw
 ```
 
 ### Option B: Cross-compile from PC
@@ -99,46 +96,46 @@ CXX=aarch64-linux-android21-clang++ \
 cargo build --release --target aarch64-linux-android
 
 # Transfer to device
-adb push target/aarch64-linux-android/release/zeroclaw /data/local/tmp/
-adb shell cp /data/local/tmp/zeroclaw $PREFIX/bin/zeroclaw
-adb shell chmod +x $PREFIX/bin/zeroclaw
+adb push target/aarch64-linux-android/release/androidclaw /data/local/tmp/
+adb shell cp /data/local/tmp/androidclaw $PREFIX/bin/androidclaw
+adb shell chmod +x $PREFIX/bin/androidclaw
 ```
 
-## Step 4: Configure ZeroClaw
+## Step 4: Configure AndroidClaw
 
 ```bash
 # Copy configuration files
-cp .env.android $HOME/.zeroclaw/.env
-cp config.android.toml $HOME/.zeroclaw/config.toml
+cp .env.android $HOME/.androidclaw/.env
+cp config.android.toml $HOME/.androidclaw/config.toml
 
 # Create Protection config
-mkdir -p $HOME/.zeroclaw
-cp protection.toml $HOME/.zeroclaw/
+mkdir -p $HOME/.androidclaw
+cp protection.toml $HOME/.androidclaw/
 
 # Ensure log directory exists
-mkdir -p $HOME/.zeroclaw/logs
+mkdir -p $HOME/.androidclaw/logs
 ```
 
-## Step 5: Run ZeroClaw
+## Step 5: Run AndroidClaw
 
 ```bash
 # Verify installation
-zeroclaw --version
+androidclaw --version
 
 # Run setup wizard
-zeroclaw onboard
+androidclaw onboard
 
 # Or manual configuration:
-# Edit ~/.zeroclaw/config.toml with your settings
+# Edit ~/.androidclaw/config.toml with your settings
 
-# Start ZeroClaw in agent mode
-zeroclaw agent -m "Hello from Android!"
+# Start AndroidClaw in agent mode
+androidclaw agent -m "Hello from Android!"
 
 # Start gateway (for REST/WebSocket access)
-zeroclaw gateway
+androidclaw gateway
 
 # Start full daemon
-zeroclaw daemon
+androidclaw daemon
 ```
 
 ## Ollama Setup for Android
@@ -180,15 +177,15 @@ provider = "openrouter"
    - Commands like sudo, reboot, kill
    - Network operations without confirmation
 
-2. **Audit Logging**: All actions are logged to ~/.zeroclaw/actions.log
+2. **Audit Logging**: All actions are logged to ~/.androidclaw/actions.log
 
 3. **Autonomy Level**: Set to "supervised" for safety on Android
 
 ## Troubleshooting
 
-### "Permission denied" when running zeroclaw
+### "Permission denied" when running androidclaw
 ```bash
-chmod +x $PREFIX/bin/zeroclaw
+chmod +x $PREFIX/bin/androidclaw
 ```
 
 ### "Cannot find Ollama"
@@ -220,14 +217,14 @@ termux-setup-storage
 ## Files Created
 
 After setup, you'll have:
-- `$HOME/zeroclaw/` - Source code
-- `$HOME/.zeroclaw/` - Config and data
+- `$HOME/zeroclaw-android/` - Source code
+- `$HOME/.androidclaw/` - Config and data
   - `config.toml` - Main configuration
   - `protection.toml` - Protection rules
   - `.env` - Environment variables
   - `actions.log` - Security audit log
   - `memory.db` - SQLite memory database
-- `$HOME/zeroclaw-workspace/` - Working directory
+- `$HOME/androidclaw-workspace/` - Working directory
 
 ## Next Steps
 

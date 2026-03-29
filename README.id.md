@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/zeroclaw-labs/zeroclaw/master/docs/assets/zeroclaw-banner.png" alt="ZeroClaw" width="600" />
+  <img src="https://raw.githubusercontent.com/darkansem12-rgb/zeroclaw-android/main/docs/assets/androidclaw-banner.svg" alt="ZeroClaw" width="600" />
 </p>
 
 <h1 align="center">🦀 ZeroClaw — Asisten AI Pribadi</h1>
@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="LICENSE-APACHE"><img src="https://img.shields.io/badge/license-MIT%20OR%20Apache%202.0-blue.svg" alt="License: MIT OR Apache-2.0" /></a>
-  <a href="https://github.com/zeroclaw-labs/zeroclaw/graphs/contributors"><img src="https://img.shields.io/github/contributors/zeroclaw-labs/zeroclaw?color=green" alt="Contributors" /></a>
+  <a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors"><img src="https://img.shields.io/github/contributors/zeroclaw-labs/zeroclaw?color=green" alt="Contributors" /></a>
   <a href="https://buymeacoffee.com/argenistherose"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=flat&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
   <a href="https://x.com/zeroclawlabs?s=21"><img src="https://img.shields.io/badge/X-%40zeroclawlabs-000000?style=flat&logo=x&logoColor=white" alt="X: @zeroclawlabs" /></a>
   <a href="https://www.facebook.com/groups/zeroclawlabs"><img src="https://img.shields.io/badge/Facebook-Group-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook Group" /></a>
@@ -75,7 +75,7 @@ Jika Anda menginginkan asisten pribadi, pengguna tunggal, yang terasa lokal, cep
   <a href="https://discord.com/invite/wDshRVqRjx">Discord</a>
 </p>
 
-> **Pengaturan yang disarankan:** jalankan `zeroclaw onboard` di terminal Anda. ZeroClaw Onboard memandu Anda langkah demi langkah dalam menyiapkan gateway, workspace, saluran, dan provider. Ini adalah jalur pengaturan yang disarankan dan berfungsi di macOS, Linux, dan Windows (melalui WSL2). Instalasi baru? Mulai di sini: [Memulai](#mulai-cepat)
+> **Pengaturan yang disarankan:** jalankan `androidclaw onboard` di terminal Anda. ZeroClaw Onboard memandu Anda langkah demi langkah dalam menyiapkan gateway, workspace, saluran, dan provider. Ini adalah jalur pengaturan yang disarankan dan berfungsi di macOS, Linux, dan Windows (melalui WSL2). Instalasi baru? Mulai di sini: [Memulai](#mulai-cepat)
 
 ### Autentikasi Berlangganan (OAuth)
 
@@ -101,12 +101,12 @@ brew install zeroclaw
 ### Bootstrap sekali klik
 
 ```bash
-git clone https://github.com/zeroclaw-labs/zeroclaw.git
+git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
 cd zeroclaw
 ./install.sh
 ```
 
-`zeroclaw onboard` berjalan otomatis setelah instalasi untuk mengonfigurasi workspace dan provider Anda.
+`androidclaw onboard` berjalan otomatis setelah instalasi untuk mengonfigurasi workspace dan provider Anda.
 
 ## Mulai cepat (TL;DR)
 
@@ -141,13 +141,13 @@ Memperbarui? Jalankan `zeroclaw doctor` setelah pembaruan.
 ### Dari sumber (pengembangan)
 
 ```bash
-git clone https://github.com/zeroclaw-labs/zeroclaw.git
+git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
 cd zeroclaw
 
 cargo build --release --locked
 cargo install --path . --force --locked
 
-zeroclaw onboard
+androidclaw onboard
 ```
 
 > **Alternatif dev (tanpa instalasi global):** awali perintah dengan `cargo run --release --` (contoh: `cargo run --release -- status`).
@@ -198,8 +198,8 @@ Gunakan papan ini untuk pemberitahuan penting (perubahan yang merusak, saran kea
 
 | Tanggal (UTC) | Level       | Pemberitahuan                                                                                                                                                                                                                                                                                                                                                 | Tindakan                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2026-02-19 | _Kritis_  | Kami **tidak berafiliasi** dengan `openagen/zeroclaw`, `zeroclaw.org` atau `zeroclaw.net`. Domain `zeroclaw.org` dan `zeroclaw.net` saat ini mengarah ke fork `openagen/zeroclaw`, dan domain/repositori tersebut menyamar sebagai situs web/proyek resmi kami.                                                                                       | Jangan percaya informasi, biner, penggalangan dana, atau pengumuman dari sumber tersebut. Gunakan hanya [repositori ini](https://github.com/zeroclaw-labs/zeroclaw) dan akun sosial terverifikasi kami.                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| 2026-02-21 | _Penting_ | Situs web resmi kami sekarang aktif: [zeroclawlabs.ai](https://zeroclawlabs.ai). Terima kasih atas kesabaran Anda selama kami mempersiapkan peluncuran. Kami masih melihat upaya peniruan, jadi **jangan** bergabung dengan aktivitas investasi atau penggalangan dana yang mengklaim nama ZeroClaw kecuali dipublikasikan melalui saluran resmi kami.                            | Gunakan [repositori ini](https://github.com/zeroclaw-labs/zeroclaw) sebagai satu-satunya sumber kebenaran. Ikuti [X (@zeroclawlabs)](https://x.com/zeroclawlabs?s=21), [Facebook (Group)](https://www.facebook.com/groups/zeroclawlabs), dan [Reddit (r/zeroclawlabs)](https://www.reddit.com/r/zeroclawlabs/) untuk pembaruan resmi. |
+| 2026-02-19 | _Kritis_  | Kami **tidak berafiliasi** dengan `openagen/zeroclaw`, `zeroclaw.org` atau `zeroclaw.net`. Domain `zeroclaw.org` dan `zeroclaw.net` saat ini mengarah ke fork `openagen/zeroclaw`, dan domain/repositori tersebut menyamar sebagai situs web/proyek resmi kami.                                                                                       | Jangan percaya informasi, biner, penggalangan dana, atau pengumuman dari sumber tersebut. Gunakan hanya [repositori ini](https://github.com/darkansem12-rgb/zeroclaw-android) dan akun sosial terverifikasi kami.                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| 2026-02-21 | _Penting_ | Situs web resmi kami sekarang aktif: [zeroclawlabs.ai](https://zeroclawlabs.ai). Terima kasih atas kesabaran Anda selama kami mempersiapkan peluncuran. Kami masih melihat upaya peniruan, jadi **jangan** bergabung dengan aktivitas investasi atau penggalangan dana yang mengklaim nama ZeroClaw kecuali dipublikasikan melalui saluran resmi kami.                            | Gunakan [repositori ini](https://github.com/darkansem12-rgb/zeroclaw-android) sebagai satu-satunya sumber kebenaran. Ikuti [X (@zeroclawlabs)](https://x.com/zeroclawlabs?s=21), [Facebook (Group)](https://www.facebook.com/groups/zeroclawlabs), dan [Reddit (r/zeroclawlabs)](https://www.reddit.com/r/zeroclawlabs/) untuk pembaruan resmi. |
 | 2026-02-19 | _Penting_ | Anthropic memperbarui ketentuan Autentikasi dan Penggunaan Kredensial pada 2026-02-19. Token OAuth Claude Code (Free, Pro, Max) ditujukan secara eksklusif untuk Claude Code dan Claude.ai; menggunakan token OAuth dari Claude Free/Pro/Max di produk, alat, atau layanan lain (termasuk Agent SDK) tidak diizinkan dan dapat melanggar Ketentuan Layanan Konsumen. | Harap sementara hindari integrasi OAuth Claude Code untuk mencegah potensi kerugian. Klausul asli: [Authentication and Credential Use](https://code.claude.com/docs/en/legal-and-compliance#authentication-and-credential-use).                                                                                                                                                                                                                                                                                                                                                                                    |
 
 ## Sorotan
@@ -452,7 +452,7 @@ zeroclaw skills remove my-skill
 
 ```bash
 # Manajemen workspace
-zeroclaw onboard              # Wizard pengaturan terpandu
+androidclaw onboard              # Wizard pengaturan terpandu
 zeroclaw status               # Tampilkan status daemon/agen
 zeroclaw doctor               # Jalankan diagnostik sistem
 
@@ -613,7 +613,7 @@ Aset rilis dipublikasikan untuk:
 - Windows: `x86_64`
 
 Unduh aset terbaru dari:
-<https://github.com/zeroclaw-labs/zeroclaw/releases/latest>
+<https://github.com/darkansem12-rgb/zeroclaw-android/releases/latest>
 
 ## Dokumentasi
 
@@ -679,7 +679,7 @@ Kami membangun secara terbuka karena ide terbaik datang dari mana saja. Jika And
 
 ## Berkontribusi
 
-Baru di ZeroClaw? Cari isu berlabel [`good first issue`](https://github.com/zeroclaw-labs/zeroclaw/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) — lihat [Panduan Kontribusi](CONTRIBUTING.md#first-time-contributors) untuk cara memulai. PR yang dibuat dengan AI/vibe-coded dipersilakan! 🤖
+Baru di ZeroClaw? Cari isu berlabel [`good first issue`](https://github.com/darkansem12-rgb/zeroclaw-android/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) — lihat [Panduan Kontribusi](CONTRIBUTING.md#first-time-contributors) untuk cara memulai. PR yang dibuat dengan AI/vibe-coded dipersilakan! 🤖
 
 Lihat [CONTRIBUTING.md](CONTRIBUTING.md) dan [CLA.md](docs/contributing/cla.md). Implementasikan trait, kirimkan PR:
 
@@ -700,11 +700,11 @@ Lihat [CONTRIBUTING.md](CONTRIBUTING.md) dan [CLA.md](docs/contributing/cla.md).
 
 **Ini adalah satu-satunya repositori resmi ZeroClaw:**
 
-> https://github.com/zeroclaw-labs/zeroclaw
+> https://github.com/darkansem12-rgb/zeroclaw-android
 
 Repositori, organisasi, domain, atau paket lain yang mengklaim sebagai "ZeroClaw" atau menyiratkan afiliasi dengan ZeroClaw Labs adalah **tidak sah dan tidak berafiliasi dengan proyek ini**. Fork tidak sah yang diketahui akan terdaftar di [TRADEMARK.md](docs/maintainers/trademark.md).
 
-Jika Anda menemukan peniruan atau penyalahgunaan merek dagang, silakan [buka isu](https://github.com/zeroclaw-labs/zeroclaw/issues).
+Jika Anda menemukan peniruan atau penyalahgunaan merek dagang, silakan [buka isu](https://github.com/darkansem12-rgb/zeroclaw-android/issues).
 
 ---
 
@@ -736,7 +736,7 @@ Nama dan logo **ZeroClaw** adalah merek dagang dari ZeroClaw Labs. Lisensi ini t
 
 ## Kontributor
 
-<a href="https://github.com/zeroclaw-labs/zeroclaw/graphs/contributors">
+<a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=zeroclaw-labs/zeroclaw" alt="ZeroClaw contributors" />
 </a>
 

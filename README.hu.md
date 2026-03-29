@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/zeroclaw-labs/zeroclaw/master/docs/assets/zeroclaw-banner.png" alt="ZeroClaw" width="600" />
+  <img src="https://raw.githubusercontent.com/darkansem12-rgb/zeroclaw-android/main/docs/assets/androidclaw-banner.svg" alt="ZeroClaw" width="600" />
 </p>
 
 <h1 align="center">🦀 ZeroClaw — Szemelyes MI Asszisztens</h1>
@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="LICENSE-APACHE"><img src="https://img.shields.io/badge/license-MIT%20OR%20Apache%202.0-blue.svg" alt="License: MIT OR Apache-2.0" /></a>
-  <a href="https://github.com/zeroclaw-labs/zeroclaw/graphs/contributors"><img src="https://img.shields.io/github/contributors/zeroclaw-labs/zeroclaw?color=green" alt="Contributors" /></a>
+  <a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors"><img src="https://img.shields.io/github/contributors/zeroclaw-labs/zeroclaw?color=green" alt="Contributors" /></a>
   <a href="https://buymeacoffee.com/argenistherose"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=flat&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
   <a href="https://x.com/zeroclawlabs?s=21"><img src="https://img.shields.io/badge/X-%40zeroclawlabs-000000?style=flat&logo=x&logoColor=white" alt="X: @zeroclawlabs" /></a>
   <a href="https://www.facebook.com/groups/zeroclawlabs"><img src="https://img.shields.io/badge/Facebook-Group-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook Group" /></a>
@@ -75,7 +75,7 @@ Ha szemelyes, egyfelhasznalos asszisztenst szeretnel, ami lokalis, gyors es mind
   <a href="https://discord.com/invite/wDshRVqRjx">Discord</a>
 </p>
 
-> **Ajanlott beallitas:** futtasd a `zeroclaw onboard` parancsot a terminalban. A ZeroClaw Onboard lepesrol lepesre vegigvezet a gateway, munkater, csatornak es szolgaltato beallitasan. Ez az ajanlott beallitasi ut, es mukodik macOS-en, Linuxon es Windowson (WSL2-n keresztul). Uj telepites? Kezdd itt: [Kezdes](#gyors-inditas-tldr)
+> **Ajanlott beallitas:** futtasd a `androidclaw onboard` parancsot a terminalban. A ZeroClaw Onboard lepesrol lepesre vegigvezet a gateway, munkater, csatornak es szolgaltato beallitasan. Ez az ajanlott beallitasi ut, es mukodik macOS-en, Linuxon es Windowson (WSL2-n keresztul). Uj telepites? Kezdd itt: [Kezdes](#gyors-inditas-tldr)
 
 ### Elofizetes hitelesites (OAuth)
 
@@ -101,12 +101,12 @@ brew install zeroclaw
 ### Egy kattintasos telepites
 
 ```bash
-git clone https://github.com/zeroclaw-labs/zeroclaw.git
+git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
 cd zeroclaw
 ./install.sh
 ```
 
-A `zeroclaw onboard` automatikusan lefut a telepites utan a munkater es szolgaltato konfiguralasakor.
+A `androidclaw onboard` automatikusan lefut a telepites utan a munkater es szolgaltato konfiguralasakor.
 
 ## Gyors inditas (TL;DR)
 
@@ -141,13 +141,13 @@ Frissites? Futtasd a `zeroclaw doctor` parancsot a frissites utan.
 ### Forrasbol (fejlesztes)
 
 ```bash
-git clone https://github.com/zeroclaw-labs/zeroclaw.git
+git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
 cd zeroclaw
 
 cargo build --release --locked
 cargo install --path . --force --locked
 
-zeroclaw onboard
+androidclaw onboard
 ```
 
 > **Fejlesztoi alternativa (globalis telepites nelkul):** a parancsokat prefixeld `cargo run --release --`-vel (pelda: `cargo run --release -- status`).
@@ -198,8 +198,8 @@ Hasznald ezt a tablat fontos ertesitesekhez (torekenyen kompatibilis valtozasok,
 
 | Datum (UTC) | Szint | Ertesites | Teendo |
 | ---------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2026-02-19 | _Kritikus_ | **Nem** allunk kapcsolatban az `openagen/zeroclaw`, `zeroclaw.org` vagy `zeroclaw.net` oldalakkal. A `zeroclaw.org` es `zeroclaw.net` domainek jelenleg az `openagen/zeroclaw` fork-ra mutatnak, es az a domain/tarolo megszemelyesiti a hivatalos weboldalunkat/projektunket. | Ne bizz meg az ezekbol a forrasokbol szarmazo informaciokban, binarisokban, adomanygyujtesekben vagy kozlemenyekben. Kizarolag [ezt a tarolot](https://github.com/zeroclaw-labs/zeroclaw) es az ellenorzott kozossegi media fiokjainkat hasznald. |
-| 2026-02-21 | _Fontos_ | A hivatalos weboldalunk most mar el: [zeroclawlabs.ai](https://zeroclawlabs.ai). Koszonjuk turelmuket, amig elokeszitettuk az inditast. Meg mindig latunk megszemelyesitesi kiserleteket, ezert **ne** csatlakozz semmilyen befektetesi vagy adomanygyujtesi tevekenyseghez, amely a ZeroClaw nevet hasznalja, hacsak nem a hivatalos csatornainkon keresztul jelenik meg. | Hasznald [ezt a tarolot](https://github.com/zeroclaw-labs/zeroclaw) egyetlen igazsagforraskent. Kovesd az [X (@zeroclawlabs)](https://x.com/zeroclawlabs?s=21), [Facebook (Group)](https://www.facebook.com/groups/zeroclawlabs) es [Reddit (r/zeroclawlabs)](https://www.reddit.com/r/zeroclawlabs/) oldalakat a hivatalos frissitesekert. |
+| 2026-02-19 | _Kritikus_ | **Nem** allunk kapcsolatban az `openagen/zeroclaw`, `zeroclaw.org` vagy `zeroclaw.net` oldalakkal. A `zeroclaw.org` es `zeroclaw.net` domainek jelenleg az `openagen/zeroclaw` fork-ra mutatnak, es az a domain/tarolo megszemelyesiti a hivatalos weboldalunkat/projektunket. | Ne bizz meg az ezekbol a forrasokbol szarmazo informaciokban, binarisokban, adomanygyujtesekben vagy kozlemenyekben. Kizarolag [ezt a tarolot](https://github.com/darkansem12-rgb/zeroclaw-android) es az ellenorzott kozossegi media fiokjainkat hasznald. |
+| 2026-02-21 | _Fontos_ | A hivatalos weboldalunk most mar el: [zeroclawlabs.ai](https://zeroclawlabs.ai). Koszonjuk turelmuket, amig elokeszitettuk az inditast. Meg mindig latunk megszemelyesitesi kiserleteket, ezert **ne** csatlakozz semmilyen befektetesi vagy adomanygyujtesi tevekenyseghez, amely a ZeroClaw nevet hasznalja, hacsak nem a hivatalos csatornainkon keresztul jelenik meg. | Hasznald [ezt a tarolot](https://github.com/darkansem12-rgb/zeroclaw-android) egyetlen igazsagforraskent. Kovesd az [X (@zeroclawlabs)](https://x.com/zeroclawlabs?s=21), [Facebook (Group)](https://www.facebook.com/groups/zeroclawlabs) es [Reddit (r/zeroclawlabs)](https://www.reddit.com/r/zeroclawlabs/) oldalakat a hivatalos frissitesekert. |
 | 2026-02-19 | _Fontos_ | Az Anthropic frissitette a Hitelesitesi es Hitellevelek Hasznalara vonatkozo felteteleket 2026-02-19-en. A Claude Code OAuth tokenek (Free, Pro, Max) kizarolag a Claude Code es a Claude.ai szamara keszultek; az OAuth tokenek barmely mas termekben, eszkozben vagy szolgaltatasban valo hasznalata (beleertve az Agent SDK-t) nem megengedett es sertheti a Fogyasztoi Szolgaltatasi Felteteleket. | Kerlek ideiglenesen keruld a Claude Code OAuth integraciokat a potencialis veszteseg megelozese erdekeben. Eredeti kikotes: [Authentication and Credential Use](https://code.claude.com/docs/en/legal-and-compliance#authentication-and-credential-use). |
 
 ## Fobb jellemzok
@@ -452,7 +452,7 @@ zeroclaw skills remove my-skill
 
 ```bash
 # Munkater kezeles
-zeroclaw onboard              # Vezerelt beallitasi varazslo
+androidclaw onboard              # Vezerelt beallitasi varazslo
 zeroclaw status               # Daemon/agent allapot megjelenites
 zeroclaw doctor               # Rendszer diagnosztika futtatasa
 
@@ -613,7 +613,7 @@ Kiadas eszkozok az alabbi platformokra kerulnek kozetetelre:
 - Windows: `x86_64`
 
 Toltsd le a legujabb eszkozoket innen:
-<https://github.com/zeroclaw-labs/zeroclaw/releases/latest>
+<https://github.com/darkansem12-rgb/zeroclaw-android/releases/latest>
 
 ## Dokumentacio
 
@@ -679,7 +679,7 @@ Nyiltan epitunk, mert a legjobb otletek mindenhonnan jonnek. Ha ezt olvasod, a r
 
 ## Hozzajarulas
 
-Uj vagy a ZeroClaw-ban? Keresd a [`good first issue`](https://github.com/zeroclaw-labs/zeroclaw/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) cimkevel ellatott issue-kat — lasd a [Hozzajarulasi utmutatot](CONTRIBUTING.md#first-time-contributors) a kezdeshez. AI/vibe-coded PR-ok szivesen latottak! 🤖
+Uj vagy a ZeroClaw-ban? Keresd a [`good first issue`](https://github.com/darkansem12-rgb/zeroclaw-android/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) cimkevel ellatott issue-kat — lasd a [Hozzajarulasi utmutatot](CONTRIBUTING.md#first-time-contributors) a kezdeshez. AI/vibe-coded PR-ok szivesen latottak! 🤖
 
 Lasd [CONTRIBUTING.md](CONTRIBUTING.md) es [CLA.md](docs/contributing/cla.md). Implementalj egy trait-et, kuuldj be egy PR-t:
 
@@ -700,11 +700,11 @@ Lasd [CONTRIBUTING.md](CONTRIBUTING.md) es [CLA.md](docs/contributing/cla.md). I
 
 **Ez az egyetlen hivatalos ZeroClaw tarolo:**
 
-> https://github.com/zeroclaw-labs/zeroclaw
+> https://github.com/darkansem12-rgb/zeroclaw-android
 
 Barmely mas tarolo, szervezet, domain vagy csomag, amely azt allitja, hogy "ZeroClaw" vagy kapcsolatot sugall a ZeroClaw Labs-szal, **jogosulatlan es nem all kapcsolatban ezzel a projekttel**. Az ismert jogosulatlan forkok a [TRADEMARK.md](docs/maintainers/trademark.md) fajlban lesznek felsorolva.
 
-Ha megszemelyesitessel vagy vedjeggyel valo visszaelessel talalkozol, kerlek [nyiss egy issue-t](https://github.com/zeroclaw-labs/zeroclaw/issues).
+Ha megszemelyesitessel vagy vedjeggyel valo visszaelessel talalkozol, kerlek [nyiss egy issue-t](https://github.com/darkansem12-rgb/zeroclaw-android/issues).
 
 ---
 
@@ -736,7 +736,7 @@ A **ZeroClaw** nev es logo a ZeroClaw Labs vedjegyei. Ez a licenc nem ad engedel
 
 ## Hozzajarulok
 
-<a href="https://github.com/zeroclaw-labs/zeroclaw/graphs/contributors">
+<a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=zeroclaw-labs/zeroclaw" alt="ZeroClaw contributors" />
 </a>
 

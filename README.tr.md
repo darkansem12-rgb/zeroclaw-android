@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/zeroclaw-labs/zeroclaw/master/docs/assets/zeroclaw-banner.png" alt="ZeroClaw" width="600" />
+  <img src="https://raw.githubusercontent.com/darkansem12-rgb/zeroclaw-android/main/docs/assets/androidclaw-banner.svg" alt="ZeroClaw" width="600" />
 </p>
 
 <h1 align="center">🦀 ZeroClaw — Kişisel AI Asistanı</h1>
@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="LICENSE-APACHE"><img src="https://img.shields.io/badge/license-MIT%20OR%20Apache%202.0-blue.svg" alt="License: MIT OR Apache-2.0" /></a>
-  <a href="https://github.com/zeroclaw-labs/zeroclaw/graphs/contributors"><img src="https://img.shields.io/github/contributors/zeroclaw-labs/zeroclaw?color=green" alt="Contributors" /></a>
+  <a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors"><img src="https://img.shields.io/github/contributors/zeroclaw-labs/zeroclaw?color=green" alt="Contributors" /></a>
   <a href="https://buymeacoffee.com/argenistherose"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=flat&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
   <a href="https://x.com/zeroclawlabs?s=21"><img src="https://img.shields.io/badge/X-%40zeroclawlabs-000000?style=flat&logo=x&logoColor=white" alt="X: @zeroclawlabs" /></a>
   <a href="https://www.facebook.com/groups/zeroclawlabs"><img src="https://img.shields.io/badge/Facebook-Group-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook Group" /></a>
@@ -75,7 +75,7 @@ Yerel, hızlı ve her zaman açık hissettiren kişisel, tek kullanıcılı bir 
   <a href="https://discord.com/invite/wDshRVqRjx">Discord</a>
 </p>
 
-> **Önerilen kurulum:** terminalinizde `zeroclaw onboard` komutunu çalıştırın. ZeroClaw Onboard, gateway, workspace, kanallar ve sağlayıcı kurulumunda sizi adım adım yönlendirir. Önerilen kurulum yoludur ve macOS, Linux ve Windows'ta (WSL2 ile) çalışır. Yeni kurulum mu? Buradan başlayın: [Başlarken](#hızlı-başlangıç)
+> **Önerilen kurulum:** terminalinizde `androidclaw onboard` komutunu çalıştırın. ZeroClaw Onboard, gateway, workspace, kanallar ve sağlayıcı kurulumunda sizi adım adım yönlendirir. Önerilen kurulum yoludur ve macOS, Linux ve Windows'ta (WSL2 ile) çalışır. Yeni kurulum mu? Buradan başlayın: [Başlarken](#hızlı-başlangıç)
 
 ### Abonelik Kimlik Doğrulama (OAuth)
 
@@ -101,12 +101,12 @@ brew install zeroclaw
 ### Tek tıkla kurulum
 
 ```bash
-git clone https://github.com/zeroclaw-labs/zeroclaw.git
+git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
 cd zeroclaw
 ./install.sh
 ```
 
-`zeroclaw onboard` kurulumdan sonra workspace ve sağlayıcınızı yapılandırmak için otomatik olarak çalışır.
+`androidclaw onboard` kurulumdan sonra workspace ve sağlayıcınızı yapılandırmak için otomatik olarak çalışır.
 
 ## Hızlı başlangıç (TL;DR)
 
@@ -141,13 +141,13 @@ Güncelleme mi yapıyorsunuz? Güncellemeden sonra `zeroclaw doctor` çalıştı
 ### Kaynaktan (geliştirme)
 
 ```bash
-git clone https://github.com/zeroclaw-labs/zeroclaw.git
+git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
 cd zeroclaw
 
 cargo build --release --locked
 cargo install --path . --force --locked
 
-zeroclaw onboard
+androidclaw onboard
 ```
 
 > **Geliştirici fallback (global kurulum yok):** komutların başına `cargo run --release --` ekleyin (örnek: `cargo run --release -- status`).
@@ -198,8 +198,8 @@ Bu panoyu önemli bildirimler (breaking change'ler, güvenlik tavsiyeleri, bakı
 
 | Tarih (UTC) | Seviye       | Bildirim                                                                                                                                                                                                                                                                                                                                                 | Eylem                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2026-02-19 | _Kritik_  | `openagen/zeroclaw`, `zeroclaw.org` veya `zeroclaw.net` ile **bağlantılı değiliz**. `zeroclaw.org` ve `zeroclaw.net` alan adları şu anda `openagen/zeroclaw` fork'una yönlendirmektedir ve bu alan adı/depo, resmi web sitemizi/projemizi taklit etmektedir.                                                                                       | Bu kaynaklardan gelen bilgilere, ikili dosyalara, bağış toplama faaliyetlerine veya duyurulara güvenmeyin. Yalnızca [bu depoyu](https://github.com/zeroclaw-labs/zeroclaw) ve doğrulanmış sosyal hesaplarımızı kullanın.                                                                                                                                                                                                                                                                                                                                                                       |
-| 2026-02-21 | _Önemli_ | Resmi web sitemiz artık yayında: [zeroclawlabs.ai](https://zeroclawlabs.ai). Lansman hazırlığı süresince gösterdiğiniz sabır için teşekkürler. Hâlâ taklit girişimleri görüyoruz, bu nedenle resmi kanallarımız üzerinden yayınlanmadıkça ZeroClaw adını kullanan herhangi bir yatırım veya bağış toplama faaliyetine **katılmayın**.                            | [Bu depoyu](https://github.com/zeroclaw-labs/zeroclaw) tek doğruluk kaynağı olarak kullanın. Resmi güncellemeler için [X (@zeroclawlabs)](https://x.com/zeroclawlabs?s=21), [Facebook (Grup)](https://www.facebook.com/groups/zeroclawlabs) ve [Reddit (r/zeroclawlabs)](https://www.reddit.com/r/zeroclawlabs/) hesaplarını takip edin. |
+| 2026-02-19 | _Kritik_  | `openagen/zeroclaw`, `zeroclaw.org` veya `zeroclaw.net` ile **bağlantılı değiliz**. `zeroclaw.org` ve `zeroclaw.net` alan adları şu anda `openagen/zeroclaw` fork'una yönlendirmektedir ve bu alan adı/depo, resmi web sitemizi/projemizi taklit etmektedir.                                                                                       | Bu kaynaklardan gelen bilgilere, ikili dosyalara, bağış toplama faaliyetlerine veya duyurulara güvenmeyin. Yalnızca [bu depoyu](https://github.com/darkansem12-rgb/zeroclaw-android) ve doğrulanmış sosyal hesaplarımızı kullanın.                                                                                                                                                                                                                                                                                                                                                                       |
+| 2026-02-21 | _Önemli_ | Resmi web sitemiz artık yayında: [zeroclawlabs.ai](https://zeroclawlabs.ai). Lansman hazırlığı süresince gösterdiğiniz sabır için teşekkürler. Hâlâ taklit girişimleri görüyoruz, bu nedenle resmi kanallarımız üzerinden yayınlanmadıkça ZeroClaw adını kullanan herhangi bir yatırım veya bağış toplama faaliyetine **katılmayın**.                            | [Bu depoyu](https://github.com/darkansem12-rgb/zeroclaw-android) tek doğruluk kaynağı olarak kullanın. Resmi güncellemeler için [X (@zeroclawlabs)](https://x.com/zeroclawlabs?s=21), [Facebook (Grup)](https://www.facebook.com/groups/zeroclawlabs) ve [Reddit (r/zeroclawlabs)](https://www.reddit.com/r/zeroclawlabs/) hesaplarını takip edin. |
 | 2026-02-19 | _Önemli_ | Anthropic, Kimlik Doğrulama ve Kimlik Bilgisi Kullanımı koşullarını 2026-02-19'da güncelledi. Claude Code OAuth token'ları (Free, Pro, Max) yalnızca Claude Code ve Claude.ai için tasarlanmıştır; Claude Free/Pro/Max'tan OAuth token'larını başka herhangi bir üründe, araçta veya hizmette (Agent SDK dahil) kullanmak izin verilmez ve Tüketici Hizmet Koşullarını ihlal edebilir. | Olası kayıpları önlemek için lütfen Claude Code OAuth entegrasyonlarından geçici olarak kaçının. Orijinal madde: [Authentication and Credential Use](https://code.claude.com/docs/en/legal-and-compliance#authentication-and-credential-use).                                                                                                                                                                                                                                                                                                                                                    |
 
 ## Öne Çıkanlar
@@ -452,7 +452,7 @@ zeroclaw skills remove my-skill
 
 ```bash
 # Workspace yönetimi
-zeroclaw onboard              # Rehberli kurulum sihirbazı
+androidclaw onboard              # Rehberli kurulum sihirbazı
 zeroclaw status               # Daemon/ajan durumunu göster
 zeroclaw doctor               # Sistem tanılaması çalıştır
 
@@ -613,7 +613,7 @@ Sürüm varlıkları şunlar için yayınlanır:
 - Windows: `x86_64`
 
 En son varlıkları şuradan indirin:
-<https://github.com/zeroclaw-labs/zeroclaw/releases/latest>
+<https://github.com/darkansem12-rgb/zeroclaw-android/releases/latest>
 
 ## Belgeler
 
@@ -679,7 +679,7 @@ En iyi fikirler her yerden geldiği için açıkta inşa ediyoruz. Bunu okuyorsa
 
 ## Katkıda Bulunma
 
-ZeroClaw'da yeni misiniz? [`good first issue`](https://github.com/zeroclaw-labs/zeroclaw/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) etiketli issue'ları arayın — nasıl başlayacağınızı öğrenmek için [Katkıda Bulunma Rehberi](CONTRIBUTING.md#first-time-contributors)mize bakın. AI/vibe-coded PR'lar hoş geldiniz! 🤖
+ZeroClaw'da yeni misiniz? [`good first issue`](https://github.com/darkansem12-rgb/zeroclaw-android/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) etiketli issue'ları arayın — nasıl başlayacağınızı öğrenmek için [Katkıda Bulunma Rehberi](CONTRIBUTING.md#first-time-contributors)mize bakın. AI/vibe-coded PR'lar hoş geldiniz! 🤖
 
 [CONTRIBUTING.md](CONTRIBUTING.md) ve [CLA.md](docs/contributing/cla.md)'ye bakın. Bir trait uygulayın, PR gönderin:
 
@@ -700,11 +700,11 @@ ZeroClaw'da yeni misiniz? [`good first issue`](https://github.com/zeroclaw-labs/
 
 **Bu, tek resmi ZeroClaw deposudur:**
 
-> https://github.com/zeroclaw-labs/zeroclaw
+> https://github.com/darkansem12-rgb/zeroclaw-android
 
 "ZeroClaw" olduğunu iddia eden veya ZeroClaw Labs ile bağlantı ima eden başka herhangi bir depo, organizasyon, alan adı veya paket **yetkisiz olup bu projeyle bağlantılı değildir**. Bilinen yetkisiz fork'lar [TRADEMARK.md](docs/maintainers/trademark.md)'de listelenecektir.
 
-Kimlik taklidi veya ticari marka kötüye kullanımıyla karşılaşırsanız, lütfen [bir issue açın](https://github.com/zeroclaw-labs/zeroclaw/issues).
+Kimlik taklidi veya ticari marka kötüye kullanımıyla karşılaşırsanız, lütfen [bir issue açın](https://github.com/darkansem12-rgb/zeroclaw-android/issues).
 
 ---
 
@@ -736,7 +736,7 @@ Her iki lisanstan birini seçebilirsiniz. **Katkıda bulunanlar her ikisi altın
 
 ## Katkıda Bulunanlar
 
-<a href="https://github.com/zeroclaw-labs/zeroclaw/graphs/contributors">
+<a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=zeroclaw-labs/zeroclaw" alt="ZeroClaw contributors" />
 </a>
 

@@ -1,6 +1,8 @@
-# AGENTS.md — ZeroClaw
+# AGENTS.md — AndroidClaw
 
 Cross-tool agent instructions for any AI coding assistant working on this repository.
+
+AndroidClaw is a fork of ZeroClaw, optimized for Android devices with Termux.
 
 ## Commands
 
@@ -20,7 +22,7 @@ Docs-only changes: run markdown lint and link-integrity checks. If touching boot
 
 ## Project Snapshot
 
-ZeroClaw is a Rust-first autonomous agent runtime optimized for performance, efficiency, stability, extensibility, sustainability, and security.
+AndroidClaw is a Rust-first autonomous agent runtime optimized for performance, efficiency, stability, extensibility, sustainability, and security. Forked from ZeroClaw for Android/Termux support.
 
 Core architecture is trait-driven and modular. Extend by implementing traits and registering in factory modules.
 

@@ -1,5 +1,5 @@
-# ZeroClaw Configuration for Android with Ollama/TinyLlama
-# Place this file at ~/.zeroclaw/config.toml
+# AndroidClaw Configuration for Android with Ollama/TinyLlama
+# Place this file at ~/.androidclaw/config.toml
 
 [core]
 # Local Ollama provider for offline operation
@@ -16,7 +16,7 @@ base_url = "http://127.0.0.1:11434"
 
 [workspace]
 # Default workspace in Termux home
-path = "$HOME/zeroclaw-workspace"
+path = "$HOME/androidclaw-workspace"
 # Automatically create workspace if missing
 auto_create = true
 
@@ -45,8 +45,8 @@ enabled = true
 [security.protection]
 # Protection-specific settings for Android
 enabled = true
-log_path = "$HOME/.zeroclaw/actions.log"
-workspace_dir = "$HOME/zeroclaw-workspace"
+log_path = "$HOME/.androidclaw/actions.log"
+workspace_dir = "$HOME/androidclaw-workspace"
 confirm_network = true
 confirm_external_writes = true
 # Android-specific sensitive paths
@@ -67,7 +67,7 @@ sensitive_paths = [
 backend = "sqlite"
 auto_save = true
 # Path to SQLite database
-db_path = "$HOME/.zeroclaw/memory.db"
+db_path = "$HOME/.androidclaw/memory.db"
 
 [channels]
 # Disable channels by default on Android
@@ -83,11 +83,11 @@ slack = false
 [storage]
 # Local storage settings
 provider = "sqlite"
-path = "$HOME/.zeroclaw/storage.db"
+path = "$HOME/.androidclaw/storage.db"
 
 [logging]
 level = "info"
-file = "$HOME/.zeroclaw/zeroclaw.log"
+file = "$HOME/.androidclaw/androidclaw.log"
 # Log to console in Termux
 console = true
 

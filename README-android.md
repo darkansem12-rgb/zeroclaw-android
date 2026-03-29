@@ -1,6 +1,6 @@
-# ZeroClaw en Android via Termux
+# AndroidClaw en Android via Termux
 
-Guía completa para ejecutar ZeroClaw en tu teléfono Android usando Termux.
+Guía completa para ejecutar AndroidClaw en tu teléfono Android usando Termux.
 
 ## Requisitos
 
@@ -58,11 +58,11 @@ Aún no disponible - el binario se compilará con GitHub Actions.
 
 ---
 
-## Configuración de ZeroClaw
+## Configuración de AndroidClaw
 
 ### Emparejamiento (Pairing)
 
-Al iniciar ZeroClaw por primera vez, verás un código de 6 dígitos en la terminal:
+Al iniciar AndroidClaw por primera vez, verás un código de 6 dígitos en la terminal:
 
 ```
 🔐 Pairing code: 123456
@@ -76,8 +76,8 @@ Al iniciar ZeroClaw por primera vez, verás un código de 6 dígitos en la termi
 
 ```bash
 # Crear archivo de configuración
-mkdir -p ~/.config/zeroclaw
-cat > ~/.config/zeroclaw/config.toml << 'EOF'
+mkdir -p ~/.config/androidclaw
+cat > ~/.config/androidclaw/config.toml << 'EOF'
 [providers]
 default = "openai"
 
@@ -99,7 +99,7 @@ Si tienes Ollama instalado en tu teléfono:
 pkg install ollama
 ollama serve
 
-# En ZeroClaw, usar provider "ollama"
+# En AndroidClaw, usar provider "ollama"
 ```
 
 ---
@@ -109,7 +109,7 @@ ollama serve
 ### Error: "Permission denied"
 
 ```bash
-chmod +x zeroclaw
+chmod +x androidclaw
 ```
 
 ### Error: "Web dashboard not available"
@@ -134,7 +134,7 @@ cargo build --release
 
 ## Acceso Remoto
 
-Para acceder a ZeroClaw desde otro dispositivo:
+Para acceder a AndroidClaw desde otro dispositivo:
 
 ### Opción 1: Túnel SSH (requiere PC)
 
@@ -157,13 +157,13 @@ ngrok http 42617
 
 ```
 zeroclaw-android/
-├── zeroclaw              # Binario compilado
-├── web/dist/             # Archivos del dashboard
-├── Cargo.toml            # Configuración de Rust
-├── termux-setup.sh       # Script de instalación
-├── termux-build.sh       # Script de compilación
-├── termux-run.sh         # Script de ejecución
-└── README-android.md     # Este archivo
+├── androidclaw             # Binario compilado
+├── web/dist/              # Archivos del dashboard
+├── Cargo.toml              # Configuración de Rust
+├── termux-setup.sh         # Script de instalación
+├── termux-build.sh         # Script de compilación
+├── termux-run.sh           # Script de ejecución
+└── README-android.md       # Este archivo
 ```
 
 ---
@@ -172,8 +172,8 @@ zeroclaw-android/
 
 ```bash
 cd ~
-rm -rf zeroclaw zeroclaw-android
-rm -rf ~/.config/zeroclaw
+rm -rf androidclaw zeroclaw-android
+rm -rf ~/.config/androidclaw
 ```
 
 ---
@@ -182,3 +182,4 @@ rm -rf ~/.config/zeroclaw
 
 - 📖 Documentación: https://github.com/darkansem12-rgb/zeroclaw-android
 - 🐛 Issues: https://github.com/darkansem12-rgb/zeroclaw-android/issues
+- 💬 Facebook: https://www.facebook.com/Luis.gomsantana

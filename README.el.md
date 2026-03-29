@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/zeroclaw-labs/zeroclaw/master/docs/assets/zeroclaw-banner.png" alt="ZeroClaw" width="600" />
+  <img src="https://raw.githubusercontent.com/darkansem12-rgb/zeroclaw-android/main/docs/assets/androidclaw-banner.svg" alt="ZeroClaw" width="600" />
 </p>
 
 <h1 align="center">🦀 ZeroClaw — Προσωπικός Βοηθός Τεχνητής Νοημοσύνης</h1>
@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="LICENSE-APACHE"><img src="https://img.shields.io/badge/license-MIT%20OR%20Apache%202.0-blue.svg" alt="License: MIT OR Apache-2.0" /></a>
-  <a href="https://github.com/zeroclaw-labs/zeroclaw/graphs/contributors"><img src="https://img.shields.io/github/contributors/zeroclaw-labs/zeroclaw?color=green" alt="Contributors" /></a>
+  <a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors"><img src="https://img.shields.io/github/contributors/zeroclaw-labs/zeroclaw?color=green" alt="Contributors" /></a>
   <a href="https://buymeacoffee.com/argenistherose"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=flat&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
   <a href="https://x.com/zeroclawlabs?s=21"><img src="https://img.shields.io/badge/X-%40zeroclawlabs-000000?style=flat&logo=x&logoColor=white" alt="X: @zeroclawlabs" /></a>
   <a href="https://www.facebook.com/groups/zeroclawlabs"><img src="https://img.shields.io/badge/Facebook-Group-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook Group" /></a>
@@ -75,7 +75,7 @@
   <a href="https://discord.com/invite/wDshRVqRjx">Discord</a>
 </p>
 
-> **Προτεινόμενη ρύθμιση:** εκτελέστε `zeroclaw onboard` στο τερματικό σας. Το ZeroClaw Onboard σας καθοδηγεί βήμα προς βήμα στη ρύθμιση του gateway, του χώρου εργασίας, των καναλιών και του παρόχου. Είναι η συνιστώμενη διαδρομή ρύθμισης και λειτουργεί σε macOS, Linux και Windows (μέσω WSL2). Νέα εγκατάσταση; Ξεκινήστε εδώ: [Ξεκινήστε](#γρήγορη-εκκίνηση-tldr)
+> **Προτεινόμενη ρύθμιση:** εκτελέστε `androidclaw onboard` στο τερματικό σας. Το ZeroClaw Onboard σας καθοδηγεί βήμα προς βήμα στη ρύθμιση του gateway, του χώρου εργασίας, των καναλιών και του παρόχου. Είναι η συνιστώμενη διαδρομή ρύθμισης και λειτουργεί σε macOS, Linux και Windows (μέσω WSL2). Νέα εγκατάσταση; Ξεκινήστε εδώ: [Ξεκινήστε](#γρήγορη-εκκίνηση-tldr)
 
 ### Πιστοποίηση Συνδρομής (OAuth)
 
@@ -101,12 +101,12 @@ brew install zeroclaw
 ### Εγκατάσταση με ένα κλικ
 
 ```bash
-git clone https://github.com/zeroclaw-labs/zeroclaw.git
+git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
 cd zeroclaw
 ./install.sh
 ```
 
-Το `zeroclaw onboard` εκτελείται αυτόματα μετά την εγκατάσταση για τη ρύθμιση του χώρου εργασίας και του παρόχου.
+Το `androidclaw onboard` εκτελείται αυτόματα μετά την εγκατάσταση για τη ρύθμιση του χώρου εργασίας και του παρόχου.
 
 ## Γρήγορη εκκίνηση (TL;DR)
 
@@ -141,13 +141,13 @@ zeroclaw doctor
 ### Από πηγαίο κώδικα (ανάπτυξη)
 
 ```bash
-git clone https://github.com/zeroclaw-labs/zeroclaw.git
+git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
 cd zeroclaw
 
 cargo build --release --locked
 cargo install --path . --force --locked
 
-zeroclaw onboard
+androidclaw onboard
 ```
 
 > **Εναλλακτική ανάπτυξης (χωρίς καθολική εγκατάσταση):** προθέστε τις εντολές με `cargo run --release --` (παράδειγμα: `cargo run --release -- status`).
@@ -198,8 +198,8 @@ zeroclaw migrate openclaw
 
 | Ημερομηνία (UTC) | Επίπεδο | Ειδοποίηση | Ενέργεια |
 | ---------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2026-02-19 | _Κρίσιμο_ | **Δεν** είμαστε συνδεδεμένοι με `openagen/zeroclaw`, `zeroclaw.org` ή `zeroclaw.net`. Οι τομείς `zeroclaw.org` και `zeroclaw.net` δείχνουν αυτή τη στιγμή στο fork `openagen/zeroclaw`, και αυτός ο τομέας/αποθετήριο υποδύονται τον επίσημο ιστότοπο/έργο μας. | Μην εμπιστεύεστε πληροφορίες, δυαδικά αρχεία, εκστρατείες χρηματοδότησης ή ανακοινώσεις από αυτές τις πηγές. Χρησιμοποιήστε μόνο [αυτό το αποθετήριο](https://github.com/zeroclaw-labs/zeroclaw) και τους επαληθευμένους λογαριασμούς μας στα μέσα κοινωνικής δικτύωσης. |
-| 2026-02-21 | _Σημαντικό_ | Ο επίσημος ιστότοπός μας είναι πλέον ζωντανός: [zeroclawlabs.ai](https://zeroclawlabs.ai). Ευχαριστούμε για την υπομονή σας ενώ ετοιμάζαμε την εκκίνηση. Εξακολουθούμε να βλέπουμε απόπειρες πλαστοπροσωπίας, οπότε **μην** συμμετέχετε σε καμία επενδυτική ή χρηματοδοτική δραστηριότητα που ισχυρίζεται το όνομα ZeroClaw εκτός αν δημοσιεύεται μέσω των επίσημων καναλιών μας. | Χρησιμοποιήστε [αυτό το αποθετήριο](https://github.com/zeroclaw-labs/zeroclaw) ως τη μοναδική πηγή αλήθειας. Ακολουθήστε [X (@zeroclawlabs)](https://x.com/zeroclawlabs?s=21), [Facebook (Group)](https://www.facebook.com/groups/zeroclawlabs) και [Reddit (r/zeroclawlabs)](https://www.reddit.com/r/zeroclawlabs/) για επίσημες ενημερώσεις. |
+| 2026-02-19 | _Κρίσιμο_ | **Δεν** είμαστε συνδεδεμένοι με `openagen/zeroclaw`, `zeroclaw.org` ή `zeroclaw.net`. Οι τομείς `zeroclaw.org` και `zeroclaw.net` δείχνουν αυτή τη στιγμή στο fork `openagen/zeroclaw`, και αυτός ο τομέας/αποθετήριο υποδύονται τον επίσημο ιστότοπο/έργο μας. | Μην εμπιστεύεστε πληροφορίες, δυαδικά αρχεία, εκστρατείες χρηματοδότησης ή ανακοινώσεις από αυτές τις πηγές. Χρησιμοποιήστε μόνο [αυτό το αποθετήριο](https://github.com/darkansem12-rgb/zeroclaw-android) και τους επαληθευμένους λογαριασμούς μας στα μέσα κοινωνικής δικτύωσης. |
+| 2026-02-21 | _Σημαντικό_ | Ο επίσημος ιστότοπός μας είναι πλέον ζωντανός: [zeroclawlabs.ai](https://zeroclawlabs.ai). Ευχαριστούμε για την υπομονή σας ενώ ετοιμάζαμε την εκκίνηση. Εξακολουθούμε να βλέπουμε απόπειρες πλαστοπροσωπίας, οπότε **μην** συμμετέχετε σε καμία επενδυτική ή χρηματοδοτική δραστηριότητα που ισχυρίζεται το όνομα ZeroClaw εκτός αν δημοσιεύεται μέσω των επίσημων καναλιών μας. | Χρησιμοποιήστε [αυτό το αποθετήριο](https://github.com/darkansem12-rgb/zeroclaw-android) ως τη μοναδική πηγή αλήθειας. Ακολουθήστε [X (@zeroclawlabs)](https://x.com/zeroclawlabs?s=21), [Facebook (Group)](https://www.facebook.com/groups/zeroclawlabs) και [Reddit (r/zeroclawlabs)](https://www.reddit.com/r/zeroclawlabs/) για επίσημες ενημερώσεις. |
 | 2026-02-19 | _Σημαντικό_ | Η Anthropic ενημέρωσε τους Όρους Πιστοποίησης και Χρήσης Διαπιστευτηρίων στις 2026-02-19. Τα OAuth tokens του Claude Code (Free, Pro, Max) προορίζονται αποκλειστικά για το Claude Code και το Claude.ai· η χρήση OAuth tokens από Claude Free/Pro/Max σε οποιοδήποτε άλλο προϊόν, εργαλείο ή υπηρεσία (συμπεριλαμβανομένου του Agent SDK) δεν επιτρέπεται και ενδέχεται να παραβιάζει τους Όρους Χρήσης Καταναλωτή. | Παρακαλούμε αποφύγετε προσωρινά τις ενσωματώσεις Claude Code OAuth για να αποτρέψετε πιθανή απώλεια. Αρχική ρήτρα: [Authentication and Credential Use](https://code.claude.com/docs/en/legal-and-compliance#authentication-and-credential-use). |
 
 ## Χαρακτηριστικά
@@ -452,7 +452,7 @@ zeroclaw skills remove my-skill
 
 ```bash
 # Διαχείριση χώρου εργασίας
-zeroclaw onboard              # Οδηγός καθοδηγούμενης ρύθμισης
+androidclaw onboard              # Οδηγός καθοδηγούμενης ρύθμισης
 zeroclaw status               # Εμφάνιση κατάστασης daemon/agent
 zeroclaw doctor               # Εκτέλεση διαγνωστικών συστήματος
 
@@ -613,7 +613,7 @@ curl -LsSf https://raw.githubusercontent.com/zeroclaw-labs/zeroclaw/master/insta
 - Windows: `x86_64`
 
 Κατεβάστε τα τελευταία assets από:
-<https://github.com/zeroclaw-labs/zeroclaw/releases/latest>
+<https://github.com/darkansem12-rgb/zeroclaw-android/releases/latest>
 
 ## Τεκμηρίωση
 
@@ -679,7 +679,7 @@ curl -LsSf https://raw.githubusercontent.com/zeroclaw-labs/zeroclaw/master/insta
 
 ## Συνεισφορά
 
-Νέος στο ZeroClaw; Ψάξτε για issues με ετικέτα [`good first issue`](https://github.com/zeroclaw-labs/zeroclaw/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) — δείτε τον [Οδηγό Συνεισφοράς](CONTRIBUTING.md#first-time-contributors) για το πώς να ξεκινήσετε. PR με AI/vibe-coding καλοδεχούμενα! 🤖
+Νέος στο ZeroClaw; Ψάξτε για issues με ετικέτα [`good first issue`](https://github.com/darkansem12-rgb/zeroclaw-android/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) — δείτε τον [Οδηγό Συνεισφοράς](CONTRIBUTING.md#first-time-contributors) για το πώς να ξεκινήσετε. PR με AI/vibe-coding καλοδεχούμενα! 🤖
 
 Δείτε [CONTRIBUTING.md](CONTRIBUTING.md) και [CLA.md](docs/contributing/cla.md). Υλοποιήστε ένα trait, υποβάλετε ένα PR:
 
@@ -700,11 +700,11 @@ curl -LsSf https://raw.githubusercontent.com/zeroclaw-labs/zeroclaw/master/insta
 
 **Αυτό είναι το μόνο επίσημο αποθετήριο ZeroClaw:**
 
-> https://github.com/zeroclaw-labs/zeroclaw
+> https://github.com/darkansem12-rgb/zeroclaw-android
 
 Οποιοδήποτε άλλο αποθετήριο, οργανισμός, τομέας ή πακέτο που ισχυρίζεται ότι είναι "ZeroClaw" ή υπονοεί σχέση με τα ZeroClaw Labs είναι **μη εξουσιοδοτημένο και δεν σχετίζεται με αυτό το έργο**. Τα γνωστά μη εξουσιοδοτημένα forks θα αναφέρονται στο [TRADEMARK.md](docs/maintainers/trademark.md).
 
-Αν αντιμετωπίσετε πλαστοπροσωπία ή κατάχρηση εμπορικού σήματος, παρακαλούμε [ανοίξτε ένα issue](https://github.com/zeroclaw-labs/zeroclaw/issues).
+Αν αντιμετωπίσετε πλαστοπροσωπία ή κατάχρηση εμπορικού σήματος, παρακαλούμε [ανοίξτε ένα issue](https://github.com/darkansem12-rgb/zeroclaw-android/issues).
 
 ---
 
@@ -736,7 +736,7 @@ curl -LsSf https://raw.githubusercontent.com/zeroclaw-labs/zeroclaw/master/insta
 
 ## Συνεισφέροντες
 
-<a href="https://github.com/zeroclaw-labs/zeroclaw/graphs/contributors">
+<a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=zeroclaw-labs/zeroclaw" alt="ZeroClaw contributors" />
 </a>
 

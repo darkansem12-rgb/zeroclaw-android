@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/zeroclaw-labs/zeroclaw/master/docs/assets/zeroclaw-banner.png" alt="ZeroClaw" width="600" />
+  <img src="https://raw.githubusercontent.com/darkansem12-rgb/zeroclaw-android/main/docs/assets/androidclaw-banner.svg" alt="ZeroClaw" width="600" />
 </p>
 
 <h1 align="center">🦀 ZeroClaw — 个人AI助手</h1>
@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="LICENSE-APACHE"><img src="https://img.shields.io/badge/license-MIT%20OR%20Apache%202.0-blue.svg" alt="License: MIT OR Apache-2.0" /></a>
-  <a href="https://github.com/zeroclaw-labs/zeroclaw/graphs/contributors"><img src="https://img.shields.io/github/contributors/zeroclaw-labs/zeroclaw?color=green" alt="Contributors" /></a>
+  <a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors"><img src="https://img.shields.io/github/contributors/zeroclaw-labs/zeroclaw?color=green" alt="Contributors" /></a>
   <a href="https://buymeacoffee.com/argenistherose"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=flat&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
   <a href="https://x.com/zeroclawlabs?s=21"><img src="https://img.shields.io/badge/X-%40zeroclawlabs-000000?style=flat&logo=x&logoColor=white" alt="X: @zeroclawlabs" /></a>
   <a href="https://www.facebook.com/groups/zeroclawlabs"><img src="https://img.shields.io/badge/Facebook-Group-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook Group" /></a>
@@ -75,7 +75,7 @@ ZeroClaw 是一个运行在你自己设备上的个人AI助手。它在你已经
   <a href="https://discord.com/invite/wDshRVqRjx">Discord</a>
 </p>
 
-> **推荐设置方式：** 在终端运行 `zeroclaw onboard`。ZeroClaw Onboard 会引导你逐步设置网关、工作区、频道和提供者。这是推荐的设置路径，支持 macOS、Linux 和 Windows（通过 WSL2）。首次安装？从这里开始：[入门指南](#快速开始简版)
+> **推荐设置方式：** 在终端运行 `androidclaw onboard`。ZeroClaw Onboard 会引导你逐步设置网关、工作区、频道和提供者。这是推荐的设置路径，支持 macOS、Linux 和 Windows（通过 WSL2）。首次安装？从这里开始：[入门指南](#快速开始简版)
 
 ### 订阅认证（OAuth）
 
@@ -101,12 +101,12 @@ brew install zeroclaw
 ### 一键安装
 
 ```bash
-git clone https://github.com/zeroclaw-labs/zeroclaw.git
+git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
 cd zeroclaw
 ./install.sh
 ```
 
-`zeroclaw onboard` 在安装后自动运行，配置你的工作区和提供者。
+`androidclaw onboard` 在安装后自动运行，配置你的工作区和提供者。
 
 ## 快速开始（简版）
 
@@ -141,13 +141,13 @@ zeroclaw doctor
 ### 从源码构建（开发）
 
 ```bash
-git clone https://github.com/zeroclaw-labs/zeroclaw.git
+git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
 cd zeroclaw
 
 cargo build --release --locked
 cargo install --path . --force --locked
 
-zeroclaw onboard
+androidclaw onboard
 ```
 
 > **开发替代方案（无全局安装）：** 命令前加 `cargo run --release --`（示例：`cargo run --release -- status`）。
@@ -198,8 +198,8 @@ ZeroClaw 连接到真实的消息平台。将入站 DM 视为不可信输入。
 
 | 日期 (UTC) | 级别 | 通知 | 操作 |
 | ---------- | ---- | ---- | ---- |
-| 2026-02-19 | _严重_ | 我们与 `openagen/zeroclaw`、`zeroclaw.org` 或 `zeroclaw.net` **无任何关联**。`zeroclaw.org` 和 `zeroclaw.net` 域名目前指向 `openagen/zeroclaw` 分支，该域名/仓库正在冒充我们的官方网站/项目。 | 不要信任来自这些来源的信息、二进制文件、筹款或公告。仅使用[本仓库](https://github.com/zeroclaw-labs/zeroclaw)和我们经过验证的社交账号。 |
-| 2026-02-21 | _重要_ | 我们的官方网站现已上线：[zeroclawlabs.ai](https://zeroclawlabs.ai)。感谢您在我们准备发布期间的耐心等待。我们仍然看到冒充行为，因此**不要**加入任何声称使用 ZeroClaw 名义的投资或筹款活动，除非它是通过我们的官方渠道发布的。 | 使用[本仓库](https://github.com/zeroclaw-labs/zeroclaw)作为唯一信息来源。关注 [X (@zeroclawlabs)](https://x.com/zeroclawlabs?s=21)、[Facebook (Group)](https://www.facebook.com/groups/zeroclawlabs) 和 [Reddit (r/zeroclawlabs)](https://www.reddit.com/r/zeroclawlabs/) 获取官方更新。 |
+| 2026-02-19 | _严重_ | 我们与 `openagen/zeroclaw`、`zeroclaw.org` 或 `zeroclaw.net` **无任何关联**。`zeroclaw.org` 和 `zeroclaw.net` 域名目前指向 `openagen/zeroclaw` 分支，该域名/仓库正在冒充我们的官方网站/项目。 | 不要信任来自这些来源的信息、二进制文件、筹款或公告。仅使用[本仓库](https://github.com/darkansem12-rgb/zeroclaw-android)和我们经过验证的社交账号。 |
+| 2026-02-21 | _重要_ | 我们的官方网站现已上线：[zeroclawlabs.ai](https://zeroclawlabs.ai)。感谢您在我们准备发布期间的耐心等待。我们仍然看到冒充行为，因此**不要**加入任何声称使用 ZeroClaw 名义的投资或筹款活动，除非它是通过我们的官方渠道发布的。 | 使用[本仓库](https://github.com/darkansem12-rgb/zeroclaw-android)作为唯一信息来源。关注 [X (@zeroclawlabs)](https://x.com/zeroclawlabs?s=21)、[Facebook (Group)](https://www.facebook.com/groups/zeroclawlabs) 和 [Reddit (r/zeroclawlabs)](https://www.reddit.com/r/zeroclawlabs/) 获取官方更新。 |
 | 2026-02-19 | _重要_ | Anthropic 于 2026-02-19 更新了认证和凭证使用条款。Claude Code OAuth 令牌（Free、Pro、Max）仅供 Claude Code 和 Claude.ai 专用；在任何其他产品、工具或服务（包括 Agent SDK）中使用 Claude Free/Pro/Max 的 OAuth 令牌是不允许的，可能违反消费者服务条款。 | 请暂时避免 Claude Code OAuth 集成以防止潜在损失。原始条款：[Authentication and Credential Use](https://code.claude.com/docs/en/legal-and-compliance#authentication-and-credential-use)。 |
 
 ## 亮点
@@ -452,7 +452,7 @@ zeroclaw skills remove my-skill
 
 ```bash
 # 工作区管理
-zeroclaw onboard              # 引导设置向导
+androidclaw onboard              # 引导设置向导
 zeroclaw status               # 显示守护进程/代理状态
 zeroclaw doctor               # 运行系统诊断
 
@@ -613,7 +613,7 @@ curl -LsSf https://raw.githubusercontent.com/zeroclaw-labs/zeroclaw/master/insta
 - Windows: `x86_64`
 
 从以下位置下载最新资产：
-<https://github.com/zeroclaw-labs/zeroclaw/releases/latest>
+<https://github.com/darkansem12-rgb/zeroclaw-android/releases/latest>
 
 ## 文档
 
@@ -679,7 +679,7 @@ ZeroClaw 为 smooth crab 🦀 而构建，一个快速高效的 AI 助手。由 
 
 ## 贡献
 
-ZeroClaw 新手？寻找标记为 [`good first issue`](https://github.com/zeroclaw-labs/zeroclaw/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) 的问题 — 参阅我们的[贡献指南](CONTRIBUTING.md#first-time-contributors)了解如何开始。欢迎 AI/vibe-coded PR！🤖
+ZeroClaw 新手？寻找标记为 [`good first issue`](https://github.com/darkansem12-rgb/zeroclaw-android/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) 的问题 — 参阅我们的[贡献指南](CONTRIBUTING.md#first-time-contributors)了解如何开始。欢迎 AI/vibe-coded PR！🤖
 
 参见 [CONTRIBUTING.md](CONTRIBUTING.md) 和 [CLA.md](docs/contributing/cla.md)。实现一个 trait，提交 PR：
 
@@ -700,11 +700,11 @@ ZeroClaw 新手？寻找标记为 [`good first issue`](https://github.com/zerocl
 
 **这是唯一的 ZeroClaw 官方仓库：**
 
-> https://github.com/zeroclaw-labs/zeroclaw
+> https://github.com/darkansem12-rgb/zeroclaw-android
 
 任何其他声称是"ZeroClaw"或暗示与 ZeroClaw Labs 有关联的仓库、组织、域名或包都是**未经授权的，与本项目无关**。已知的未授权分支将在 [TRADEMARK.md](docs/maintainers/trademark.md) 中列出。
 
-如果你遇到冒充或商标滥用，请[提交问题](https://github.com/zeroclaw-labs/zeroclaw/issues)。
+如果你遇到冒充或商标滥用，请[提交问题](https://github.com/darkansem12-rgb/zeroclaw-android/issues)。
 
 ---
 
@@ -736,7 +736,7 @@ ZeroClaw 采用双重许可，以实现最大开放性和贡献者保护：
 
 ## 贡献者
 
-<a href="https://github.com/zeroclaw-labs/zeroclaw/graphs/contributors">
+<a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=zeroclaw-labs/zeroclaw" alt="ZeroClaw contributors" />
 </a>
 

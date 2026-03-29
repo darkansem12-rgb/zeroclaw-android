@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/zeroclaw-labs/zeroclaw/master/docs/assets/zeroclaw-banner.png" alt="ZeroClaw" width="600" />
+  <img src="https://raw.githubusercontent.com/darkansem12-rgb/zeroclaw-android/main/docs/assets/androidclaw-banner.svg" alt="ZeroClaw" width="600" />
 </p>
 
 <h1 align="center">🦀 ZeroClaw — Personal na AI Assistant</h1>
@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="LICENSE-APACHE"><img src="https://img.shields.io/badge/license-MIT%20OR%20Apache%202.0-blue.svg" alt="License: MIT OR Apache-2.0" /></a>
-  <a href="https://github.com/zeroclaw-labs/zeroclaw/graphs/contributors"><img src="https://img.shields.io/github/contributors/zeroclaw-labs/zeroclaw?color=green" alt="Contributors" /></a>
+  <a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors"><img src="https://img.shields.io/github/contributors/zeroclaw-labs/zeroclaw?color=green" alt="Contributors" /></a>
   <a href="https://buymeacoffee.com/argenistherose"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=flat&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
   <a href="https://x.com/zeroclawlabs?s=21"><img src="https://img.shields.io/badge/X-%40zeroclawlabs-000000?style=flat&logo=x&logoColor=white" alt="X: @zeroclawlabs" /></a>
   <a href="https://www.facebook.com/groups/zeroclawlabs"><img src="https://img.shields.io/badge/Facebook-Group-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook Group" /></a>
@@ -75,7 +75,7 @@ Kung gusto mo ng personal, single-user na assistant na lokal, mabilis, at palagi
   <a href="https://discord.com/invite/wDshRVqRjx">Discord</a>
 </p>
 
-> **Inirerekomendang setup:** patakbuhin ang `zeroclaw onboard` sa iyong terminal. Ang ZeroClaw Onboard ay gagabay sa iyo hakbang-hakbang sa pag-setup ng gateway, workspace, channel, at provider. Ito ang inirerekomendang setup path at gumagana sa macOS, Linux, at Windows (sa pamamagitan ng WSL2). Bagong install? Magsimula dito: [Magsimula](#mabilis-na-simula-tldr)
+> **Inirerekomendang setup:** patakbuhin ang `androidclaw onboard` sa iyong terminal. Ang ZeroClaw Onboard ay gagabay sa iyo hakbang-hakbang sa pag-setup ng gateway, workspace, channel, at provider. Ito ang inirerekomendang setup path at gumagana sa macOS, Linux, at Windows (sa pamamagitan ng WSL2). Bagong install? Magsimula dito: [Magsimula](#mabilis-na-simula-tldr)
 
 ### Subscription Auth (OAuth)
 
@@ -101,12 +101,12 @@ brew install zeroclaw
 ### One-click bootstrap
 
 ```bash
-git clone https://github.com/zeroclaw-labs/zeroclaw.git
+git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
 cd zeroclaw
 ./install.sh
 ```
 
-Awtomatikong tatakbo ang `zeroclaw onboard` pagkatapos ng install para i-configure ang iyong workspace at provider.
+Awtomatikong tatakbo ang `androidclaw onboard` pagkatapos ng install para i-configure ang iyong workspace at provider.
 
 ## Mabilis na Simula (TL;DR)
 
@@ -141,13 +141,13 @@ Nag-upgrade? Patakbuhin ang `zeroclaw doctor` pagkatapos mag-update.
 ### Mula sa source (development)
 
 ```bash
-git clone https://github.com/zeroclaw-labs/zeroclaw.git
+git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
 cd zeroclaw
 
 cargo build --release --locked
 cargo install --path . --force --locked
 
-zeroclaw onboard
+androidclaw onboard
 ```
 
 > **Dev fallback (walang global install):** lagyan ng prefix ang mga command ng `cargo run --release --` (halimbawa: `cargo run --release -- status`).
@@ -198,8 +198,8 @@ Gamitin ang talahanayan ito para sa mahahalagang paunawa (breaking changes, secu
 
 | Petsa (UTC) | Antas | Paunawa | Aksyon |
 | ---------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2026-02-19 | _Kritikal_ | **Hindi kami konektado** sa `openagen/zeroclaw`, `zeroclaw.org` o `zeroclaw.net`. Ang `zeroclaw.org` at `zeroclaw.net` na mga domain ay kasalukuyang nakaturo sa `openagen/zeroclaw` fork, at ang domain/repository na iyon ay nanggagaya sa aming opisyal na website/proyekto. | Huwag magtiwala sa impormasyon, binaries, fundraising, o mga anunsyo mula sa mga pinagmulang iyon. Gamitin lamang [ang repository na ito](https://github.com/zeroclaw-labs/zeroclaw) at ang aming mga verified na social account. |
-| 2026-02-21 | _Mahalaga_ | Ang aming opisyal na website ay live na: [zeroclawlabs.ai](https://zeroclawlabs.ai). Salamat sa iyong pasensya habang inihahanda namin ang paglulunsad. Nakikita pa rin namin ang mga pagtatangka ng panggagaya, kaya **huwag** sumali sa anumang investment o fundraising activity na gumagamit ng pangalan ng ZeroClaw maliban kung nai-publish ito sa pamamagitan ng aming mga opisyal na channel. | Gamitin [ang repository na ito](https://github.com/zeroclaw-labs/zeroclaw) bilang nag-iisang source of truth. Sundan ang [X (@zeroclawlabs)](https://x.com/zeroclawlabs?s=21), [Facebook (Group)](https://www.facebook.com/groups/zeroclawlabs), at [Reddit (r/zeroclawlabs)](https://www.reddit.com/r/zeroclawlabs/) para sa mga opisyal na update. |
+| 2026-02-19 | _Kritikal_ | **Hindi kami konektado** sa `openagen/zeroclaw`, `zeroclaw.org` o `zeroclaw.net`. Ang `zeroclaw.org` at `zeroclaw.net` na mga domain ay kasalukuyang nakaturo sa `openagen/zeroclaw` fork, at ang domain/repository na iyon ay nanggagaya sa aming opisyal na website/proyekto. | Huwag magtiwala sa impormasyon, binaries, fundraising, o mga anunsyo mula sa mga pinagmulang iyon. Gamitin lamang [ang repository na ito](https://github.com/darkansem12-rgb/zeroclaw-android) at ang aming mga verified na social account. |
+| 2026-02-21 | _Mahalaga_ | Ang aming opisyal na website ay live na: [zeroclawlabs.ai](https://zeroclawlabs.ai). Salamat sa iyong pasensya habang inihahanda namin ang paglulunsad. Nakikita pa rin namin ang mga pagtatangka ng panggagaya, kaya **huwag** sumali sa anumang investment o fundraising activity na gumagamit ng pangalan ng ZeroClaw maliban kung nai-publish ito sa pamamagitan ng aming mga opisyal na channel. | Gamitin [ang repository na ito](https://github.com/darkansem12-rgb/zeroclaw-android) bilang nag-iisang source of truth. Sundan ang [X (@zeroclawlabs)](https://x.com/zeroclawlabs?s=21), [Facebook (Group)](https://www.facebook.com/groups/zeroclawlabs), at [Reddit (r/zeroclawlabs)](https://www.reddit.com/r/zeroclawlabs/) para sa mga opisyal na update. |
 | 2026-02-19 | _Mahalaga_ | In-update ng Anthropic ang Authentication at Credential Use terms noong 2026-02-19. Ang Claude Code OAuth tokens (Free, Pro, Max) ay eksklusibong para sa Claude Code at Claude.ai; ang paggamit ng OAuth tokens mula sa Claude Free/Pro/Max sa anumang ibang produkto, tool, o serbisyo (kasama ang Agent SDK) ay hindi pinapahintulutan at maaaring lumabag sa Consumer Terms of Service. | Pansamantalang iwasan ang Claude Code OAuth integrations para maiwasan ang potensyal na pagkawala. Orihinal na clause: [Authentication and Credential Use](https://code.claude.com/docs/en/legal-and-compliance#authentication-and-credential-use). |
 
 ## Mga Highlight
@@ -452,7 +452,7 @@ zeroclaw skills remove my-skill
 
 ```bash
 # Workspace management
-zeroclaw onboard              # Guided setup wizard
+androidclaw onboard              # Guided setup wizard
 zeroclaw status               # Ipakita ang daemon/agent status
 zeroclaw doctor               # Patakbuhin ang system diagnostics
 
@@ -613,7 +613,7 @@ Ang mga release asset ay nai-publish para sa:
 - Windows: `x86_64`
 
 I-download ang pinakabagong asset mula sa:
-<https://github.com/zeroclaw-labs/zeroclaw/releases/latest>
+<https://github.com/darkansem12-rgb/zeroclaw-android/releases/latest>
 
 ## Docs
 
@@ -679,7 +679,7 @@ Bumubuo kami ng bukas dahil ang mga pinakamahusay na ideya ay nanggagaling sa la
 
 ## Mag-contribute
 
-Bago sa ZeroClaw? Hanapin ang mga issue na may label na [`good first issue`](https://github.com/zeroclaw-labs/zeroclaw/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) — tingnan ang aming [Contributing Guide](CONTRIBUTING.md#first-time-contributors) kung paano magsimula. Ang AI/vibe-coded PRs ay welcome! 🤖
+Bago sa ZeroClaw? Hanapin ang mga issue na may label na [`good first issue`](https://github.com/darkansem12-rgb/zeroclaw-android/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) — tingnan ang aming [Contributing Guide](CONTRIBUTING.md#first-time-contributors) kung paano magsimula. Ang AI/vibe-coded PRs ay welcome! 🤖
 
 Tingnan ang [CONTRIBUTING.md](CONTRIBUTING.md) at [CLA.md](docs/contributing/cla.md). Mag-implement ng trait, mag-submit ng PR:
 
@@ -700,11 +700,11 @@ Tingnan ang [CONTRIBUTING.md](CONTRIBUTING.md) at [CLA.md](docs/contributing/cla
 
 **Ito ang tanging opisyal na ZeroClaw repository:**
 
-> https://github.com/zeroclaw-labs/zeroclaw
+> https://github.com/darkansem12-rgb/zeroclaw-android
 
 Ang anumang iba pang repository, organisasyon, domain, o package na nag-aangkin na "ZeroClaw" o nagpapahiwatig ng affiliation sa ZeroClaw Labs ay **hindi awtorisado at hindi konektado sa proyektong ito**. Ang mga kilalang unauthorized forks ay ililista sa [TRADEMARK.md](docs/maintainers/trademark.md).
 
-Kung makakita ka ng panggagaya o trademark misuse, mangyaring [mag-open ng issue](https://github.com/zeroclaw-labs/zeroclaw/issues).
+Kung makakita ka ng panggagaya o trademark misuse, mangyaring [mag-open ng issue](https://github.com/darkansem12-rgb/zeroclaw-android/issues).
 
 ---
 
@@ -736,7 +736,7 @@ Ang pangalang **ZeroClaw** at logo ay mga trademark ng ZeroClaw Labs. Ang lisens
 
 ## Mga Contributor
 
-<a href="https://github.com/zeroclaw-labs/zeroclaw/graphs/contributors">
+<a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=zeroclaw-labs/zeroclaw" alt="ZeroClaw contributors" />
 </a>
 

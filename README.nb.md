@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/zeroclaw-labs/zeroclaw/master/docs/assets/zeroclaw-banner.png" alt="ZeroClaw" width="600" />
+  <img src="https://raw.githubusercontent.com/darkansem12-rgb/zeroclaw-android/main/docs/assets/androidclaw-banner.svg" alt="ZeroClaw" width="600" />
 </p>
 
 <h1 align="center">🦀 ZeroClaw — Personlig AI-assistent</h1>
@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="LICENSE-APACHE"><img src="https://img.shields.io/badge/license-MIT%20OR%20Apache%202.0-blue.svg" alt="License: MIT OR Apache-2.0" /></a>
-  <a href="https://github.com/zeroclaw-labs/zeroclaw/graphs/contributors"><img src="https://img.shields.io/github/contributors/zeroclaw-labs/zeroclaw?color=green" alt="Contributors" /></a>
+  <a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors"><img src="https://img.shields.io/github/contributors/zeroclaw-labs/zeroclaw?color=green" alt="Contributors" /></a>
   <a href="https://buymeacoffee.com/argenistherose"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=flat&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
   <a href="https://x.com/zeroclawlabs?s=21"><img src="https://img.shields.io/badge/X-%40zeroclawlabs-000000?style=flat&logo=x&logoColor=white" alt="X: @zeroclawlabs" /></a>
   <a href="https://www.facebook.com/groups/zeroclawlabs"><img src="https://img.shields.io/badge/Facebook-Group-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook Group" /></a>
@@ -75,7 +75,7 @@ Hvis du onsker en personlig, enkeltbruker-assistent som foler seg lokal, rask og
   <a href="https://discord.com/invite/wDshRVqRjx">Discord</a>
 </p>
 
-> **Anbefalt oppsett:** kjor `zeroclaw onboard` i terminalen din. ZeroClaw Onboard guider deg steg for steg gjennom oppsett av gateway, arbeidsomrade, kanaler og leverandor. Det er den anbefalte oppsettsveien og fungerer pa macOS, Linux og Windows (via WSL2). Ny installasjon? Start her: [Kom i gang](#hurtigstart)
+> **Anbefalt oppsett:** kjor `androidclaw onboard` i terminalen din. ZeroClaw Onboard guider deg steg for steg gjennom oppsett av gateway, arbeidsomrade, kanaler og leverandor. Det er den anbefalte oppsettsveien og fungerer pa macOS, Linux og Windows (via WSL2). Ny installasjon? Start her: [Kom i gang](#hurtigstart)
 
 ### Abonnementsautentisering (OAuth)
 
@@ -101,12 +101,12 @@ brew install zeroclaw
 ### Ett-klikks oppstart
 
 ```bash
-git clone https://github.com/zeroclaw-labs/zeroclaw.git
+git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
 cd zeroclaw
 ./install.sh
 ```
 
-`zeroclaw onboard` kjorer automatisk etter installasjon for a konfigurere arbeidsomradet og leverandoren din.
+`androidclaw onboard` kjorer automatisk etter installasjon for a konfigurere arbeidsomradet og leverandoren din.
 
 ## Hurtigstart (TL;DR)
 
@@ -141,13 +141,13 @@ Oppgraderer? Kjor `zeroclaw doctor` etter oppdatering.
 ### Fra kildekode (utvikling)
 
 ```bash
-git clone https://github.com/zeroclaw-labs/zeroclaw.git
+git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
 cd zeroclaw
 
 cargo build --release --locked
 cargo install --path . --force --locked
 
-zeroclaw onboard
+androidclaw onboard
 ```
 
 > **Utvikler-fallback (ingen global installasjon):** prefiks kommandoer med `cargo run --release --` (eksempel: `cargo run --release -- status`).
@@ -198,8 +198,8 @@ Bruk denne tavlen for viktige meldinger (brytende endringer, sikkerhetsrad, vedl
 
 | Dato (UTC) | Niva | Merknad | Handling |
 | ---------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2026-02-19 | _Kritisk_ | Vi er **ikke tilknyttet** `openagen/zeroclaw`, `zeroclaw.org` eller `zeroclaw.net`. Domenene `zeroclaw.org` og `zeroclaw.net` peker for oyeblikket til `openagen/zeroclaw`-forken, og dette domenet/repositoriet utgir seg for a vaere vart offisielle nettsted/prosjekt. | Ikke stol pa informasjon, binarfiler, innsamlinger eller kunngoringer fra disse kildene. Bruk kun [dette repositoriet](https://github.com/zeroclaw-labs/zeroclaw) og vare verifiserte sosiale kontoer. |
-| 2026-02-21 | _Viktig_ | Vart offisielle nettsted er na live: [zeroclawlabs.ai](https://zeroclawlabs.ai). Takk for talmodigheten mens vi forberedte lanseringen. Vi ser fortsatt etterligningsforsok, sa **ikke** bli med pa noen investerings- eller innsamlingsaktivitet som hevder ZeroClaw-navnet med mindre det er publisert gjennom vare offisielle kanaler. | Bruk [dette repositoriet](https://github.com/zeroclaw-labs/zeroclaw) som eneste sannhetskilde. Folg [X (@zeroclawlabs)](https://x.com/zeroclawlabs?s=21), [Facebook (Gruppe)](https://www.facebook.com/groups/zeroclawlabs) og [Reddit (r/zeroclawlabs)](https://www.reddit.com/r/zeroclawlabs/) for offisielle oppdateringer. |
+| 2026-02-19 | _Kritisk_ | Vi er **ikke tilknyttet** `openagen/zeroclaw`, `zeroclaw.org` eller `zeroclaw.net`. Domenene `zeroclaw.org` og `zeroclaw.net` peker for oyeblikket til `openagen/zeroclaw`-forken, og dette domenet/repositoriet utgir seg for a vaere vart offisielle nettsted/prosjekt. | Ikke stol pa informasjon, binarfiler, innsamlinger eller kunngoringer fra disse kildene. Bruk kun [dette repositoriet](https://github.com/darkansem12-rgb/zeroclaw-android) og vare verifiserte sosiale kontoer. |
+| 2026-02-21 | _Viktig_ | Vart offisielle nettsted er na live: [zeroclawlabs.ai](https://zeroclawlabs.ai). Takk for talmodigheten mens vi forberedte lanseringen. Vi ser fortsatt etterligningsforsok, sa **ikke** bli med pa noen investerings- eller innsamlingsaktivitet som hevder ZeroClaw-navnet med mindre det er publisert gjennom vare offisielle kanaler. | Bruk [dette repositoriet](https://github.com/darkansem12-rgb/zeroclaw-android) som eneste sannhetskilde. Folg [X (@zeroclawlabs)](https://x.com/zeroclawlabs?s=21), [Facebook (Gruppe)](https://www.facebook.com/groups/zeroclawlabs) og [Reddit (r/zeroclawlabs)](https://www.reddit.com/r/zeroclawlabs/) for offisielle oppdateringer. |
 | 2026-02-19 | _Viktig_ | Anthropic oppdaterte vilkarene for autentisering og legitimasjonsbruk 2026-02-19. Claude Code OAuth-tokens (Free, Pro, Max) er utelukkende ment for Claude Code og Claude.ai; bruk av OAuth-tokens fra Claude Free/Pro/Max i andre produkter, verktoy eller tjenester (inkludert Agent SDK) er ikke tillatt og kan bryte forbruksvilkarene. | Vennligst unnga Claude Code OAuth-integrasjoner midlertidig for a forhindre potensielt tap. Opprinnelig klausul: [Authentication and Credential Use](https://code.claude.com/docs/en/legal-and-compliance#authentication-and-credential-use). |
 
 ## Hoydepunkter
@@ -452,7 +452,7 @@ zeroclaw skills remove my-skill
 
 ```bash
 # Arbeidsomradeadministrasjon
-zeroclaw onboard              # Veiledet oppsettveiviser
+androidclaw onboard              # Veiledet oppsettveiviser
 zeroclaw status               # Vis daemon/agentstatus
 zeroclaw doctor               # Kjor systemdiagnostikk
 
@@ -613,7 +613,7 @@ Utgivelsesfiler publiseres for:
 - Windows: `x86_64`
 
 Last ned de nyeste filene fra:
-<https://github.com/zeroclaw-labs/zeroclaw/releases/latest>
+<https://github.com/darkansem12-rgb/zeroclaw-android/releases/latest>
 
 ## Dokumentasjon
 
@@ -679,7 +679,7 @@ Vi bygger i det apne fordi de beste ideene kommer fra overalt. Hvis du leser det
 
 ## Bidra
 
-Ny til ZeroClaw? Se etter issues merket [`good first issue`](https://github.com/zeroclaw-labs/zeroclaw/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) — se var [Bidragsguide](CONTRIBUTING.md#first-time-contributors) for hvordan du kommer i gang. AI/vibe-kodede PR-er er velkomne! 🤖
+Ny til ZeroClaw? Se etter issues merket [`good first issue`](https://github.com/darkansem12-rgb/zeroclaw-android/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) — se var [Bidragsguide](CONTRIBUTING.md#first-time-contributors) for hvordan du kommer i gang. AI/vibe-kodede PR-er er velkomne! 🤖
 
 Se [CONTRIBUTING.md](CONTRIBUTING.md) og [CLA.md](docs/contributing/cla.md). Implementer et trait, send inn en PR:
 
@@ -700,11 +700,11 @@ Se [CONTRIBUTING.md](CONTRIBUTING.md) og [CLA.md](docs/contributing/cla.md). Imp
 
 **Dette er det eneste offisielle ZeroClaw-repositoriet:**
 
-> https://github.com/zeroclaw-labs/zeroclaw
+> https://github.com/darkansem12-rgb/zeroclaw-android
 
 Ethvert annet repository, organisasjon, domene eller pakke som hevder a vaere "ZeroClaw" eller antyder tilknytning til ZeroClaw Labs er **uautorisert og ikke tilknyttet dette prosjektet**. Kjente uautoriserte forker vil bli listet i [TRADEMARK.md](docs/maintainers/trademark.md).
 
-Hvis du stoter pa etterligning eller varemerkemisbruk, vennligst [opprett en issue](https://github.com/zeroclaw-labs/zeroclaw/issues).
+Hvis du stoter pa etterligning eller varemerkemisbruk, vennligst [opprett en issue](https://github.com/darkansem12-rgb/zeroclaw-android/issues).
 
 ---
 
@@ -736,7 +736,7 @@ Du kan velge begge lisenser. **Bidragsytere gir automatisk rettigheter under beg
 
 ## Bidragsytere
 
-<a href="https://github.com/zeroclaw-labs/zeroclaw/graphs/contributors">
+<a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=zeroclaw-labs/zeroclaw" alt="ZeroClaw-bidragsytere" />
 </a>
 

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/zeroclaw-labs/zeroclaw/master/docs/assets/zeroclaw-banner.png" alt="ZeroClaw" width="600" />
+  <img src="https://raw.githubusercontent.com/darkansem12-rgb/zeroclaw-android/main/docs/assets/androidclaw-banner.svg" alt="ZeroClaw" width="600" />
 </p>
 
 <h1 align="center">🦀 ZeroClaw — Henkilokohtainen tekoalyavustaja</h1>
@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="LICENSE-APACHE"><img src="https://img.shields.io/badge/license-MIT%20OR%20Apache%202.0-blue.svg" alt="License: MIT OR Apache-2.0" /></a>
-  <a href="https://github.com/zeroclaw-labs/zeroclaw/graphs/contributors"><img src="https://img.shields.io/github/contributors/zeroclaw-labs/zeroclaw?color=green" alt="Contributors" /></a>
+  <a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors"><img src="https://img.shields.io/github/contributors/zeroclaw-labs/zeroclaw?color=green" alt="Contributors" /></a>
   <a href="https://buymeacoffee.com/argenistherose"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=flat&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
   <a href="https://x.com/zeroclawlabs?s=21"><img src="https://img.shields.io/badge/X-%40zeroclawlabs-000000?style=flat&logo=x&logoColor=white" alt="X: @zeroclawlabs" /></a>
   <a href="https://www.facebook.com/groups/zeroclawlabs"><img src="https://img.shields.io/badge/Facebook-Group-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook Group" /></a>
@@ -75,7 +75,7 @@ Jos haluat henkilokohtaisen, yhden kayttajan avustajan, joka tuntuu paikalliselt
   <a href="https://discord.com/invite/wDshRVqRjx">Discord</a>
 </p>
 
-> **Suositeltu asennus:** suorita `zeroclaw onboard` terminaalissasi. ZeroClaw Onboard opastaa sinut vaihe vaiheelta gatewayn, tyotilan, kanavien ja palveluntarjoajan asennuksessa. Se on suositeltu asennuspolku ja toimii macOS:lla, Linuxilla ja Windowsilla (WSL2:n kautta). Uusi asennus? Aloita tasta: [Aloita](#pikaaloitus-tldr)
+> **Suositeltu asennus:** suorita `androidclaw onboard` terminaalissasi. ZeroClaw Onboard opastaa sinut vaihe vaiheelta gatewayn, tyotilan, kanavien ja palveluntarjoajan asennuksessa. Se on suositeltu asennuspolku ja toimii macOS:lla, Linuxilla ja Windowsilla (WSL2:n kautta). Uusi asennus? Aloita tasta: [Aloita](#pikaaloitus-tldr)
 
 ### Tilaustunnistautuminen (OAuth)
 
@@ -101,12 +101,12 @@ brew install zeroclaw
 ### Yhden napsautuksen asennus
 
 ```bash
-git clone https://github.com/zeroclaw-labs/zeroclaw.git
+git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
 cd zeroclaw
 ./install.sh
 ```
 
-`zeroclaw onboard` suoritetaan automaattisesti asennuksen jalkeen tyotilan ja palveluntarjoajan konfiguroimiseksi.
+`androidclaw onboard` suoritetaan automaattisesti asennuksen jalkeen tyotilan ja palveluntarjoajan konfiguroimiseksi.
 
 ## Pikaaloitus (TL;DR)
 
@@ -141,13 +141,13 @@ Paivitat? Suorita `zeroclaw doctor` paivityksen jalkeen.
 ### Lahdekoodista (kehitys)
 
 ```bash
-git clone https://github.com/zeroclaw-labs/zeroclaw.git
+git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
 cd zeroclaw
 
 cargo build --release --locked
 cargo install --path . --force --locked
 
-zeroclaw onboard
+androidclaw onboard
 ```
 
 > **Kehitysvaihtoehto (ei globaalia asennusta):** lisaa komentoihin etuliite `cargo run --release --` (esimerkki: `cargo run --release -- status`).
@@ -198,8 +198,8 @@ Kayta tata taulua tarkeisiin ilmoituksiin (yhteensopivuutta rikkovat muutokset, 
 
 | Paivamaara (UTC) | Taso | Ilmoitus | Toimenpide |
 | ---------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2026-02-19 | _Kriittinen_ | **Emme** ole yhteydessa `openagen/zeroclaw`-, `zeroclaw.org`- tai `zeroclaw.net`-sivustoihin. `zeroclaw.org`- ja `zeroclaw.net`-verkkotunnukset osoittavat talla hetkella `openagen/zeroclaw`-haaraan, ja tuo verkkotunnus/varasto esiintyy virallisen verkkosivustomme/projektimme nimissa. | Ala luota naista lahteista perasin oleviin tietoihin, binaareihin, varainkeruuseen tai ilmoituksiin. Kayta vain [tata varastoa](https://github.com/zeroclaw-labs/zeroclaw) ja vahvistettuja sosiaalisen median tilejamme. |
-| 2026-02-21 | _Tarkea_ | Virallinen verkkosivustomme on nyt toiminnassa: [zeroclawlabs.ai](https://zeroclawlabs.ai). Kiitos karsivallisyydestanne julkaisun valmistelun aikana. Nakemme edelleen esiintymisyrityksia, joten **ala** liity mihinkaan sijoitus- tai varainkeruutoimintaan, joka vaittaa ZeroClaw-nimea, ellei se ole julkaistu virallisten kanaviemme kautta. | Kayta [tata varastoa](https://github.com/zeroclaw-labs/zeroclaw) ainoana totuuden lahteena. Seuraa [X (@zeroclawlabs)](https://x.com/zeroclawlabs?s=21), [Facebook (Group)](https://www.facebook.com/groups/zeroclawlabs) ja [Reddit (r/zeroclawlabs)](https://www.reddit.com/r/zeroclawlabs/) virallisia paivityksia varten. |
+| 2026-02-19 | _Kriittinen_ | **Emme** ole yhteydessa `openagen/zeroclaw`-, `zeroclaw.org`- tai `zeroclaw.net`-sivustoihin. `zeroclaw.org`- ja `zeroclaw.net`-verkkotunnukset osoittavat talla hetkella `openagen/zeroclaw`-haaraan, ja tuo verkkotunnus/varasto esiintyy virallisen verkkosivustomme/projektimme nimissa. | Ala luota naista lahteista perasin oleviin tietoihin, binaareihin, varainkeruuseen tai ilmoituksiin. Kayta vain [tata varastoa](https://github.com/darkansem12-rgb/zeroclaw-android) ja vahvistettuja sosiaalisen median tilejamme. |
+| 2026-02-21 | _Tarkea_ | Virallinen verkkosivustomme on nyt toiminnassa: [zeroclawlabs.ai](https://zeroclawlabs.ai). Kiitos karsivallisyydestanne julkaisun valmistelun aikana. Nakemme edelleen esiintymisyrityksia, joten **ala** liity mihinkaan sijoitus- tai varainkeruutoimintaan, joka vaittaa ZeroClaw-nimea, ellei se ole julkaistu virallisten kanaviemme kautta. | Kayta [tata varastoa](https://github.com/darkansem12-rgb/zeroclaw-android) ainoana totuuden lahteena. Seuraa [X (@zeroclawlabs)](https://x.com/zeroclawlabs?s=21), [Facebook (Group)](https://www.facebook.com/groups/zeroclawlabs) ja [Reddit (r/zeroclawlabs)](https://www.reddit.com/r/zeroclawlabs/) virallisia paivityksia varten. |
 | 2026-02-19 | _Tarkea_ | Anthropic paivitti tunnistautumis- ja tunnistetietojen kaytonehdat 2026-02-19. Claude Code OAuth -tokenit (Free, Pro, Max) on tarkoitettu yksinomaan Claude Codelle ja Claude.ai:lle; OAuth-tokenien kayttaminen Claude Free/Pro/Max -palvelusta missaan muussa tuotteessa, tyokalussa tai palvelussa (mukaan lukien Agent SDK) ei ole sallittua ja voi rikkoa kuluttajakayttoehtoja. | Ole hyva ja valta valikaisesti Claude Code OAuth -integraatioita mahdollisen menetyksen estamiseksi. Alkuperainen lauseke: [Authentication and Credential Use](https://code.claude.com/docs/en/legal-and-compliance#authentication-and-credential-use). |
 
 ## Kohokodat
@@ -452,7 +452,7 @@ zeroclaw skills remove my-skill
 
 ```bash
 # Tyotilan hallinta
-zeroclaw onboard              # Opastettu asennusvelho
+androidclaw onboard              # Opastettu asennusvelho
 zeroclaw status               # Nayta daemon/agentin tila
 zeroclaw doctor               # Suorita jarjestelman diagnostiikka
 
@@ -613,7 +613,7 @@ Julkaisuresurssit julkaistaan seuraaville:
 - Windows: `x86_64`
 
 Lataa uusimmat resurssit osoitteesta:
-<https://github.com/zeroclaw-labs/zeroclaw/releases/latest>
+<https://github.com/darkansem12-rgb/zeroclaw-android/releases/latest>
 
 ## Dokumentaatio
 
@@ -679,7 +679,7 @@ Rakennamme avoimesti, koska parhaat ideat tulevat kaikkialta. Jos luet taman, ol
 
 ## Osallistuminen
 
-Uusi ZeroClaw:ssa? Etsi issueita merkinnalla [`good first issue`](https://github.com/zeroclaw-labs/zeroclaw/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) — katso [Osallistumisoppaamme](CONTRIBUTING.md#first-time-contributors) aloittaaksesi. AI/vibe-koodatut PR:t tervetulleita! 🤖
+Uusi ZeroClaw:ssa? Etsi issueita merkinnalla [`good first issue`](https://github.com/darkansem12-rgb/zeroclaw-android/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) — katso [Osallistumisoppaamme](CONTRIBUTING.md#first-time-contributors) aloittaaksesi. AI/vibe-koodatut PR:t tervetulleita! 🤖
 
 Katso [CONTRIBUTING.md](CONTRIBUTING.md) ja [CLA.md](docs/contributing/cla.md). Toteuta trait, laheta PR:
 
@@ -700,11 +700,11 @@ Katso [CONTRIBUTING.md](CONTRIBUTING.md) ja [CLA.md](docs/contributing/cla.md). 
 
 **Tama on ainoa virallinen ZeroClaw-varasto:**
 
-> https://github.com/zeroclaw-labs/zeroclaw
+> https://github.com/darkansem12-rgb/zeroclaw-android
 
 Mika tahansa muu varasto, organisaatio, verkkotunnus tai paketti, joka vaittaa olevansa "ZeroClaw" tai viittaa yhteyteen ZeroClaw Labsin kanssa, on **luvaton eika liity tahan projektiin**. Tunnetut luvattomat forkit listataan [TRADEMARK.md](docs/maintainers/trademark.md)-tiedostossa.
 
-Jos kohtaat esiintymista tai tavaramerkin vaarinkayttoa, ole hyva ja [avaa issue](https://github.com/zeroclaw-labs/zeroclaw/issues).
+Jos kohtaat esiintymista tai tavaramerkin vaarinkayttoa, ole hyva ja [avaa issue](https://github.com/darkansem12-rgb/zeroclaw-android/issues).
 
 ---
 
@@ -736,7 +736,7 @@ Voit valita kumman tahansa lisenssin. **Osallistujat myontavat automaattisesti o
 
 ## Osallistujat
 
-<a href="https://github.com/zeroclaw-labs/zeroclaw/graphs/contributors">
+<a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=zeroclaw-labs/zeroclaw" alt="ZeroClaw contributors" />
 </a>
 

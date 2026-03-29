@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/zeroclaw-labs/zeroclaw/master/docs/assets/zeroclaw-banner.png" alt="ZeroClaw" width="600" />
+  <img src="https://raw.githubusercontent.com/darkansem12-rgb/zeroclaw-android/main/docs/assets/androidclaw-banner.svg" alt="ZeroClaw" width="600" />
 </p>
 
 <h1 align="center">🦀 ZeroClaw — Asistent AI Personal</h1>
@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="LICENSE-APACHE"><img src="https://img.shields.io/badge/license-MIT%20OR%20Apache%202.0-blue.svg" alt="License: MIT OR Apache-2.0" /></a>
-  <a href="https://github.com/zeroclaw-labs/zeroclaw/graphs/contributors"><img src="https://img.shields.io/github/contributors/zeroclaw-labs/zeroclaw?color=green" alt="Contributors" /></a>
+  <a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors"><img src="https://img.shields.io/github/contributors/zeroclaw-labs/zeroclaw?color=green" alt="Contributors" /></a>
   <a href="https://buymeacoffee.com/argenistherose"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow.svg?style=flat&logo=buy-me-a-coffee" alt="Buy Me a Coffee" /></a>
   <a href="https://x.com/zeroclawlabs?s=21"><img src="https://img.shields.io/badge/X-%40zeroclawlabs-000000?style=flat&logo=x&logoColor=white" alt="X: @zeroclawlabs" /></a>
   <a href="https://www.facebook.com/groups/zeroclawlabs"><img src="https://img.shields.io/badge/Facebook-Group-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook Group" /></a>
@@ -75,7 +75,7 @@ Dacă vrei un asistent personal, pentru un singur utilizator, care se simte loca
   <a href="https://discord.com/invite/wDshRVqRjx">Discord</a>
 </p>
 
-> **Configurare recomandată:** rulează `zeroclaw onboard` în terminalul tău. ZeroClaw Onboard te ghidează pas cu pas prin configurarea gateway-ului, workspace-ului, canalelor și provider-ului. Este calea de configurare recomandată și funcționează pe macOS, Linux și Windows (prin WSL2). Instalare nouă? Începe aici: [Începe](#pornire-rapidă)
+> **Configurare recomandată:** rulează `androidclaw onboard` în terminalul tău. ZeroClaw Onboard te ghidează pas cu pas prin configurarea gateway-ului, workspace-ului, canalelor și provider-ului. Este calea de configurare recomandată și funcționează pe macOS, Linux și Windows (prin WSL2). Instalare nouă? Începe aici: [Începe](#pornire-rapidă)
 
 ### Autentificare prin abonament (OAuth)
 
@@ -101,12 +101,12 @@ brew install zeroclaw
 ### Bootstrap cu un clic
 
 ```bash
-git clone https://github.com/zeroclaw-labs/zeroclaw.git
+git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
 cd zeroclaw
 ./install.sh
 ```
 
-`zeroclaw onboard` rulează automat după instalare pentru a configura workspace-ul și provider-ul.
+`androidclaw onboard` rulează automat după instalare pentru a configura workspace-ul și provider-ul.
 
 ## Pornire rapidă (TL;DR)
 
@@ -141,13 +141,13 @@ Actualizezi? Rulează `zeroclaw doctor` după actualizare.
 ### Din sursă (dezvoltare)
 
 ```bash
-git clone https://github.com/zeroclaw-labs/zeroclaw.git
+git clone https://github.com/darkansem12-rgb/zeroclaw-android.git
 cd zeroclaw
 
 cargo build --release --locked
 cargo install --path . --force --locked
 
-zeroclaw onboard
+androidclaw onboard
 ```
 
 > **Alternativă dev (fără instalare globală):** prefixează comenzile cu `cargo run --release --` (exemplu: `cargo run --release -- status`).
@@ -198,8 +198,8 @@ Folosește acest panou pentru notificări importante (schimbări care rup compat
 
 | Data (UTC) | Nivel       | Notificare                                                                                                                                                                                                                                                                                                                                                 | Acțiune                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2026-02-19 | _Critic_  | Nu suntem **afiliați** cu `openagen/zeroclaw`, `zeroclaw.org` sau `zeroclaw.net`. Domeniile `zeroclaw.org` și `zeroclaw.net` indică în prezent fork-ul `openagen/zeroclaw`, iar acel domeniu/depozit se dă drept site-ul/proiectul nostru oficial.                                                                                       | Nu aveți încredere în informații, binare, strângeri de fonduri sau anunțuri din acele surse. Folosiți doar [acest depozit](https://github.com/zeroclaw-labs/zeroclaw) și conturile noastre sociale verificate.                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| 2026-02-21 | _Important_ | Site-ul nostru oficial este acum activ: [zeroclawlabs.ai](https://zeroclawlabs.ai). Mulțumim pentru răbdare în timp ce pregăteam lansarea. Încă observăm tentative de uzurpare a identității, așa că **nu** vă alăturați activităților de investiții sau strângere de fonduri care revendică numele ZeroClaw, decât dacă sunt publicate prin canalele noastre oficiale.                            | Folosiți [acest depozit](https://github.com/zeroclaw-labs/zeroclaw) ca singura sursă de adevăr. Urmăriți [X (@zeroclawlabs)](https://x.com/zeroclawlabs?s=21), [Facebook (Group)](https://www.facebook.com/groups/zeroclawlabs) și [Reddit (r/zeroclawlabs)](https://www.reddit.com/r/zeroclawlabs/) pentru actualizări oficiale. |
+| 2026-02-19 | _Critic_  | Nu suntem **afiliați** cu `openagen/zeroclaw`, `zeroclaw.org` sau `zeroclaw.net`. Domeniile `zeroclaw.org` și `zeroclaw.net` indică în prezent fork-ul `openagen/zeroclaw`, iar acel domeniu/depozit se dă drept site-ul/proiectul nostru oficial.                                                                                       | Nu aveți încredere în informații, binare, strângeri de fonduri sau anunțuri din acele surse. Folosiți doar [acest depozit](https://github.com/darkansem12-rgb/zeroclaw-android) și conturile noastre sociale verificate.                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| 2026-02-21 | _Important_ | Site-ul nostru oficial este acum activ: [zeroclawlabs.ai](https://zeroclawlabs.ai). Mulțumim pentru răbdare în timp ce pregăteam lansarea. Încă observăm tentative de uzurpare a identității, așa că **nu** vă alăturați activităților de investiții sau strângere de fonduri care revendică numele ZeroClaw, decât dacă sunt publicate prin canalele noastre oficiale.                            | Folosiți [acest depozit](https://github.com/darkansem12-rgb/zeroclaw-android) ca singura sursă de adevăr. Urmăriți [X (@zeroclawlabs)](https://x.com/zeroclawlabs?s=21), [Facebook (Group)](https://www.facebook.com/groups/zeroclawlabs) și [Reddit (r/zeroclawlabs)](https://www.reddit.com/r/zeroclawlabs/) pentru actualizări oficiale. |
 | 2026-02-19 | _Important_ | Anthropic a actualizat termenii de Autentificare și Utilizare a Credențialelor pe 2026-02-19. Token-urile OAuth Claude Code (Free, Pro, Max) sunt destinate exclusiv Claude Code și Claude.ai; utilizarea token-urilor OAuth din Claude Free/Pro/Max în orice alt produs, instrument sau serviciu (inclusiv Agent SDK) nu este permisă și poate încălca Termenii Serviciului pentru Consumatori. | Vă rugăm să evitați temporar integrările OAuth Claude Code pentru a preveni pierderi potențiale. Clauza originală: [Authentication and Credential Use](https://code.claude.com/docs/en/legal-and-compliance#authentication-and-credential-use).                                                                                                                                                                                                                                                                                                                                                                                    |
 
 ## Puncte forte
@@ -452,7 +452,7 @@ zeroclaw skills remove my-skill
 
 ```bash
 # Gestionarea workspace-ului
-zeroclaw onboard              # Asistent de configurare ghidată
+androidclaw onboard              # Asistent de configurare ghidată
 zeroclaw status               # Afișează starea daemon/agent
 zeroclaw doctor               # Rulează diagnostice de sistem
 
@@ -613,7 +613,7 @@ Resursele de lansare sunt publicate pentru:
 - Windows: `x86_64`
 
 Descarcă cele mai recente resurse de la:
-<https://github.com/zeroclaw-labs/zeroclaw/releases/latest>
+<https://github.com/darkansem12-rgb/zeroclaw-android/releases/latest>
 
 ## Documentație
 
@@ -679,7 +679,7 @@ Construim deschis pentru că cele mai bune idei vin de peste tot. Dacă citești
 
 ## Contribuție
 
-Nou la ZeroClaw? Caută probleme etichetate [`good first issue`](https://github.com/zeroclaw-labs/zeroclaw/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) — vezi [Ghidul de Contribuție](CONTRIBUTING.md#first-time-contributors) pentru cum să începi. PR-urile create cu AI/vibe-coded sunt binevenite! 🤖
+Nou la ZeroClaw? Caută probleme etichetate [`good first issue`](https://github.com/darkansem12-rgb/zeroclaw-android/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) — vezi [Ghidul de Contribuție](CONTRIBUTING.md#first-time-contributors) pentru cum să începi. PR-urile create cu AI/vibe-coded sunt binevenite! 🤖
 
 Vezi [CONTRIBUTING.md](CONTRIBUTING.md) și [CLA.md](docs/contributing/cla.md). Implementează un trait, trimite un PR:
 
@@ -700,11 +700,11 @@ Vezi [CONTRIBUTING.md](CONTRIBUTING.md) și [CLA.md](docs/contributing/cla.md). 
 
 **Acesta este singurul depozit oficial ZeroClaw:**
 
-> https://github.com/zeroclaw-labs/zeroclaw
+> https://github.com/darkansem12-rgb/zeroclaw-android
 
 Orice alt depozit, organizație, domeniu sau pachet care pretinde a fi „ZeroClaw" sau implică afiliere cu ZeroClaw Labs este **neautorizat și nu este afiliat cu acest proiect**. Fork-urile neautorizate cunoscute vor fi listate în [TRADEMARK.md](docs/maintainers/trademark.md).
 
-Dacă întâmpini uzurpare de identitate sau utilizare abuzivă a mărcii comerciale, te rugăm [deschide o problemă](https://github.com/zeroclaw-labs/zeroclaw/issues).
+Dacă întâmpini uzurpare de identitate sau utilizare abuzivă a mărcii comerciale, te rugăm [deschide o problemă](https://github.com/darkansem12-rgb/zeroclaw-android/issues).
 
 ---
 
@@ -736,7 +736,7 @@ Numele și logo-ul **ZeroClaw** sunt mărci comerciale ale ZeroClaw Labs. Aceast
 
 ## Contributori
 
-<a href="https://github.com/zeroclaw-labs/zeroclaw/graphs/contributors">
+<a href="https://github.com/darkansem12-rgb/zeroclaw-android/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=zeroclaw-labs/zeroclaw" alt="ZeroClaw contributors" />
 </a>
 
