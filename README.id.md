@@ -75,7 +75,7 @@ Jika Anda menginginkan asisten pribadi, pengguna tunggal, yang terasa lokal, cep
   <a href="https://discord.com/invite/wDshRVqRjx">Discord</a>
 </p>
 
-> **Pengaturan yang disarankan:** jalankan `androidclaw onboard` di terminal Anda. AndroidClaw Onboard memandu Anda langkah demi langkah dalam menyiapkan gateway, workspace, saluran, dan provider. Ini adalah jalur pengaturan yang disarankan dan berfungsi di macOS, Linux, dan Windows (melalui WSL2). Instalasi baru? Mulai di sini: [Memulai](#mulai-cepat)
+> **Pengaturan yang disarankan:** jalankan `zeroclaw onboard` di terminal Anda. AndroidClaw Onboard memandu Anda langkah demi langkah dalam menyiapkan gateway, workspace, saluran, dan provider. Ini adalah jalur pengaturan yang disarankan dan berfungsi di macOS, Linux, dan Windows (melalui WSL2). Instalasi baru? Mulai di sini: [Memulai](#mulai-cepat)
 
 ### Autentikasi Berlangganan (OAuth)
 
@@ -106,7 +106,7 @@ cd zeroclaw-android
 ./install.sh
 ```
 
-`androidclaw onboard` berjalan otomatis setelah instalasi untuk mengonfigurasi workspace dan provider Anda.
+`zeroclaw onboard` berjalan otomatis setelah instalasi untuk mengonfigurasi workspace dan provider Anda.
 
 ## Mulai cepat (TL;DR)
 
@@ -147,7 +147,7 @@ cd zeroclaw-android
 cargo build --release --locked
 cargo install --path . --force --locked
 
-androidclaw onboard
+zeroclaw onboard
 ```
 
 > **Alternatif dev (tanpa instalasi global):** awali perintah dengan `cargo run --release --` (contoh: `cargo run --release -- status`).
@@ -452,7 +452,7 @@ androidclaw skills remove my-skill
 
 ```bash
 # Manajemen workspace
-androidclaw onboard              # Wizard pengaturan terpandu
+zeroclaw onboard              # Wizard pengaturan terpandu
 androidclaw status               # Tampilkan status daemon/agen
 androidclaw doctor               # Jalankan diagnostik sistem
 

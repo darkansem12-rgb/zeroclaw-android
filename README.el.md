@@ -75,7 +75,7 @@
   <a href="https://discord.com/invite/wDshRVqRjx">Discord</a>
 </p>
 
-> **Προτεινόμενη ρύθμιση:** εκτελέστε `androidclaw onboard` στο τερματικό σας. Το AndroidClaw Onboard σας καθοδηγεί βήμα προς βήμα στη ρύθμιση του gateway, του χώρου εργασίας, των καναλιών και του παρόχου. Είναι η συνιστώμενη διαδρομή ρύθμισης και λειτουργεί σε macOS, Linux και Windows (μέσω WSL2). Νέα εγκατάσταση; Ξεκινήστε εδώ: [Ξεκινήστε](#γρήγορη-εκκίνηση-tldr)
+> **Προτεινόμενη ρύθμιση:** εκτελέστε `zeroclaw onboard` στο τερματικό σας. Το AndroidClaw Onboard σας καθοδηγεί βήμα προς βήμα στη ρύθμιση του gateway, του χώρου εργασίας, των καναλιών και του παρόχου. Είναι η συνιστώμενη διαδρομή ρύθμισης και λειτουργεί σε macOS, Linux και Windows (μέσω WSL2). Νέα εγκατάσταση; Ξεκινήστε εδώ: [Ξεκινήστε](#γρήγορη-εκκίνηση-tldr)
 
 ### Πιστοποίηση Συνδρομής (OAuth)
 
@@ -106,7 +106,7 @@ cd zeroclaw-android
 ./install.sh
 ```
 
-Το `androidclaw onboard` εκτελείται αυτόματα μετά την εγκατάσταση για τη ρύθμιση του χώρου εργασίας και του παρόχου.
+Το `zeroclaw onboard` εκτελείται αυτόματα μετά την εγκατάσταση για τη ρύθμιση του χώρου εργασίας και του παρόχου.
 
 ## Γρήγορη εκκίνηση (TL;DR)
 
@@ -147,7 +147,7 @@ cd zeroclaw-android
 cargo build --release --locked
 cargo install --path . --force --locked
 
-androidclaw onboard
+zeroclaw onboard
 ```
 
 > **Εναλλακτική ανάπτυξης (χωρίς καθολική εγκατάσταση):** προθέστε τις εντολές με `cargo run --release --` (παράδειγμα: `cargo run --release -- status`).
@@ -452,7 +452,7 @@ androidclaw skills remove my-skill
 
 ```bash
 # Διαχείριση χώρου εργασίας
-androidclaw onboard              # Οδηγός καθοδηγούμενης ρύθμισης
+zeroclaw onboard              # Οδηγός καθοδηγούμενης ρύθμισης
 androidclaw status               # Εμφάνιση κατάστασης daemon/agent
 androidclaw doctor               # Εκτέλεση διαγνωστικών συστήματος
 

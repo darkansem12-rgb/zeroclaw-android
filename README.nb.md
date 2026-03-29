@@ -75,7 +75,7 @@ Hvis du onsker en personlig, enkeltbruker-assistent som foler seg lokal, rask og
   <a href="https://discord.com/invite/wDshRVqRjx">Discord</a>
 </p>
 
-> **Anbefalt oppsett:** kjor `androidclaw onboard` i terminalen din. AndroidClaw Onboard guider deg steg for steg gjennom oppsett av gateway, arbeidsomrade, kanaler og leverandor. Det er den anbefalte oppsettsveien og fungerer pa macOS, Linux og Windows (via WSL2). Ny installasjon? Start her: [Kom i gang](#hurtigstart)
+> **Anbefalt oppsett:** kjor `zeroclaw onboard` i terminalen din. AndroidClaw Onboard guider deg steg for steg gjennom oppsett av gateway, arbeidsomrade, kanaler og leverandor. Det er den anbefalte oppsettsveien og fungerer pa macOS, Linux og Windows (via WSL2). Ny installasjon? Start her: [Kom i gang](#hurtigstart)
 
 ### Abonnementsautentisering (OAuth)
 
@@ -106,7 +106,7 @@ cd zeroclaw-android
 ./install.sh
 ```
 
-`androidclaw onboard` kjorer automatisk etter installasjon for a konfigurere arbeidsomradet og leverandoren din.
+`zeroclaw onboard` kjorer automatisk etter installasjon for a konfigurere arbeidsomradet og leverandoren din.
 
 ## Hurtigstart (TL;DR)
 
@@ -147,7 +147,7 @@ cd zeroclaw-android
 cargo build --release --locked
 cargo install --path . --force --locked
 
-androidclaw onboard
+zeroclaw onboard
 ```
 
 > **Utvikler-fallback (ingen global installasjon):** prefiks kommandoer med `cargo run --release --` (eksempel: `cargo run --release -- status`).
@@ -452,7 +452,7 @@ androidclaw skills remove my-skill
 
 ```bash
 # Arbeidsomradeadministrasjon
-androidclaw onboard              # Veiledet oppsettveiviser
+zeroclaw onboard              # Veiledet oppsettveiviser
 androidclaw status               # Vis daemon/agentstatus
 androidclaw doctor               # Kjor systemdiagnostikk
 

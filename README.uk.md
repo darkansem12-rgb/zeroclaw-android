@@ -75,7 +75,7 @@ ZeroClaw — це персональний AI-асистент, який ви з
   <a href="https://discord.com/invite/wDshRVqRjx">Discord</a>
 </p>
 
-> **Рекомендований спосіб налаштування:** виконайте `androidclaw onboard` у вашому терміналі. ZeroClaw Onboard покроково проведе вас через налаштування gateway, робочого простору, каналів і провайдера. Це рекомендований шлях налаштування, який працює на macOS, Linux і Windows (через WSL2). Нова установка? Почніть тут: [Початок роботи](#швидкий-старт-tldr)
+> **Рекомендований спосіб налаштування:** виконайте `zeroclaw onboard` у вашому терміналі. ZeroClaw Onboard покроково проведе вас через налаштування gateway, робочого простору, каналів і провайдера. Це рекомендований шлях налаштування, який працює на macOS, Linux і Windows (через WSL2). Нова установка? Почніть тут: [Початок роботи](#швидкий-старт-tldr)
 
 ### Subscription Auth (OAuth)
 
@@ -106,7 +106,7 @@ cd zeroclaw-android
 ./install.sh
 ```
 
-`androidclaw onboard` запускається автоматично після встановлення для налаштування вашого робочого простору та провайдера.
+`zeroclaw onboard` запускається автоматично після встановлення для налаштування вашого робочого простору та провайдера.
 
 ## Швидкий старт (TL;DR)
 
@@ -147,7 +147,7 @@ cd zeroclaw-android
 cargo build --release --locked
 cargo install --path . --force --locked
 
-androidclaw onboard
+zeroclaw onboard
 ```
 
 > **Резервний варіант для розробників (без глобальної установки):** додайте до команд префікс `cargo run --release --` (приклад: `cargo run --release -- status`).
@@ -452,7 +452,7 @@ zeroclaw skills remove my-skill
 
 ```bash
 # Керування робочим простором
-androidclaw onboard              # Покроковий майстер налаштування
+zeroclaw onboard              # Покроковий майстер налаштування
 zeroclaw status               # Показати стан демона/агента
 zeroclaw doctor               # Запустити діагностику системи
 

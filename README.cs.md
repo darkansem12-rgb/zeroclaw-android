@@ -75,7 +75,7 @@ Pokud hledáte osobního jednouživatelského asistenta, který je lokální, ry
   <a href="https://discord.com/invite/wDshRVqRjx">Discord</a>
 </p>
 
-> **Doporučené nastavení:** spusťte `androidclaw onboard` ve vašem terminálu. AndroidClaw Onboard vás krok za krokem provede nastavením gateway, workspace, kanálů a poskytovatele. Je to doporučená cesta nastavení a funguje na macOS, Linux a Windows (přes WSL2). Nová instalace? Začněte zde: [Začínáme](#rychlý-start)
+> **Doporučené nastavení:** spusťte `zeroclaw onboard` ve vašem terminálu. AndroidClaw Onboard vás krok za krokem provede nastavením gateway, workspace, kanálů a poskytovatele. Je to doporučená cesta nastavení a funguje na macOS, Linux a Windows (přes WSL2). Nová instalace? Začněte zde: [Začínáme](#rychlý-start)
 
 ### Autentizace předplatného (OAuth)
 
@@ -106,7 +106,7 @@ cd zeroclaw-android
 ./install.sh
 ```
 
-`androidclaw onboard` se automaticky spustí po instalaci pro konfiguraci vašeho workspace a poskytovatele.
+`zeroclaw onboard` se automaticky spustí po instalaci pro konfiguraci vašeho workspace a poskytovatele.
 
 ## Rychlý start (TL;DR)
 
@@ -147,7 +147,7 @@ cd zeroclaw-android
 cargo build --release --locked
 cargo install --path . --force --locked
 
-androidclaw onboard
+zeroclaw onboard
 ```
 
 > **Vývojářský fallback (bez globální instalace):** předřaďte příkazy `cargo run --release --` (příklad: `cargo run --release -- status`).
@@ -452,7 +452,7 @@ androidclaw skills remove my-skill
 
 ```bash
 # Správa workspace
-androidclaw onboard              # Průvodce nastavením
+zeroclaw onboard              # Průvodce nastavením
 androidclaw status               # Zobrazení stavu démona/agenta
 androidclaw doctor               # Spuštění diagnostiky systému
 

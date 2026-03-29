@@ -75,7 +75,7 @@ Kung gusto mo ng personal, single-user na assistant na lokal, mabilis, at palagi
   <a href="https://discord.com/invite/wDshRVqRjx">Discord</a>
 </p>
 
-> **Inirerekomendang setup:** patakbuhin ang `androidclaw onboard` sa iyong terminal. Ang ZeroClaw Onboard ay gagabay sa iyo hakbang-hakbang sa pag-setup ng gateway, workspace, channel, at provider. Ito ang inirerekomendang setup path at gumagana sa macOS, Linux, at Windows (sa pamamagitan ng WSL2). Bagong install? Magsimula dito: [Magsimula](#mabilis-na-simula-tldr)
+> **Inirerekomendang setup:** patakbuhin ang `zeroclaw onboard` sa iyong terminal. Ang ZeroClaw Onboard ay gagabay sa iyo hakbang-hakbang sa pag-setup ng gateway, workspace, channel, at provider. Ito ang inirerekomendang setup path at gumagana sa macOS, Linux, at Windows (sa pamamagitan ng WSL2). Bagong install? Magsimula dito: [Magsimula](#mabilis-na-simula-tldr)
 
 ### Subscription Auth (OAuth)
 
@@ -106,7 +106,7 @@ cd zeroclaw-android
 ./install.sh
 ```
 
-Awtomatikong tatakbo ang `androidclaw onboard` pagkatapos ng install para i-configure ang iyong workspace at provider.
+Awtomatikong tatakbo ang `zeroclaw onboard` pagkatapos ng install para i-configure ang iyong workspace at provider.
 
 ## Mabilis na Simula (TL;DR)
 
@@ -147,7 +147,7 @@ cd zeroclaw-android
 cargo build --release --locked
 cargo install --path . --force --locked
 
-androidclaw onboard
+zeroclaw onboard
 ```
 
 > **Dev fallback (walang global install):** lagyan ng prefix ang mga command ng `cargo run --release --` (halimbawa: `cargo run --release -- status`).
@@ -452,7 +452,7 @@ androidclaw skills remove my-skill
 
 ```bash
 # Workspace management
-androidclaw onboard              # Guided setup wizard
+zeroclaw onboard              # Guided setup wizard
 androidclaw status               # Ipakita ang daemon/agent status
 androidclaw doctor               # Patakbuhin ang system diagnostics
 

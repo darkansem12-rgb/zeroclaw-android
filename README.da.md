@@ -75,7 +75,7 @@ Hvis du vil have en personlig, enkeltbruger-assistent der foeles lokal, hurtig o
   <a href="https://discord.com/invite/wDshRVqRjx">Discord</a>
 </p>
 
-> **Anbefalet opsaetning:** kor `androidclaw onboard` i din terminal. AndroidClaw Onboard guider dig trin for trin gennem opsaetning af gateway, arbejdsomrade, kanaler og udbyder. Det er den anbefalede opsaetningssti og virker pa macOS, Linux og Windows (via WSL2). Ny installation? Start her: [Kom i gang](#hurtig-start-tldr)
+> **Anbefalet opsaetning:** kor `zeroclaw onboard` i din terminal. AndroidClaw Onboard guider dig trin for trin gennem opsaetning af gateway, arbejdsomrade, kanaler og udbyder. Det er den anbefalede opsaetningssti og virker pa macOS, Linux og Windows (via WSL2). Ny installation? Start her: [Kom i gang](#hurtig-start-tldr)
 
 ### Abonnementsgodkendelse (OAuth)
 
@@ -106,7 +106,7 @@ cd zeroclaw-android
 ./install.sh
 ```
 
-`androidclaw onboard` koerer automatisk efter installation for at konfigurere dit arbejdsomrade og din udbyder.
+`zeroclaw onboard` koerer automatisk efter installation for at konfigurere dit arbejdsomrade og din udbyder.
 
 ## Hurtig start (TL;DR)
 
@@ -147,7 +147,7 @@ cd zeroclaw-android
 cargo build --release --locked
 cargo install --path . --force --locked
 
-androidclaw onboard
+zeroclaw onboard
 ```
 
 > **Udviklingsfallback (ingen global installation):** praefikser kommandoer med `cargo run --release --` (eksempel: `cargo run --release -- status`).
@@ -452,7 +452,7 @@ androidclaw skills remove my-skill
 
 ```bash
 # Arbejdsomraadestyring
-androidclaw onboard              # Guidet opsaetningsguide
+zeroclaw onboard              # Guidet opsaetningsguide
 androidclaw status               # Vis daemon/agent-status
 androidclaw doctor               # Koer systemdiagnostik
 

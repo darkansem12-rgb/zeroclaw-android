@@ -75,7 +75,7 @@ Als je een persoonlijke, single-user assistent wilt die lokaal, snel en altijd b
   <a href="https://discord.com/invite/wDshRVqRjx">Discord</a>
 </p>
 
-> **Aanbevolen setup:** voer `androidclaw onboard` uit in je terminal. AndroidClaw Onboard begeleidt je stap voor stap door het instellen van de gateway, workspace, kanalen en provider. Het is het aanbevolen installatiepad en werkt op macOS, Linux en Windows (via WSL2). Nieuwe installatie? Begin hier: [Aan de slag](#snelle-start)
+> **Aanbevolen setup:** voer `zeroclaw onboard` uit in je terminal. AndroidClaw Onboard begeleidt je stap voor stap door het instellen van de gateway, workspace, kanalen en provider. Het is het aanbevolen installatiepad en werkt op macOS, Linux en Windows (via WSL2). Nieuwe installatie? Begin hier: [Aan de slag](#snelle-start)
 
 ### Abonnementsauthenticatie (OAuth)
 
@@ -106,7 +106,7 @@ cd zeroclaw-android
 ./install.sh
 ```
 
-`androidclaw onboard` wordt automatisch uitgevoerd na installatie om je workspace en provider te configureren.
+`zeroclaw onboard` wordt automatisch uitgevoerd na installatie om je workspace en provider te configureren.
 
 ## Snelle start (TL;DR)
 
@@ -147,7 +147,7 @@ cd zeroclaw-android
 cargo build --release --locked
 cargo install --path . --force --locked
 
-androidclaw onboard
+zeroclaw onboard
 ```
 
 > **Dev-fallback (geen globale installatie):** voeg `cargo run --release --` voor commando's toe (voorbeeld: `cargo run --release -- status`).
@@ -452,7 +452,7 @@ androidclaw skills remove my-skill
 
 ```bash
 # Workspace-beheer
-androidclaw onboard              # Begeleide installatiewizard
+zeroclaw onboard              # Begeleide installatiewizard
 androidclaw status               # Toon daemon/agent-status
 androidclaw doctor               # Voer systeemdiagnostiek uit
 

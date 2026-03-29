@@ -75,7 +75,7 @@ AndroidClaw هو مساعد ذكاء اصطناعي شخصي تشغّله على
   <a href="https://discord.com/invite/wDshRVqRjx">Discord</a>
 </p>
 
-> **الإعداد المفضل:** شغّل `androidclaw onboard` في طرفيتك. AndroidClaw Onboard يرشدك خطوة بخطوة لإعداد البوابة ومساحة العمل والقنوات والمزود. إنه مسار الإعداد الموصى به ويعمل على macOS وLinux وWindows (عبر WSL2). تثبيت جديد؟ ابدأ هنا: [البدء](#البداية-السريعة)
+> **الإعداد المفضل:** شغّل `zeroclaw onboard` في طرفيتك. AndroidClaw Onboard يرشدك خطوة بخطوة لإعداد البوابة ومساحة العمل والقنوات والمزود. إنه مسار الإعداد الموصى به ويعمل على macOS وLinux وWindows (عبر WSL2). تثبيت جديد؟ ابدأ هنا: [البدء](#البداية-السريعة)
 
 ### مصادقة الاشتراك (OAuth)
 
@@ -106,7 +106,7 @@ cd zeroclaw-android
 ./install.sh
 ```
 
-`androidclaw onboard` يعمل تلقائيًا بعد التثبيت لتكوين مساحة العمل والمزود.
+`zeroclaw onboard` يعمل تلقائيًا بعد التثبيت لتكوين مساحة العمل والمزود.
 
 ## البداية السريعة (TL;DR)
 
@@ -147,7 +147,7 @@ cd zeroclaw-android
 cargo build --release --locked
 cargo install --path . --force --locked
 
-androidclaw onboard
+zeroclaw onboard
 ```
 
 > **البديل للتطوير (بدون تثبيت عام):** ابدأ الأوامر بـ `cargo run --release --` (مثال: `cargo run --release -- status`).
@@ -452,7 +452,7 @@ androidclaw skills remove my-skill
 
 ```bash
 # Workspace management
-androidclaw onboard              # Guided setup wizard
+zeroclaw onboard              # Guided setup wizard
 androidclaw status               # Show daemon/agent status
 androidclaw doctor               # Run system diagnostics
 

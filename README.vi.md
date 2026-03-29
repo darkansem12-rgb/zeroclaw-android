@@ -75,7 +75,7 @@ Nếu bạn muốn một trợ lý cá nhân, đơn người dùng, chạy cục
   <a href="https://discord.com/invite/wDshRVqRjx">Discord</a>
 </p>
 
-> **Cài đặt khuyến nghị:** chạy `androidclaw onboard` trong terminal. ZeroClaw Onboard hướng dẫn bạn từng bước thiết lập gateway, workspace, kênh và provider. Đây là đường dẫn cài đặt được khuyến nghị và hoạt động trên macOS, Linux, và Windows (qua WSL2). Cài đặt mới? Bắt đầu tại đây: [Bắt đầu](#bắt-đầu-nhanh-tldr)
+> **Cài đặt khuyến nghị:** chạy `zeroclaw onboard` trong terminal. ZeroClaw Onboard hướng dẫn bạn từng bước thiết lập gateway, workspace, kênh và provider. Đây là đường dẫn cài đặt được khuyến nghị và hoạt động trên macOS, Linux, và Windows (qua WSL2). Cài đặt mới? Bắt đầu tại đây: [Bắt đầu](#bắt-đầu-nhanh-tldr)
 
 ### Subscription Auth (OAuth)
 
@@ -106,7 +106,7 @@ cd zeroclaw-android
 ./install.sh
 ```
 
-`androidclaw onboard` tự động chạy sau khi cài đặt để cấu hình workspace và provider.
+`zeroclaw onboard` tự động chạy sau khi cài đặt để cấu hình workspace và provider.
 
 ## Bắt đầu nhanh (TL;DR)
 
@@ -147,7 +147,7 @@ cd zeroclaw-android
 cargo build --release --locked
 cargo install --path . --force --locked
 
-androidclaw onboard
+zeroclaw onboard
 ```
 
 > **Chạy trực tiếp khi phát triển (không cần cài toàn cục):** thêm `cargo run --release --` trước lệnh (ví dụ: `cargo run --release -- status`).
@@ -452,7 +452,7 @@ zeroclaw skills remove my-skill
 
 ```bash
 # Quản lý workspace
-androidclaw onboard              # Trình hướng dẫn cài đặt
+zeroclaw onboard              # Trình hướng dẫn cài đặt
 zeroclaw status               # Hiển thị trạng thái daemon/agent
 zeroclaw doctor               # Chạy chẩn đoán hệ thống
 

@@ -1,10 +1,6 @@
 # AndroidClaw
 
-<p align="center">
-  <img src="docs/assets/androidclaw-banner.png" alt="AndroidClaw" width="400" onerror="this.style.display='none'" />
-</p>
-
-<h1 align="center">AndroidClaw</h1>
+<h1 align="center">🤖 AndroidClaw</h1>
 
 <p align="center">
   <strong>Asistente de IA Personal para Android</strong><br>
@@ -24,30 +20,24 @@
 
 AndroidClaw es un asistente de IA personal que se ejecuta en tu dispositivo Android usando Termux. Se conecta a proveedores de IA (OpenAI, Anthropic, Gemini, etc.) y puede comunicarse a través de varios canales.
 
-**Características:**
-- Soporte multicanal (Telegram, Discord, WhatsApp, etc.)
-- Panel web de control
-- Soporte para periféricos de hardware
-- Diseño local-first
-- 100% Rust
-
 ---
 
 ## Instalación
 
 ### 1. Instalar Termux
 
-Descarga **Termux desde F-Droid** (no desde Play Store):
-https://f-droid.org/packages/com.termux/
+Descarga Termux desde una de estas fuentes:
+- **Google Play Store**: Busca "Termux"
+- **F-Droid**: https://f-droid.org/packages/com.termux/
 
-### 2. Instalar Dependencias
+### 2. En Termux, instala las dependencias:
 
 ```bash
 pkg update && pkg upgrade
 pkg install git rust clang cmake
 ```
 
-### 3. Clonar y Compilar
+### 3. Clona y compila:
 
 ```bash
 cd ~
@@ -59,44 +49,34 @@ chmod +x termux-setup.sh termux-build.sh termux-run.sh
 
 Tiempo de compilación: ~30-60 minutos en Android.
 
-### 4. Ejecutar
+### 4. Primera configuración:
 
 ```bash
-./termux-run.sh
+zeroclaw onboard
+```
+
+### 5. Ejecutar el asistente:
+
+```bash
+zeroclaw agent
 ```
 
 ---
 
-## Configuración
-
-### Configurar tu API Key
-
-```bash
-mkdir -p ~/.androidclaw
-nano ~/.androidclaw/config.toml
-```
-
-Añade tu configuración de proveedor:
-
-```toml
-default_provider = "openai"
-api_key = "sk-tu-api-key-aqui"
-```
-
-### Comandos Rápidos
+## Comandos Rápidos
 
 ```bash
 # Chat interactivo
-androidclaw agent
+zeroclaw agent
 
 # Mensaje único
-androidclaw agent -m "¡Hola!"
+zeroclaw agent -m "¡Hola!"
 
 # Panel web
-androidclaw gateway
+zeroclaw gateway
 
 # Ver estado
-androidclaw status
+zeroclaw status
 ```
 
 ---

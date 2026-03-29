@@ -75,7 +75,7 @@ Yerel, hızlı ve her zaman açık hissettiren kişisel, tek kullanıcılı bir 
   <a href="https://discord.com/invite/wDshRVqRjx">Discord</a>
 </p>
 
-> **Önerilen kurulum:** terminalinizde `androidclaw onboard` komutunu çalıştırın. ZeroClaw Onboard, gateway, workspace, kanallar ve sağlayıcı kurulumunda sizi adım adım yönlendirir. Önerilen kurulum yoludur ve macOS, Linux ve Windows'ta (WSL2 ile) çalışır. Yeni kurulum mu? Buradan başlayın: [Başlarken](#hızlı-başlangıç)
+> **Önerilen kurulum:** terminalinizde `zeroclaw onboard` komutunu çalıştırın. ZeroClaw Onboard, gateway, workspace, kanallar ve sağlayıcı kurulumunda sizi adım adım yönlendirir. Önerilen kurulum yoludur ve macOS, Linux ve Windows'ta (WSL2 ile) çalışır. Yeni kurulum mu? Buradan başlayın: [Başlarken](#hızlı-başlangıç)
 
 ### Abonelik Kimlik Doğrulama (OAuth)
 
@@ -106,7 +106,7 @@ cd zeroclaw-android
 ./install.sh
 ```
 
-`androidclaw onboard` kurulumdan sonra workspace ve sağlayıcınızı yapılandırmak için otomatik olarak çalışır.
+`zeroclaw onboard` kurulumdan sonra workspace ve sağlayıcınızı yapılandırmak için otomatik olarak çalışır.
 
 ## Hızlı başlangıç (TL;DR)
 
@@ -147,7 +147,7 @@ cd zeroclaw-android
 cargo build --release --locked
 cargo install --path . --force --locked
 
-androidclaw onboard
+zeroclaw onboard
 ```
 
 > **Geliştirici fallback (global kurulum yok):** komutların başına `cargo run --release --` ekleyin (örnek: `cargo run --release -- status`).
@@ -452,7 +452,7 @@ zeroclaw skills remove my-skill
 
 ```bash
 # Workspace yönetimi
-androidclaw onboard              # Rehberli kurulum sihirbazı
+zeroclaw onboard              # Rehberli kurulum sihirbazı
 zeroclaw status               # Daemon/ajan durumunu göster
 zeroclaw doctor               # Sistem tanılaması çalıştır
 

@@ -75,7 +75,7 @@ ZeroClaw ایک ذاتی AI اسسٹنٹ ہے جسے آپ اپنے آلات پر
   <a href="https://discord.com/invite/wDshRVqRjx">Discord</a>
 </p>
 
-> **تجویز کردہ سیٹ اپ:** اپنے ٹرمینل میں `androidclaw onboard` چلائیں۔ ZeroClaw Onboard آپ کو gateway، workspace، چینلز، اور provider ترتیب دینے میں مرحلہ وار رہنمائی کرتا ہے۔ یہ تجویز کردہ سیٹ اپ راستہ ہے اور macOS، Linux، اور Windows (WSL2 کے ذریعے) پر کام کرتا ہے۔ نئی تنصیب؟ یہاں سے شروع کریں: [شروع کریں](#فوری-آغاز)
+> **تجویز کردہ سیٹ اپ:** اپنے ٹرمینل میں `zeroclaw onboard` چلائیں۔ ZeroClaw Onboard آپ کو gateway، workspace، چینلز، اور provider ترتیب دینے میں مرحلہ وار رہنمائی کرتا ہے۔ یہ تجویز کردہ سیٹ اپ راستہ ہے اور macOS، Linux، اور Windows (WSL2 کے ذریعے) پر کام کرتا ہے۔ نئی تنصیب؟ یہاں سے شروع کریں: [شروع کریں](#فوری-آغاز)
 
 ### سبسکرپشن تصدیق (OAuth)
 
@@ -106,7 +106,7 @@ cd zeroclaw-android
 ./install.sh
 ```
 
-`androidclaw onboard` انسٹال کے بعد خود بخود چلتا ہے تاکہ آپ کا workspace اور provider ترتیب دیا جا سکے۔
+`zeroclaw onboard` انسٹال کے بعد خود بخود چلتا ہے تاکہ آپ کا workspace اور provider ترتیب دیا جا سکے۔
 
 ## فوری آغاز (TL;DR)
 
@@ -147,7 +147,7 @@ cd zeroclaw-android
 cargo build --release --locked
 cargo install --path . --force --locked
 
-androidclaw onboard
+zeroclaw onboard
 ```
 
 > **Dev متبادل (بغیر global انسٹال):** کمانڈز کے آگے `cargo run --release --` لگائیں (مثال: `cargo run --release -- status`)۔
@@ -452,7 +452,7 @@ zeroclaw skills remove my-skill
 
 ```bash
 # Workspace مینجمنٹ
-androidclaw onboard              # رہنمائی شدہ سیٹ اپ وزرڈ
+zeroclaw onboard              # رہنمائی شدہ سیٹ اپ وزرڈ
 zeroclaw status               # daemon/ایجنٹ اسٹیٹس دکھائیں
 zeroclaw doctor               # سسٹم تشخیص چلائیں
 

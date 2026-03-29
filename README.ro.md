@@ -75,7 +75,7 @@ Dacă vrei un asistent personal, pentru un singur utilizator, care se simte loca
   <a href="https://discord.com/invite/wDshRVqRjx">Discord</a>
 </p>
 
-> **Configurare recomandată:** rulează `androidclaw onboard` în terminalul tău. AndroidClaw Onboard te ghidează pas cu pas prin configurarea gateway-ului, workspace-ului, canalelor și provider-ului. Este calea de configurare recomandată și funcționează pe macOS, Linux și Windows (prin WSL2). Instalare nouă? Începe aici: [Începe](#pornire-rapidă)
+> **Configurare recomandată:** rulează `zeroclaw onboard` în terminalul tău. AndroidClaw Onboard te ghidează pas cu pas prin configurarea gateway-ului, workspace-ului, canalelor și provider-ului. Este calea de configurare recomandată și funcționează pe macOS, Linux și Windows (prin WSL2). Instalare nouă? Începe aici: [Începe](#pornire-rapidă)
 
 ### Autentificare prin abonament (OAuth)
 
@@ -106,7 +106,7 @@ cd zeroclaw-android
 ./install.sh
 ```
 
-`androidclaw onboard` rulează automat după instalare pentru a configura workspace-ul și provider-ul.
+`zeroclaw onboard` rulează automat după instalare pentru a configura workspace-ul și provider-ul.
 
 ## Pornire rapidă (TL;DR)
 
@@ -147,7 +147,7 @@ cd zeroclaw-android
 cargo build --release --locked
 cargo install --path . --force --locked
 
-androidclaw onboard
+zeroclaw onboard
 ```
 
 > **Alternativă dev (fără instalare globală):** prefixează comenzile cu `cargo run --release --` (exemplu: `cargo run --release -- status`).
@@ -452,7 +452,7 @@ androidclaw skills remove my-skill
 
 ```bash
 # Gestionarea workspace-ului
-androidclaw onboard              # Asistent de configurare ghidată
+zeroclaw onboard              # Asistent de configurare ghidată
 androidclaw status               # Afișează starea daemon/agent
 androidclaw doctor               # Rulează diagnostice de sistem
 

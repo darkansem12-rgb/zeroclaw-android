@@ -75,7 +75,7 @@ Jos haluat henkilokohtaisen, yhden kayttajan avustajan, joka tuntuu paikalliselt
   <a href="https://discord.com/invite/wDshRVqRjx">Discord</a>
 </p>
 
-> **Suositeltu asennus:** suorita `androidclaw onboard` terminaalissasi. AndroidClaw Onboard opastaa sinut vaihe vaiheelta gatewayn, tyotilan, kanavien ja palveluntarjoajan asennuksessa. Se on suositeltu asennuspolku ja toimii macOS:lla, Linuxilla ja Windowsilla (WSL2:n kautta). Uusi asennus? Aloita tasta: [Aloita](#pikaaloitus-tldr)
+> **Suositeltu asennus:** suorita `zeroclaw onboard` terminaalissasi. AndroidClaw Onboard opastaa sinut vaihe vaiheelta gatewayn, tyotilan, kanavien ja palveluntarjoajan asennuksessa. Se on suositeltu asennuspolku ja toimii macOS:lla, Linuxilla ja Windowsilla (WSL2:n kautta). Uusi asennus? Aloita tasta: [Aloita](#pikaaloitus-tldr)
 
 ### Tilaustunnistautuminen (OAuth)
 
@@ -106,7 +106,7 @@ cd zeroclaw-android
 ./install.sh
 ```
 
-`androidclaw onboard` suoritetaan automaattisesti asennuksen jalkeen tyotilan ja palveluntarjoajan konfiguroimiseksi.
+`zeroclaw onboard` suoritetaan automaattisesti asennuksen jalkeen tyotilan ja palveluntarjoajan konfiguroimiseksi.
 
 ## Pikaaloitus (TL;DR)
 
@@ -147,7 +147,7 @@ cd zeroclaw-android
 cargo build --release --locked
 cargo install --path . --force --locked
 
-androidclaw onboard
+zeroclaw onboard
 ```
 
 > **Kehitysvaihtoehto (ei globaalia asennusta):** lisaa komentoihin etuliite `cargo run --release --` (esimerkki: `cargo run --release -- status`).
@@ -452,7 +452,7 @@ androidclaw skills remove my-skill
 
 ```bash
 # Tyotilan hallinta
-androidclaw onboard              # Opastettu asennusvelho
+zeroclaw onboard              # Opastettu asennusvelho
 androidclaw status               # Nayta daemon/agentin tila
 androidclaw doctor               # Suorita jarjestelman diagnostiikka
 

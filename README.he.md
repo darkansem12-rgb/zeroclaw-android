@@ -75,7 +75,7 @@ AndroidClaw הוא עוזר AI אישי שאתה מריץ על המכשירים 
   <a href="https://discord.com/invite/wDshRVqRjx">Discord</a>
 </p>
 
-> **הגדרה מועדפת:** הרץ `androidclaw onboard` בטרמינל שלך. AndroidClaw Onboard מנחה אותך שלב אחר שלב בהגדרת ה-gateway, סביבת העבודה, הערוצים והספק. זהו נתיב ההגדרה המומלץ ועובד על macOS, Linux ו-Windows (דרך WSL2). התקנה חדשה? התחל כאן: [התחלה](#התחלה-מהירה)
+> **הגדרה מועדפת:** הרץ `zeroclaw onboard` בטרמינל שלך. AndroidClaw Onboard מנחה אותך שלב אחר שלב בהגדרת ה-gateway, סביבת העבודה, הערוצים והספק. זהו נתיב ההגדרה המומלץ ועובד על macOS, Linux ו-Windows (דרך WSL2). התקנה חדשה? התחל כאן: [התחלה](#התחלה-מהירה)
 
 ### אימות מנוי (OAuth)
 
@@ -106,7 +106,7 @@ cd zeroclaw-android
 ./install.sh
 ```
 
-`androidclaw onboard` רץ אוטומטית לאחר ההתקנה כדי להגדיר את סביבת העבודה והספק שלך.
+`zeroclaw onboard` רץ אוטומטית לאחר ההתקנה כדי להגדיר את סביבת העבודה והספק שלך.
 
 ## התחלה מהירה (TL;DR)
 
@@ -147,7 +147,7 @@ cd zeroclaw-android
 cargo build --release --locked
 cargo install --path . --force --locked
 
-androidclaw onboard
+zeroclaw onboard
 ```
 
 > **חלופת פיתוח (ללא התקנה גלובלית):** הוסף `cargo run --release --` לפני פקודות (דוגמה: `cargo run --release -- status`).
@@ -452,7 +452,7 @@ androidclaw skills remove my-skill
 
 ```bash
 # Workspace management
-androidclaw onboard              # Guided setup wizard
+zeroclaw onboard              # Guided setup wizard
 androidclaw status               # Show daemon/agent status
 androidclaw doctor               # Run system diagnostics
 

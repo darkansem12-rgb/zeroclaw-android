@@ -1,10 +1,6 @@
 # AndroidClaw
 
-<p align="center">
-  <img src="docs/assets/androidclaw-banner.png" alt="AndroidClaw" width="400" onerror="this.style.display='none'" />
-</p>
-
-<h1 align="center">AndroidClaw</h1>
+<h1 align="center">🤖 AndroidClaw</h1>
 
 <p align="center">
   <strong>Personal AI Assistant for Android</strong><br>
@@ -24,30 +20,24 @@
 
 AndroidClaw is a personal AI assistant that runs on your Android device using Termux. It connects to AI providers (OpenAI, Anthropic, Gemini, etc.) and can communicate through various channels.
 
-**Features:**
-- Multi-channel support (Telegram, Discord, WhatsApp, etc.)
-- Web dashboard for control
-- Hardware peripheral support
-- Local-first design
-- 100% Rust
-
 ---
 
 ## Installation
 
 ### 1. Install Termux
 
-Download **Termux from F-Droid** (not Play Store):
-https://f-droid.org/packages/com.termux/
+Download Termux from one of these sources:
+- **Google Play Store**: Search for "Termux"
+- **F-Droid**: https://f-droid.org/packages/com.termux/
 
-### 2. Install Dependencies
+### 2. In Termux, install dependencies:
 
 ```bash
 pkg update && pkg upgrade
 pkg install git rust clang cmake
 ```
 
-### 3. Clone and Build
+### 3. Clone and build:
 
 ```bash
 cd ~
@@ -59,44 +49,34 @@ chmod +x termux-setup.sh termux-build.sh termux-run.sh
 
 Build time: ~30-60 minutes on Android.
 
-### 4. Run
+### 4. First-time setup:
 
 ```bash
-./termux-run.sh
+zeroclaw onboard
+```
+
+### 5. Run the assistant:
+
+```bash
+zeroclaw agent
 ```
 
 ---
 
-## Configuration
-
-### Set your API Key
-
-```bash
-mkdir -p ~/.androidclaw
-nano ~/.androidclaw/config.toml
-```
-
-Add your provider configuration:
-
-```toml
-default_provider = "openai"
-api_key = "sk-your-api-key-here"
-```
-
-### Quick Start Commands
+## Quick Commands
 
 ```bash
 # Interactive chat
-androidclaw agent
+zeroclaw agent
 
 # Single message
-androidclaw agent -m "Hello!"
+zeroclaw agent -m "Hello!"
 
 # Web dashboard
-androidclaw gateway
+zeroclaw gateway
 
 # Check status
-androidclaw status
+zeroclaw status
 ```
 
 ---

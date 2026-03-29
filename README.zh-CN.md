@@ -75,7 +75,7 @@ ZeroClaw 是一个运行在你自己设备上的个人AI助手。它在你已经
   <a href="https://discord.com/invite/wDshRVqRjx">Discord</a>
 </p>
 
-> **推荐设置方式：** 在终端运行 `androidclaw onboard`。ZeroClaw Onboard 会引导你逐步设置网关、工作区、频道和提供者。这是推荐的设置路径，支持 macOS、Linux 和 Windows（通过 WSL2）。首次安装？从这里开始：[入门指南](#快速开始简版)
+> **推荐设置方式：** 在终端运行 `zeroclaw onboard`。ZeroClaw Onboard 会引导你逐步设置网关、工作区、频道和提供者。这是推荐的设置路径，支持 macOS、Linux 和 Windows（通过 WSL2）。首次安装？从这里开始：[入门指南](#快速开始简版)
 
 ### 订阅认证（OAuth）
 
@@ -106,7 +106,7 @@ cd zeroclaw-android
 ./install.sh
 ```
 
-`androidclaw onboard` 在安装后自动运行，配置你的工作区和提供者。
+`zeroclaw onboard` 在安装后自动运行，配置你的工作区和提供者。
 
 ## 快速开始（简版）
 
@@ -147,7 +147,7 @@ cd zeroclaw-android
 cargo build --release --locked
 cargo install --path . --force --locked
 
-androidclaw onboard
+zeroclaw onboard
 ```
 
 > **开发替代方案（无全局安装）：** 命令前加 `cargo run --release --`（示例：`cargo run --release -- status`）。
@@ -452,7 +452,7 @@ zeroclaw skills remove my-skill
 
 ```bash
 # 工作区管理
-androidclaw onboard              # 引导设置向导
+zeroclaw onboard              # 引导设置向导
 zeroclaw status               # 显示守护进程/代理状态
 zeroclaw doctor               # 运行系统诊断
 

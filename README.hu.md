@@ -75,7 +75,7 @@ Ha szemelyes, egyfelhasznalos asszisztenst szeretnel, ami lokalis, gyors es mind
   <a href="https://discord.com/invite/wDshRVqRjx">Discord</a>
 </p>
 
-> **Ajanlott beallitas:** futtasd a `androidclaw onboard` parancsot a terminalban. A AndroidClaw Onboard lepesrol lepesre vegigvezet a gateway, munkater, csatornak es szolgaltato beallitasan. Ez az ajanlott beallitasi ut, es mukodik macOS-en, Linuxon es Windowson (WSL2-n keresztul). Uj telepites? Kezdd itt: [Kezdes](#gyors-inditas-tldr)
+> **Ajanlott beallitas:** futtasd a `zeroclaw onboard` parancsot a terminalban. A AndroidClaw Onboard lepesrol lepesre vegigvezet a gateway, munkater, csatornak es szolgaltato beallitasan. Ez az ajanlott beallitasi ut, es mukodik macOS-en, Linuxon es Windowson (WSL2-n keresztul). Uj telepites? Kezdd itt: [Kezdes](#gyors-inditas-tldr)
 
 ### Elofizetes hitelesites (OAuth)
 
@@ -106,7 +106,7 @@ cd zeroclaw-android
 ./install.sh
 ```
 
-A `androidclaw onboard` automatikusan lefut a telepites utan a munkater es szolgaltato konfiguralasakor.
+A `zeroclaw onboard` automatikusan lefut a telepites utan a munkater es szolgaltato konfiguralasakor.
 
 ## Gyors inditas (TL;DR)
 
@@ -147,7 +147,7 @@ cd zeroclaw-android
 cargo build --release --locked
 cargo install --path . --force --locked
 
-androidclaw onboard
+zeroclaw onboard
 ```
 
 > **Fejlesztoi alternativa (globalis telepites nelkul):** a parancsokat prefixeld `cargo run --release --`-vel (pelda: `cargo run --release -- status`).
@@ -452,7 +452,7 @@ androidclaw skills remove my-skill
 
 ```bash
 # Munkater kezeles
-androidclaw onboard              # Vezerelt beallitasi varazslo
+zeroclaw onboard              # Vezerelt beallitasi varazslo
 androidclaw status               # Daemon/agent allapot megjelenites
 androidclaw doctor               # Rendszer diagnosztika futtatasa
 

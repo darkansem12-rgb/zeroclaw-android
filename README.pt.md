@@ -75,7 +75,7 @@ Se você quer um assistente pessoal, para um único usuário, que seja local, r�
   <a href="https://discord.com/invite/wDshRVqRjx">Discord</a>
 </p>
 
-> **Configuração preferida:** execute `androidclaw onboard` no seu terminal. O AndroidClaw Onboard guia você passo a passo na configuração do gateway, workspace, canais e provedor. É o caminho de configuração recomendado e funciona no macOS, Linux e Windows (via WSL2). Nova instalação? Comece aqui: [Primeiros passos](#início-rápido)
+> **Configuração preferida:** execute `zeroclaw onboard` no seu terminal. O AndroidClaw Onboard guia você passo a passo na configuração do gateway, workspace, canais e provedor. É o caminho de configuração recomendado e funciona no macOS, Linux e Windows (via WSL2). Nova instalação? Comece aqui: [Primeiros passos](#início-rápido)
 
 ### Autenticação por assinatura (OAuth)
 
@@ -106,7 +106,7 @@ cd zeroclaw-android
 ./install.sh
 ```
 
-`androidclaw onboard` executa automaticamente após a instalação para configurar seu workspace e provedor.
+`zeroclaw onboard` executa automaticamente após a instalação para configurar seu workspace e provedor.
 
 ## Início rápido (TL;DR)
 
@@ -147,7 +147,7 @@ cd zeroclaw-android
 cargo build --release --locked
 cargo install --path . --force --locked
 
-androidclaw onboard
+zeroclaw onboard
 ```
 
 > **Alternativa para desenvolvimento (sem instalação global):** prefixe comandos com `cargo run --release --` (exemplo: `cargo run --release -- status`).
@@ -452,7 +452,7 @@ androidclaw skills remove my-skill
 
 ```bash
 # Gerenciamento do workspace
-androidclaw onboard              # Assistente de configuração guiada
+zeroclaw onboard              # Assistente de configuração guiada
 androidclaw status               # Mostrar status do daemon/agente
 androidclaw doctor               # Executar diagnósticos do sistema
 

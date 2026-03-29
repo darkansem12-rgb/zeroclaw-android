@@ -12,8 +12,9 @@ Guía rápida para ejecutar AndroidClaw en tu teléfono Android usando Termux.
 
 ### Paso 1: Descargar Termux
 
-Descarga **Termux desde F-Droid** (importante: no desde Play Store):
-https://f-droid.org/packages/com.termux/
+Descarga Termux desde una de estas fuentes:
+- **Google Play Store**: Busca "Termux"
+- **F-Droid**: https://f-droid.org/packages/com.termux/
 
 ### Paso 2: Abrir Termux y ejecutar:
 
@@ -32,47 +33,42 @@ chmod +x termux-setup.sh termux-build.sh termux-run.sh
 ./termux-build.sh
 ```
 
-### Paso 4: Ejecutar
+### Paso 4: Primera configuración
 
 ```bash
-./termux-run.sh
+zeroclaw onboard
 ```
 
-## Configuración
-
-### API Key
+### Paso 5: Ejecutar
 
 ```bash
-mkdir -p ~/.androidclaw
-nano ~/.androidclaw/config.toml
-```
-
-```toml
-default_provider = "openai"
-api_key = "tu-api-key-aqui"
+zeroclaw agent
 ```
 
 ## Comandos Básicos
 
 ```bash
 # Chat interactivo
-androidclaw agent
+zeroclaw agent
 
 # Mensaje único
-androidclaw agent -m "Hola"
+zeroclaw agent -m "Hola"
 
 # Iniciar gateway
-androidclaw gateway
+zeroclaw gateway
+
+# Ver estado
+zeroclaw status
 ```
 
 ## Solución de Problemas
 
 ### Error de permisos
 ```bash
-chmod +x androidclaw
+chmod +x zeroclaw
 ```
 
-### Memoria insuficiente
+### Memoria insuficiente durante compilación
 ```bash
 cargo build --release -j1
 ```
@@ -80,7 +76,7 @@ cargo build --release -j1
 ## Desinstalar
 
 ```bash
-rm -rf ~/zeroclaw-android ~/.androidclaw
+rm -rf ~/zeroclaw-android ~/.zeroclaw
 ```
 
 ## Soporte
